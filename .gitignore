@@ -22,3 +22,13 @@
 *.zip
 Thumbs.db
 .DS_Store
+
+# Formatos de evidencia del M7 para archivos aprobados
+!/Evidencias/M7/**/*.xlsx
+!/Evidencias/M7/**/*.docx
+!/Evidencias/M7/**/*.pptx
+!/Evidencias/M7/**/*.pdf
+!/Evidencias/M7/**/*.jpg
+!/Evidencias/M7/**/*.jpeg
+!/Evidencias/M7/**/*.png
+!/Evidencias/M7/**/*.mp4
