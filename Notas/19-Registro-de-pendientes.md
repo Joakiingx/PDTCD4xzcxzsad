@@ -33,3 +33,16 @@
 | PEND-11 | Manual localizado. La pauta identifica su rol y distingue la planilla institucional. | PDF legible con versión y secciones aplicables, más copia autorizada de la planilla o confirmación de cómo usar el formato académico. Docencia y contraparte. |
 
 Al cerrar un pendiente, registra la fecha, quién entregó la evidencia, el identificador de la fuente y qué afirmaciones o decisiones pasan a otro estado. Usa [[12-Bitacora]] para acuerdos y [[10-Evaluacion-2]] para productos y plazos.
+
+## Ampliación por investigación comercial y funcional · 10-11-2026
+
+Se conservan abiertos PEND-01–11. No llegó nueva confirmación de faena ni cotización nominativa en esta ronda. Las fuentes de fabricante y precios públicos amplían la evidencia documental; no cierran por sí solas factibilidad, instalación o desempeño.
+
+| ID | Qué obtener o decidir | Responsable propuesto | Evidencia de cierre y uso |
+| --- | --- | --- | --- |
+| PEND-12 | Cumplimiento RF de SKU, banda, potencia y modo para uso en Chile; aprobación interna del radioenlace si aplica | Proveedor/importador, DCS/OT y E&I | Documentación de la variante y requisitos SUBTEL aplicables. Habilita evaluar radar activo, RFID y puentes de radio sin inferir aprobación de CE/FCC. |
+| PEND-13 | Oferta y lista de materiales comparables por configuración | Proveedores y equipo, revisión E&I | Código completo, cantidad, moneda, condición, impuestos/logística, entrega, garantía, licencias, servicio y exclusiones; costo instalado por componentes. Precios públicos quedan como referencias. |
+| PEND-14 | Criterio funcional y metrológico de aceptación: continuo o por puntos, tolerancia de zona, latencia, antigüedad, disponibilidad y recuperación | Operaciones y DCS, con E&I | Acuerdo de magnitudes y estados; delimitar fase <2 min. Determina si discretos/RFID cumplen R01 y cómo se prueba R07. |
+| PEND-15 | Reglas y arquitectura OT efectivamente autorizadas | DCS/OT | Segmentación, protocolo/rol, puertos, accesos, cuentas, respaldos, sincronización y recuperación. Completa Anexo 14 y evita asumir compatibilidad por Ethernet. |
+
+Las [26 preguntas precisas](../Estudios/00-Revision-integral-y-brechas-2026-11-10.md) indican destinatario, por qué se solicitan y qué evidencia cambia la decisión. La [matriz v02](../Estudios/EST-01-Matriz-de-soluciones-D4-v02.md) prioriza PEND-01/04/06 y los criterios de PEND-14 antes de ordenar candidatos. REG-D4-019.

@@ -23,3 +23,12 @@ Levantar geometría y alternativas, y describir la maniobra con Operaciones en p
 ## Cómo registrar un estudio para futuras sesiones
 
 Identifica la pregunta, el requisito que afecta y la decisión que habilita. Distingue antecedentes de faena, datos de fabricante, inferencias, resultados de prueba y tareas pendientes. Conserva la fuente exacta con página o sección, y señala qué parte se reproduce desde archivos del proyecto. Registra por separado la conclusión actual, la evidencia que podría cambiarla y la próxima verificación. Actualiza [[12-Bitacora]] cuando el equipo adopte una decisión.
+
+## Ampliación documental · 10-11-2026
+
+- [Revisión integral y brechas](00-Revision-integral-y-brechas-2026-11-10.md): cobertura de revisión, aprendizajes, ramas, 26 preguntas y secuencia de trabajo.
+- [Matriz v02](EST-01-Matriz-de-soluciones-D4-v02.md): configuraciones completas, filtros, costos parciales y pruebas.
+- [Catálogo y precios](EST-01-Catalogo-y-precios-2026-11-10.md): modelos, condiciones, fuentes y subtotales.
+- [Inventario por archivo](../Analisis/D4/Inventario-revision-2026-11-10.csv): instantánea de 86 archivos de la base auditada; indica alcance y acceso pendiente.
+
+Se conservan EST-01–07. Se agregan ramas propuestas EST-08 ambiente/mantenibilidad, EST-09 riesgos y salud ocupacional, EST-10 comunicaciones/OT, EST-11 costos y compras y EST-12 trazabilidad/aprendizaje. Sus productos de cierre están en la revisión integral. REG-D4-019.

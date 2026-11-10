@@ -40,3 +40,9 @@ Las figuras son representaciones del equipo. Las cifras y componentes de diseño
 ## Revisión de datos D4 v1
 
 [[24-Auditoria-de-datos-D4]] identifica los datos trabajados vigentes, reglas y correcciones. D04 y D08 corresponden a la ES1 histórica. Para la propuesta, consulta el [resumen recalculado](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/03%20Datos%20trabajados/Revision_D4_v1/resumen_linea_base.csv) y los [escenarios recalculados](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/04%20Calculos/Revision_D4_v1/escenarios_impacto.csv).
+
+## Investigación de configuraciones y precios · 10-11-2026
+
+El [catálogo técnico](../Estudios/EST-01-Catalogo-y-precios-2026-11-10.md) conserva WEB26-01–32 con enlaces, fecha de consulta, modelo, uso y limitación. Sus precios PR-01–13 identifican condición, vendedor, moneda y componentes excluidos. La publicación comercial respalda el precio anunciado; no equivale a cotización de un sistema aceptado para D4.
+
+La [matriz v02](../Estudios/EST-01-Matriz-de-soluciones-D4-v02.md) relaciona esas fuentes con configuraciones y pruebas. El [inventario de revisión](../Analisis/D4/Inventario-revision-2026-11-10.csv) identifica SHA, tamaño y cobertura de los 86 archivos de la base f012d9b. La [revisión integral](../Estudios/00-Revision-integral-y-brechas-2026-11-10.md) distingue lectura directa, extracción textual, revisión previa y acceso pendiente. Registro AUD-D4-002; REG-D4-016–019.

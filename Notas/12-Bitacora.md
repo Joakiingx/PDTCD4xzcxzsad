@@ -143,3 +143,38 @@ Agrega una entrada fechada en la misma actualización que incluya un cambio auto
 - **Aporte y archivos.** Joaquín solicitó que toda IA revise la propuesta y los respaldos, y que deje constancia de posibles correcciones. Se actualizó [AGENTS.md](../AGENTS.md), [[00-Contexto-para-IA]] y esta bitácora. Se creó [[25-Registro-de-hallazgos-de-revision]] para identificar el alcance de revisión y sus observaciones.
 - **Regla y uso.** Cada IA debe inventariar y verificar la propuesta completa, explicitar la cobertura y registrar posibles errores con evidencia e impacto. El material revisado se conserva intacto durante la auditoría. El equipo decide si corresponde una corrección en un encargo separado.
 - **Primera pasada.** AUD-D4-001 verificó 331 destinos de enlaces internos y reprodujo la frecuencia y 160 valores de 16 escenarios sobre CSV derivados. REV-D4-001 registra una revisión de vigencia en EST-01. La auditoría integral de contenido sigue parcial y los bloques restantes se indican en el registro.
+
+### REG-D4-016 · 2026-11-10 · Auditoría de originales y cobertura explícita
+
+- **Encargo.** Joaquín solicitó revisar lo recopilado, investigar ampliamente y mejorar la matriz. Se aplicó la regla de auditar sin corregir los originales.
+- **Base y archivos.** Commit f012d9bfb6aac21b22fab6c44c9cc438e31b92b9; 86 archivos. Nuevos [inventario CSV](../Analisis/D4/Inventario-revision-2026-11-10.csv) y [revisión integral](../Estudios/00-Revision-integral-y-brechas-2026-11-10.md); ampliación de [[25-Registro-de-hallazgos-de-revision]] con AUD-D4-002 y REV-D4-002–007.
+- **Método y evidencia.** Se recuperaron 32 Markdown, cinco CSV y script; se extrajeron 18 DOCX/XLSX con CRC y se inspeccionaron las 14 imágenes. Recuento independiente desde F03/F04: 792/781/11 filas, 78 cambios; 488 eventos, 451 tramos, 37 repetidos y mediana FUNCIONANDO 18,991 s. Dos libros históricos tienen el mismo SHA. La tabla de cobertura distingue comprobación numérica de lectura y de inventario.
+- **Aprendizaje y consecuencia.** Se sostienen conteos principales de la revisión v1. El tag sigue sin identificar. Se registraron discrepancias de configuración radar, principio WCS, presupuesto, descarte óptico, causalidad y alcance de meta temporal.
+- **Estado y límites.** Auditoría parcial. Manual, dossier binario, presentación y videos sin lectura directa completa; cuatro PDF U2 con lectura previa referenciada y revisión directa actual pendiente. No se ejecutó Node --check ni prueba física. Originales conservados.
+- **Siguiente paso.** Completar acceso pendiente y obtener evidencia de los responsables antes de cerrar hallazgos o autorizar correcciones.
+
+### REG-D4-017 · 2026-11-10 · Catálogo técnico y precios trazables
+
+- **Archivos.** Nuevo [catálogo](../Estudios/EST-01-Catalogo-y-precios-2026-11-10.md); vínculo en [[04-Evidencias-y-fuentes]].
+- **Evidencia.** WEB26-01–32: fabricantes, publicaciones comerciales y referencias públicas. PR-01–13 separan precio, moneda, condición y alcance. Algunas referencias solo tienen precio por consulta. Se identifica timeout de reapertura en PR-08 y su contraste europeo.
+- **Resultado calculado.** Par Symeo nuevo USD 19.034; configuración HF con módulo/cabezal/35 tags USD 5.296. VEGA publicado EUR 4.474,80 por unidad. Radio por par ilustrativo GBP 708. Todos son componentes parciales, con cantidades y exclusiones visibles.
+- **Por qué y para qué.** Permite solicitar cotizaciones comparables y evitar usar un precio de sensor como presupuesto instalado. No se hizo conversión de monedas ni se inventó cotización de SAG/Indurad.
+- **Estado.** Investigación documental; sin contactos, ofertas recibidas ni compras.
+- **Siguiente paso.** BOM completo y respuesta técnica por SKU y montaje; PEND-06/12/13.
+
+### REG-D4-018 · 2026-11-10 · Matriz de trabajo v02 por configuración
+
+- **Archivos.** Nueva [matriz v02](../Estudios/EST-01-Matriz-de-soluciones-D4-v02.md); ampliación de [[07-Alternativas]]. La matriz histórica y fuentes ES1 se mantienen.
+- **Qué cambió y por qué.** Trece escenarios/configuraciones, incluidos continuidad, variantes pasivas/activas, uno/dos VEGA, encoder, HF/UHF, código móvil, sensores fijos, WCS óptico y cinta magnética. Se usan 71,84 m nominales y montajes teóricos 100,20/107,64 m, sujetos a confirmación.
+- **Método.** Filtros G1–G6 antes de puntuar, costos incompletos señalados, propuesta de pesos que suma 100 % y NC cuando falta evidencia. Pruebas diferenciadas por principio y fallo.
+- **Consecuencia.** La prioridad es obtener evidencia de radares fijos con reflector, contrastar par activo y estudiar encoder disponible; las soluciones discretas dependen del objetivo que acepte Operaciones. No hay ganador, horas de montaje acreditadas ni mejora de faena demostrada.
+- **Siguiente paso.** Levantar geometría, interfaz y criterio funcional; luego aplicar filtros y ensayo representativo. No trasladar puntajes históricos como resultados comerciales.
+
+### REG-D4-019 · 2026-11-10 · Red de aprendizaje y preguntas de cierre
+
+- **Archivos.** [Revisión integral y brechas](../Estudios/00-Revision-integral-y-brechas-2026-11-10.md), [mapa de estudios](../Estudios/00-Mapa-de-estudios.md), [[19-Registro-de-pendientes]], [README](../README.md) e índices enlazados en REG-D4-017/018.
+- **Resultado.** Se conservan EST-01–07 y se proponen EST-08–12 para ambiente, salud/riesgos, OT, compras/ciclo de vida y trazabilidad. Veintiséis preguntas con destinatario, propósito, evidencia y decisión. Se añaden PEND-12 RF, PEND-13 presupuesto, PEND-14 criterios funcionales y PEND-15 arquitectura OT; PEND-01–11 permanecen abiertos.
+- **Aprendizaje.** Explicaciones de rango/carrera, precisión de cadena, latencia, cuadratura, lectura localizada, disponibilidad e impacto por supuestos. El plan conecta trabajo con anexos 11/13/14/15/16/19 y distingue ejemplos docentes de datos D4.
+- **Uso con otras IA.** Cada aporte debe identificar base, fuente, categoría, cálculo, consecuencia y próxima verificación; las discrepancias se remiten a REV. Cada cambio conserva su REG.
+- **Siguiente paso.** Resolver paquete de definición, registrar tiempos y solicitar especificaciones/BOM. Preparar material de consulta; su envío no se ha realizado.
+- **Control documental de esta actualización.** Once archivos preparados, cuatro nuevos y siete ampliados. Se comprobaron 168 destinos de enlaces internos en los Markdown resultantes, sin destinos faltantes; subtotales de componentes y suma de pesos recalculados. No hay ediciones dentro de Evidencias ni cambios del script o CSV técnicos previos.

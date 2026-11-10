@@ -22,3 +22,11 @@ Consolidar una sola matriz antes de presentar. Aplicar primero los requisitos ex
 [[21-Matriz-historica-de-alternativas|Puntajes y costos de la ES1]] · [[05-Evidencia-visual|Condiciones observables en terreno]]
 
 La exploración de ingeniería está en [[EST-01-Posicionamiento-y-cobertura]]. Allí se distinguen configuraciones pasivas y activas y se documentan las pruebas que faltan para aceptar cada una.
+
+## Comparación de trabajo vigente · 10-11-2026
+
+La nueva [matriz v02](../Estudios/EST-01-Matriz-de-soluciones-D4-v02.md) amplía la comparación a 13 escenarios/configuraciones y usa la carrera nominal dibujada de 71,84 m como referencia provisional. Incluye radar pasivo y activo por separado, uno/dos VEGA, encoder con referencias, RFID HF/UHF, código inductivo móvil, sensores inductivos fijos, WCS óptico y cinta magnética.
+
+El [catálogo](../Estudios/EST-01-Catalogo-y-precios-2026-11-10.md) identifica 32 fuentes y diferencia precio unitario, condición comercial y subtotal de componentes. Los montos, puntajes, horas y mejoras de ES1 se conservan como antecedentes históricos. La nueva matriz aplica filtros y propone pesos antes de puntuar; no declara ganador mientras falten geometría operativa, integración y prueba de desempeño.
+
+Prioridad de investigación: consulta de radar fijo con reflector a SAG/Indurad; contraste con el par activo Symeo; banco del encoder disponible; RFID HF o sensores fijos si Operaciones acepta confirmación localizada. VEGA requiere aceptación de su uso horizontal. Ver [preguntas y brechas](../Estudios/00-Revision-integral-y-brechas-2026-11-10.md), PEND-12–15 y REG-D4-018/019.

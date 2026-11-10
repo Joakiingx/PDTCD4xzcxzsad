@@ -27,3 +27,9 @@ El carro tripper de la correa 320CV025 distribuye concentrado entre zonas de des
 | Preparar la evaluación | [Plan de ES2](Notas/10-Evaluacion-2.md), [pauta U2_A06](Evidencias/M7/Unidad-2/00-Evaluacion/U2_Evaluacion.pdf) y [carpetas de Unidad 2](Evidencias/M7/Unidad-2/). |
 
 La bitácora conserva el historial. Los pendientes indican qué falta verificar. El plan ES2 define el trabajo de la etapa. Para sincronizar la bóveda y consultar respaldos locales, abre la [guía de Obsidian y GitHub](Notas/22-Configuracion-Obsidian-y-GitHub.md).
+
+## Investigación y comparación actualizadas · 10-11-2026
+
+Comenzar por la [revisión integral y brechas](Estudios/00-Revision-integral-y-brechas-2026-11-10.md). Reúne qué se revisó, qué falta, explicaciones para el equipo y 26 preguntas para solicitar evidencia. La [matriz v02](Estudios/EST-01-Matriz-de-soluciones-D4-v02.md) compara 13 escenarios/configuraciones y el [catálogo](Estudios/EST-01-Catalogo-y-precios-2026-11-10.md) conserva modelos, precios publicados y sus límites.
+
+Los originales de ES1 permanecen como respaldo. [Hallazgos](Notas/25-Registro-de-hallazgos-de-revision.md) indica qué debe revisar el equipo; [bitácora](Notas/12-Bitacora.md) registra REG-D4-016–019. La selección comercial y las validaciones de faena siguen abiertas.
