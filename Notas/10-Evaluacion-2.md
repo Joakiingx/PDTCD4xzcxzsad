@@ -23,3 +23,5 @@ Responsabilidades de referencia según el registro ES1. Kevin lideró análisis 
 5. Armar informe y presentación contra la pauta cuando esté disponible.
 
 La guía U1 del M7 confirma el ciclo general del proyecto. La pauta específica de la ES2 se registra como pendiente de conseguir. [[20-Referencias-de-modulos]]
+
+El [[00-Mapa-de-estudios]] conecta cada pregunta de diseño con su evidencia y criterio de cierre. La primera revisión está en [[EST-01-Posicionamiento-y-cobertura]].

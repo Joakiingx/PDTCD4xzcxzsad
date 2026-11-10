@@ -20,3 +20,5 @@ Consolidar una sola matriz antes de presentar. Aplicar primero los requisitos ex
 [[06-Requisitos|Requisitos]] · [[08-Arquitectura-DeltaV|Arquitectura]] · [[10-Evaluacion-2|Evaluación 2]]
 
 [[21-Matriz-historica-de-alternativas|Puntajes y costos de la ES1]] · [[05-Evidencia-visual|Condiciones observables en terreno]]
+
+La exploración de ingeniería está en [[EST-01-Posicionamiento-y-cobertura]]. Allí se distinguen configuraciones pasivas y activas y se documentan las pruebas que faltan para aceptar cada una.

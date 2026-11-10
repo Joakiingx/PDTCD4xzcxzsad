@@ -11,6 +11,7 @@ Esta nota es la entrada para cualquier sesión nueva. Lee también [AGENTS](../A
 | Estimaciones y beneficios | [[17-Memoria-de-impacto]] |
 | Causas, riesgos y evidencia de terreno | [[18-Diagnostico-causal-y-riesgos]] y [[05-Evidencia-visual]] |
 | Diseño y selección | [[06-Requisitos]], [[07-Alternativas]], [[21-Matriz-historica-de-alternativas]] y [[08-Arquitectura-DeltaV]] |
+| Estudios de diseño y resultados de exploración | [[00-Mapa-de-estudios]] y [[EST-01-Posicionamiento-y-cobertura]] |
 | Qué falta y cómo verificarlo | [[19-Registro-de-pendientes]] y [[09-Validacion]] |
 | Plan de curso y defensa | [[10-Evaluacion-2]], [[11-Defensa-ES3]] y [[20-Referencias-de-modulos]] |
 | Configuración y trabajo en equipo | [[22-Configuracion-Obsidian-y-GitHub]] y [[12-Bitacora]] |
@@ -23,4 +24,4 @@ Esta nota es la entrada para cualquier sesión nueva. Lee también [AGENTS](../A
 - El radar fijo se estudia como concepto. La variante comercial y la interfaz siguen abiertas.
 - En una respuesta técnica, etiqueta los datos como documentados, declarados, estimados, hipótesis, supuestos, metas o pendientes. Usa los códigos de [[04-Evidencias-y-fuentes]] para que el equipo pueda rastrear cada afirmación.
 
-Para empezar un chat con acceso a GitHub, indica el repositorio privado `Joakiingx/proyecto-titulo-d4` y pide leer `AGENTS.md` y esta nota en `main`. Si la sesión tiene acceso al disco, abre la carpeta clonada como espacio de trabajo. La base de conocimiento permite continuar el diseño, la redacción y la preparación de defensa con los datos documentados aquí. Las comprobaciones fila por fila, las dimensiones físicas y la inspección de imágenes originales requieren la fuente correspondiente.
+Para empezar un chat con acceso a GitHub, indica el repositorio privado `Joakiingx/proyecto-titulo-d4` y pide leer `AGENTS.md` y esta nota en `main`. Si la sesión tiene acceso al disco, abre la carpeta clonada como espacio de trabajo. La base de conocimiento permite continuar el diseño, la redacción y la preparación de defensa con los datos documentados aquí. El índice de fuentes enlaza los originales ya incorporados a `Evidencias/M7/Propuesta de solución M7/`. Para reproducir cálculos o inspeccionar imágenes, utiliza la fuente correspondiente y registra sus limitaciones.
