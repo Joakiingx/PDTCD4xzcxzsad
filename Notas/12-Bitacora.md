@@ -137,3 +137,9 @@ Agrega una entrada fechada en la misma actualización que incluya un cambio auto
 - **Archivos.** [[19-Registro-de-pendientes]].
 - **Evidencia y resultado.** Se revisaron PEND-01 a PEND-11. Cada uno tiene estado y evidencia de cierre. Se distinguieron geometría, integración y desempeño de las verificaciones de operación, docencia y riesgos.
 - **Siguiente paso.** Priorizar plano acotado y recorrido real, inventario DCS y evidencia del proveedor. Completar en paralelo la secuencia de operación y el paquete académico. La lectura directa del manual institucional sigue pendiente.
+
+### REG-D4-015 · 2026-11-10 · Auditoría integral y registro sin correcciones
+
+- **Aporte y archivos.** Joaquín solicitó que toda IA revise la propuesta y los respaldos, y que deje constancia de posibles correcciones. Se actualizó [AGENTS.md](../AGENTS.md), [[00-Contexto-para-IA]] y esta bitácora. Se creó [[25-Registro-de-hallazgos-de-revision]] para identificar el alcance de revisión y sus observaciones.
+- **Regla y uso.** Cada IA debe inventariar y verificar la propuesta completa, explicitar la cobertura y registrar posibles errores con evidencia e impacto. El material revisado se conserva intacto durante la auditoría. El equipo decide si corresponde una corrección en un encargo separado.
+- **Primera pasada.** AUD-D4-001 verificó 331 destinos de enlaces internos y reprodujo la frecuencia y 160 valores de 16 escenarios sobre CSV derivados. REV-D4-001 registra una revisión de vigencia en EST-01. La auditoría integral de contenido sigue parcial y los bloques restantes se indican en el registro.
