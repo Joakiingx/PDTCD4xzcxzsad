@@ -23,3 +23,5 @@ La ES1 publicó 80–210 t/día a flujo nominal y hasta 240 t/día a flujo pico.
 - Incidencias de verificación incorrecta, si Operaciones dispone de una referencia para contrastar.
 
 [[03-Linea-base]] · [[06-Requisitos]] · [[09-Validacion]] · [[11-Defensa-ES3]]
+
+La [tabla de 16 escenarios recalculados](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/04%20Calculos/Revision_D4_v1/escenarios_impacto.csv) conserva los cuatro caudales, ambas duraciones base y escenarios de 1,5 y 2 min. Con 1,5 min la reducción calculada es 85–90 %. Usa [[24-Auditoria-de-datos-D4]] para identificar qué cifras históricas cambiaron.

@@ -16,7 +16,7 @@ Tonelaje diario del escenario = flujo horario × minutos de espera por maniobra 
 
 El original F03 agrupa jornadas de 07:00 a 06:00. El bloque con fecha almacenada 10-11-2026 encaja por secuencia como 10-10-2026. Registra esa interpretación como supuesto. Trata guiones y celdas vacías como dato faltante. Cuenta diferencias de zona entre filas horarias adyacentes con zona válida. El bloque sin zona del 06-10 va de 09:00 a 19:00.
 
-Queda pendiente documentar el procedimiento reproducible con una serie depurada fila por fila y confirmar la convención horaria antes de correlacionar F03 con F04.
+La [serie depurada fila por fila](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/03%20Datos%20trabajados/Revision_D4_v1/posicion_tripper_depurada.csv) conserva fecha, zona y huecos originales. Para interpretar el cruce con F04, quedan pendientes la convención horaria compartida y la identificación de la señal.
 
 [[04-Evidencias-y-fuentes|Fuentes F01–F05]] · [[06-Requisitos|Metas]] · [[09-Validacion|Medición antes y después]]
 
@@ -27,3 +27,5 @@ Queda pendiente documentar el procedimiento reproducible con una serie depurada 
 - [[17-Memoria-de-impacto]] contiene fórmulas y los cuatro escenarios de flujo.
 
 La afirmación precisa es que se observaron cambios en 30 de 33 jornadas. Para permanencia, el redondeo o tratamiento del hueco debe declararse.
+
+La [[24-Auditoria-de-datos-D4]] documenta las correcciones y el [resumen recalculado](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/03%20Datos%20trabajados/Revision_D4_v1/resumen_linea_base.csv). La permanencia observada mediana es 7,5 h con corte del hueco.

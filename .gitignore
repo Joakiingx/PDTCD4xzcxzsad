@@ -32,3 +32,7 @@ Thumbs.db
 !/Evidencias/M7/**/*.jpeg
 !/Evidencias/M7/**/*.png
 !/Evidencias/M7/**/*.mp4
+
+# Tablas reproducibles de la revisión D4 v1
+!/Evidencias/M7/Propuesta de solución M7/03 Datos trabajados/Revision_D4_v1/*.csv
+!/Evidencias/M7/Propuesta de solución M7/04 Calculos/Revision_D4_v1/*.csv

@@ -1,0 +1,355 @@
+tabla,grupo,indicador,valor,unidad,base
+F03_global,,registros,792,filas,F03 con huecos conservados
+F03_global,,jornadas,33,jornadas de 07:00 a 06:00,F03 con huecos conservados
+F03_global,,zona_valida,781,filas,F03 con huecos conservados
+F03_global,,sin_zona,11,filas,F03 con huecos conservados
+F03_global,,sin_zona_guion,9,filas,F03 con huecos conservados
+F03_global,,sin_zona_vacia,2,filas,F03 con huecos conservados
+F03_global,,fecha_jornada_ajustada,24,filas,F03 con huecos conservados
+F03_global,,pares_evaluables,779,pares,F03 con huecos conservados
+F03_global,,pares_no_evaluables,12,pares,F03 con huecos conservados
+F03_global,,cambios,78,cambios observados,F03 con huecos conservados
+F03_global,,frecuencia,2.363636364,cambios por jornada,F03 con huecos conservados
+F03_global,,jornadas_con_cambios,30,jornadas,F03 con huecos conservados
+F03_global,,mediana_cambios_por_jornada,2,cambios,F03 con huecos conservados
+F03_global,,max_cambios_por_jornada,6,cambios,F03 con huecos conservados
+F03_global,,horas_reloj_con_cambios,22,horas de 24,F03 con huecos conservados
+F03_global,,zonas_observadas,23,zonas,F03 con huecos conservados
+F03_global,,zonas_sin_observacion,12,zonas,F03 con huecos conservados
+F03_global,,salto_maximo,25,zonas,F03 con huecos conservados
+F03_global,,tramos_de_zona_observados,80,tramos,F03 con huecos conservados
+F03_global,,permanencia_observada_mediana,7.5,horas,F03 con huecos conservados
+F03_global,,permanencia_observada_minima,1,horas,F03 con huecos conservados
+F03_global,,permanencia_observada_maxima,43,horas,F03 con huecos conservados
+F03_jornada,2026-09-15,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-15,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-15,pares_evaluables,23,pares,Asignados al instante posterior
+F03_jornada,2026-09-15,cambios,2,cambios,Asignados al instante posterior
+F03_jornada,2026-09-16,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-16,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-16,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-16,cambios,2,cambios,Asignados al instante posterior
+F03_jornada,2026-09-17,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-17,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-17,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-17,cambios,3,cambios,Asignados al instante posterior
+F03_jornada,2026-09-18,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-18,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-18,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-18,cambios,0,cambios,Asignados al instante posterior
+F03_jornada,2026-09-19,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-19,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-19,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-19,cambios,3,cambios,Asignados al instante posterior
+F03_jornada,2026-09-20,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-20,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-20,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-20,cambios,2,cambios,Asignados al instante posterior
+F03_jornada,2026-09-21,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-21,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-21,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-21,cambios,3,cambios,Asignados al instante posterior
+F03_jornada,2026-09-22,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-22,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-22,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-22,cambios,1,cambios,Asignados al instante posterior
+F03_jornada,2026-09-23,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-23,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-23,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-23,cambios,1,cambios,Asignados al instante posterior
+F03_jornada,2026-09-24,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-24,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-24,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-24,cambios,3,cambios,Asignados al instante posterior
+F03_jornada,2026-09-25,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-25,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-25,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-25,cambios,0,cambios,Asignados al instante posterior
+F03_jornada,2026-09-26,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-26,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-26,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-26,cambios,2,cambios,Asignados al instante posterior
+F03_jornada,2026-09-27,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-27,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-27,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-27,cambios,1,cambios,Asignados al instante posterior
+F03_jornada,2026-09-28,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-28,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-28,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-28,cambios,2,cambios,Asignados al instante posterior
+F03_jornada,2026-09-29,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-29,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-29,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-29,cambios,1,cambios,Asignados al instante posterior
+F03_jornada,2026-09-30,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-09-30,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-09-30,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-09-30,cambios,2,cambios,Asignados al instante posterior
+F03_jornada,2026-10-01,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-01,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-01,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-01,cambios,4,cambios,Asignados al instante posterior
+F03_jornada,2026-10-02,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-02,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-02,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-02,cambios,0,cambios,Asignados al instante posterior
+F03_jornada,2026-10-03,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-03,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-03,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-03,cambios,3,cambios,Asignados al instante posterior
+F03_jornada,2026-10-04,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-04,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-04,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-04,cambios,2,cambios,Asignados al instante posterior
+F03_jornada,2026-10-05,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-05,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-05,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-05,cambios,2,cambios,Asignados al instante posterior
+F03_jornada,2026-10-06,zona_valida,13,horas,24 por jornada
+F03_jornada,2026-10-06,sin_zona,11,horas,24 por jornada
+F03_jornada,2026-10-06,pares_evaluables,12,pares,Asignados al instante posterior
+F03_jornada,2026-10-06,cambios,1,cambios,Asignados al instante posterior
+F03_jornada,2026-10-07,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-07,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-07,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-07,cambios,2,cambios,Asignados al instante posterior
+F03_jornada,2026-10-08,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-08,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-08,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-08,cambios,1,cambios,Asignados al instante posterior
+F03_jornada,2026-10-09,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-09,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-09,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-09,cambios,6,cambios,Asignados al instante posterior
+F03_jornada,2026-10-10,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-10,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-10,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-10,cambios,4,cambios,Asignados al instante posterior
+F03_jornada,2026-10-11,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-11,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-11,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-11,cambios,4,cambios,Asignados al instante posterior
+F03_jornada,2026-10-12,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-12,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-12,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-12,cambios,5,cambios,Asignados al instante posterior
+F03_jornada,2026-10-13,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-13,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-13,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-13,cambios,4,cambios,Asignados al instante posterior
+F03_jornada,2026-10-14,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-14,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-14,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-14,cambios,4,cambios,Asignados al instante posterior
+F03_jornada,2026-10-15,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-15,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-15,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-15,cambios,4,cambios,Asignados al instante posterior
+F03_jornada,2026-10-16,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-16,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-16,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-16,cambios,2,cambios,Asignados al instante posterior
+F03_jornada,2026-10-17,zona_valida,24,horas,24 por jornada
+F03_jornada,2026-10-17,sin_zona,0,horas,24 por jornada
+F03_jornada,2026-10-17,pares_evaluables,24,pares,Asignados al instante posterior
+F03_jornada,2026-10-17,cambios,2,cambios,Asignados al instante posterior
+F03_hora,00:00,cambios,5,cambios,Hora civil de la observacion posterior
+F03_hora,01:00,cambios,3,cambios,Hora civil de la observacion posterior
+F03_hora,02:00,cambios,3,cambios,Hora civil de la observacion posterior
+F03_hora,03:00,cambios,1,cambios,Hora civil de la observacion posterior
+F03_hora,04:00,cambios,6,cambios,Hora civil de la observacion posterior
+F03_hora,05:00,cambios,4,cambios,Hora civil de la observacion posterior
+F03_hora,06:00,cambios,0,cambios,Hora civil de la observacion posterior
+F03_hora,07:00,cambios,2,cambios,Hora civil de la observacion posterior
+F03_hora,08:00,cambios,3,cambios,Hora civil de la observacion posterior
+F03_hora,09:00,cambios,3,cambios,Hora civil de la observacion posterior
+F03_hora,10:00,cambios,4,cambios,Hora civil de la observacion posterior
+F03_hora,11:00,cambios,3,cambios,Hora civil de la observacion posterior
+F03_hora,12:00,cambios,3,cambios,Hora civil de la observacion posterior
+F03_hora,13:00,cambios,3,cambios,Hora civil de la observacion posterior
+F03_hora,14:00,cambios,5,cambios,Hora civil de la observacion posterior
+F03_hora,15:00,cambios,0,cambios,Hora civil de la observacion posterior
+F03_hora,16:00,cambios,3,cambios,Hora civil de la observacion posterior
+F03_hora,17:00,cambios,2,cambios,Hora civil de la observacion posterior
+F03_hora,18:00,cambios,2,cambios,Hora civil de la observacion posterior
+F03_hora,19:00,cambios,7,cambios,Hora civil de la observacion posterior
+F03_hora,20:00,cambios,3,cambios,Hora civil de la observacion posterior
+F03_hora,21:00,cambios,3,cambios,Hora civil de la observacion posterior
+F03_hora,22:00,cambios,4,cambios,Hora civil de la observacion posterior
+F03_hora,23:00,cambios,6,cambios,Hora civil de la observacion posterior
+F03_zona,Z1,observaciones,0,horas observadas,781 con zona valida
+F03_zona,Z1,proporcion,0,fraccion,Horas con zona valida
+F03_zona,Z2,observaciones,0,horas observadas,781 con zona valida
+F03_zona,Z2,proporcion,0,fraccion,Horas con zona valida
+F03_zona,Z3,observaciones,0,horas observadas,781 con zona valida
+F03_zona,Z3,proporcion,0,fraccion,Horas con zona valida
+F03_zona,Z4,observaciones,0,horas observadas,781 con zona valida
+F03_zona,Z4,proporcion,0,fraccion,Horas con zona valida
+F03_zona,Z5,observaciones,0,horas observadas,781 con zona valida
+F03_zona,Z5,proporcion,0,fraccion,Horas con zona valida
+F03_zona,Z6,observaciones,57,horas observadas,781 con zona valida
+F03_zona,Z6,proporcion,0.072983355,fraccion,Horas con zona valida
+F03_zona,Z7,observaciones,9,horas observadas,781 con zona valida
+F03_zona,Z7,proporcion,0.011523688,fraccion,Horas con zona valida
+F03_zona,Z8,observaciones,82,horas observadas,781 con zona valida
+F03_zona,Z8,proporcion,0.104993598,fraccion,Horas con zona valida
+F03_zona,Z9,observaciones,98,horas observadas,781 con zona valida
+F03_zona,Z9,proporcion,0.125480154,fraccion,Horas con zona valida
+F03_zona,Z10,observaciones,70,horas observadas,781 con zona valida
+F03_zona,Z10,proporcion,0.089628681,fraccion,Horas con zona valida
+F03_zona,Z11,observaciones,27,horas observadas,781 con zona valida
+F03_zona,Z11,proporcion,0.034571063,fraccion,Horas con zona valida
+F03_zona,Z12,observaciones,12,horas observadas,781 con zona valida
+F03_zona,Z12,proporcion,0.015364917,fraccion,Horas con zona valida
+F03_zona,Z13,observaciones,2,horas observadas,781 con zona valida
+F03_zona,Z13,proporcion,0.002560819,fraccion,Horas con zona valida
+F03_zona,Z14,observaciones,0,horas observadas,781 con zona valida
+F03_zona,Z14,proporcion,0,fraccion,Horas con zona valida
+F03_zona,Z15,observaciones,14,horas observadas,781 con zona valida
+F03_zona,Z15,proporcion,0.017925736,fraccion,Horas con zona valida
+F03_zona,Z16,observaciones,13,horas observadas,781 con zona valida
+F03_zona,Z16,proporcion,0.016645327,fraccion,Horas con zona valida
+F03_zona,Z17,observaciones,18,horas observadas,781 con zona valida
+F03_zona,Z17,proporcion,0.023047375,fraccion,Horas con zona valida
+F03_zona,Z18,observaciones,30,horas observadas,781 con zona valida
+F03_zona,Z18,proporcion,0.038412292,fraccion,Horas con zona valida
+F03_zona,Z19,observaciones,45,horas observadas,781 con zona valida
+F03_zona,Z19,proporcion,0.057618438,fraccion,Horas con zona valida
+F03_zona,Z20,observaciones,47,horas observadas,781 con zona valida
+F03_zona,Z20,proporcion,0.060179257,fraccion,Horas con zona valida
+F03_zona,Z21,observaciones,38,horas observadas,781 con zona valida
+F03_zona,Z21,proporcion,0.04865557,fraccion,Horas con zona valida
+F03_zona,Z22,observaciones,35,horas observadas,781 con zona valida
+F03_zona,Z22,proporcion,0.044814341,fraccion,Horas con zona valida
+F03_zona,Z23,observaciones,22,horas observadas,781 con zona valida
+F03_zona,Z23,proporcion,0.028169014,fraccion,Horas con zona valida
+F03_zona,Z24,observaciones,22,horas observadas,781 con zona valida
+F03_zona,Z24,proporcion,0.028169014,fraccion,Horas con zona valida
+F03_zona,Z25,observaciones,0,horas observadas,781 con zona valida
+F03_zona,Z25,proporcion,0,fraccion,Horas con zona valida
+F03_zona,Z26,observaciones,0,horas observadas,781 con zona valida
+F03_zona,Z26,proporcion,0,fraccion,Horas con zona valida
+F03_zona,Z27,observaciones,0,horas observadas,781 con zona valida
+F03_zona,Z27,proporcion,0,fraccion,Horas con zona valida
+F03_zona,Z28,observaciones,0,horas observadas,781 con zona valida
+F03_zona,Z28,proporcion,0,fraccion,Horas con zona valida
+F03_zona,Z29,observaciones,0,horas observadas,781 con zona valida
+F03_zona,Z29,proporcion,0,fraccion,Horas con zona valida
+F03_zona,Z30,observaciones,0,horas observadas,781 con zona valida
+F03_zona,Z30,proporcion,0,fraccion,Horas con zona valida
+F03_zona,Z31,observaciones,40,horas observadas,781 con zona valida
+F03_zona,Z31,proporcion,0.051216389,fraccion,Horas con zona valida
+F03_zona,Z32,observaciones,56,horas observadas,781 con zona valida
+F03_zona,Z32,proporcion,0.071702945,fraccion,Horas con zona valida
+F03_zona,Z33,observaciones,6,horas observadas,781 con zona valida
+F03_zona,Z33,proporcion,0.007682458,fraccion,Horas con zona valida
+F03_zona,Z34,observaciones,21,horas observadas,781 con zona valida
+F03_zona,Z34,proporcion,0.026888604,fraccion,Horas con zona valida
+F03_zona,Z35,observaciones,17,horas observadas,781 con zona valida
+F03_zona,Z35,proporcion,0.021766965,fraccion,Horas con zona valida
+F03_salto,1,cambios,37,cambios,Diferencia absoluta de numero de zona
+F03_salto,2,cambios,5,cambios,Diferencia absoluta de numero de zona
+F03_salto,3,cambios,4,cambios,Diferencia absoluta de numero de zona
+F03_salto,4,cambios,1,cambios,Diferencia absoluta de numero de zona
+F03_salto,5,cambios,1,cambios,Diferencia absoluta de numero de zona
+F03_salto,6,cambios,2,cambios,Diferencia absoluta de numero de zona
+F03_salto,7,cambios,3,cambios,Diferencia absoluta de numero de zona
+F03_salto,8,cambios,4,cambios,Diferencia absoluta de numero de zona
+F03_salto,9,cambios,1,cambios,Diferencia absoluta de numero de zona
+F03_salto,10,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,11,cambios,2,cambios,Diferencia absoluta de numero de zona
+F03_salto,12,cambios,3,cambios,Diferencia absoluta de numero de zona
+F03_salto,13,cambios,2,cambios,Diferencia absoluta de numero de zona
+F03_salto,14,cambios,2,cambios,Diferencia absoluta de numero de zona
+F03_salto,15,cambios,1,cambios,Diferencia absoluta de numero de zona
+F03_salto,16,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,17,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,18,cambios,1,cambios,Diferencia absoluta de numero de zona
+F03_salto,19,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,20,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,21,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,22,cambios,3,cambios,Diferencia absoluta de numero de zona
+F03_salto,23,cambios,2,cambios,Diferencia absoluta de numero de zona
+F03_salto,24,cambios,1,cambios,Diferencia absoluta de numero de zona
+F03_salto,25,cambios,3,cambios,Diferencia absoluta de numero de zona
+F03_salto,26,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,27,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,28,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,29,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,30,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,31,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,32,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,33,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_salto,34,cambios,0,cambios,Diferencia absoluta de numero de zona
+F03_sector,bajo,observaciones,357,horas observadas,Z6 a Z13 agrupadas en ES1
+F03_sector,bajo,proporcion,0.457106274,fraccion,Horas con zona valida
+F03_sector,medio,observaciones,284,horas observadas,Z15 a Z24 agrupadas en ES1
+F03_sector,medio,proporcion,0.363636364,fraccion,Horas con zona valida
+F03_sector,alto,observaciones,140,horas observadas,Z31 a Z35 agrupadas en ES1
+F03_sector,alto,proporcion,0.179257362,fraccion,Horas con zona valida
+F03_magnitud,una_zona,cambios,37,cambios,F03
+F03_magnitud,una_zona,proporcion,0.474358974,fraccion,Cambios observados
+F03_magnitud,dos_a_nueve,cambios,21,cambios,F03
+F03_magnitud,dos_a_nueve,proporcion,0.269230769,fraccion,Cambios observados
+F03_magnitud,diez_o_mas,cambios,20,cambios,F03
+F03_magnitud,diez_o_mas,proporcion,0.256410256,fraccion,Cambios observados
+F04_global,,inicio,2026-09-16 10:24:26.224,marca civil,F04
+F04_global,,fin,2026-10-16 13:11:55.576,marca civil,F04
+F04_global,,registros,488,filas,F04
+F04_global,,intervalos_con_duracion,487,intervalos,El ultimo registro no tiene marca posterior
+F04_global,,tiempo_total,2602049.352,s,Diferencia entre primera y ultima marca
+F04_global,,tramos,451,tramos,Estados iguales adyacentes agrupados
+F04_global,,repeticiones,37,filas,Estados iguales adyacentes
+F04_global,,entradas_a_FUNCIONANDO,224,transiciones,Identidad del equipo pendiente
+F04_global,,mediana_tramo_FUNCIONANDO,18.991,s,Tramos completos
+F04_global,,max_tramo_FUNCIONANDO,854.318,s,Tramos completos
+F04_global,,mediana_tramo_DETENIDO,2982.451,s,Tramos completos
+F04_global,,max_tramo_DETENIDO,160483.182,s,Tramos completos
+F04_global,,tramos_DETENIDO_mayores_a_3h30,66,tramos,Tramos completos
+F04_global,,tramos_DETENIDO_entre_2_y_15_min,22,tramos,Tramos completos; limites inclusivos
+F04_global,,tramos_DETENIDO_entre_10_y_15_min,8,tramos,Tramos completos; limites inclusivos
+F04_global,,inicio_timeout,2026-09-21 16:01:03.149,marca civil,F04
+F04_estado,DETENIDO,registros,263,filas,Incluye repeticiones
+F04_estado,DETENIDO,repeticiones,37,filas,Mismo estado anterior
+F04_estado,DETENIDO,intervalos,262,intervalos,Hasta el siguiente registro
+F04_estado,DETENIDO,tramos_observados,226,tramos,Incluye extremos censurados
+F04_estado,DETENIDO,tramos_completos,224,tramos,Ambas fronteras observadas
+F04_estado,DETENIDO,duracion_observada,2580477.015,s,Incluye duracion observada en extremos
+F04_estado,DETENIDO,fraccion_observada,0.991709482,fraccion,Duracion total del log
+F04_estado,FUNCIONANDO,registros,224,filas,Incluye repeticiones
+F04_estado,FUNCIONANDO,repeticiones,0,filas,Mismo estado anterior
+F04_estado,FUNCIONANDO,intervalos,224,intervalos,Hasta el siguiente registro
+F04_estado,FUNCIONANDO,tramos_observados,224,tramos,Incluye extremos censurados
+F04_estado,FUNCIONANDO,tramos_completos,224,tramos,Ambas fronteras observadas
+F04_estado,FUNCIONANDO,duracion_observada,21529.946,s,Incluye duracion observada en extremos
+F04_estado,FUNCIONANDO,fraccion_observada,0.008274227,fraccion,Duracion total del log
+F04_estado,I/O Timeout,registros,1,filas,Incluye repeticiones
+F04_estado,I/O Timeout,repeticiones,0,filas,Mismo estado anterior
+F04_estado,I/O Timeout,intervalos,1,intervalos,Hasta el siguiente registro
+F04_estado,I/O Timeout,tramos_observados,1,tramos,Incluye extremos censurados
+F04_estado,I/O Timeout,tramos_completos,1,tramos,Ambas fronteras observadas
+F04_estado,I/O Timeout,duracion_observada,42.391,s,Incluye duracion observada en extremos
+F04_estado,I/O Timeout,fraccion_observada,0.000016291,fraccion,Duracion total del log
+Cruce_F03_F04,pares_evaluables,ventanas,710,ventanas,Hora previa completa y par F03 valido
+Cruce_F03_F04,pares_evaluables,con_registro_F04,161,ventanas,Ventanas del subconjunto
+Cruce_F03_F04,pares_evaluables,con_registro_F04_proporcion,0.226760563,fraccion,Ventanas del subconjunto
+Cruce_F03_F04,pares_evaluables,con_transicion_F04,127,ventanas,Ventanas del subconjunto
+Cruce_F03_F04,pares_evaluables,con_transicion_F04_proporcion,0.178873239,fraccion,Ventanas del subconjunto
+Cruce_F03_F04,pares_evaluables,con_entrada_a_FUNCIONANDO,126,ventanas,Ventanas del subconjunto
+Cruce_F03_F04,pares_evaluables,con_entrada_a_FUNCIONANDO_proporcion,0.177464789,fraccion,Ventanas del subconjunto
+Cruce_F03_F04,con_cambio_zona,ventanas,72,ventanas,Hora previa completa y par F03 valido
+Cruce_F03_F04,con_cambio_zona,con_registro_F04,37,ventanas,Ventanas del subconjunto
+Cruce_F03_F04,con_cambio_zona,con_registro_F04_proporcion,0.513888889,fraccion,Ventanas del subconjunto
+Cruce_F03_F04,con_cambio_zona,con_transicion_F04,35,ventanas,Ventanas del subconjunto
+Cruce_F03_F04,con_cambio_zona,con_transicion_F04_proporcion,0.486111111,fraccion,Ventanas del subconjunto
+Cruce_F03_F04,con_cambio_zona,con_entrada_a_FUNCIONANDO,35,ventanas,Ventanas del subconjunto
+Cruce_F03_F04,con_cambio_zona,con_entrada_a_FUNCIONANDO_proporcion,0.486111111,fraccion,Ventanas del subconjunto
+Cruce_F03_F04,sin_cambio_zona,ventanas,638,ventanas,Hora previa completa y par F03 valido
+Cruce_F03_F04,sin_cambio_zona,con_registro_F04,124,ventanas,Ventanas del subconjunto
+Cruce_F03_F04,sin_cambio_zona,con_registro_F04_proporcion,0.194357367,fraccion,Ventanas del subconjunto
+Cruce_F03_F04,sin_cambio_zona,con_transicion_F04,92,ventanas,Ventanas del subconjunto
+Cruce_F03_F04,sin_cambio_zona,con_transicion_F04_proporcion,0.144200627,fraccion,Ventanas del subconjunto
+Cruce_F03_F04,sin_cambio_zona,con_entrada_a_FUNCIONANDO,91,ventanas,Ventanas del subconjunto
+Cruce_F03_F04,sin_cambio_zona,con_entrada_a_FUNCIONANDO_proporcion,0.142633229,fraccion,Ventanas del subconjunto
+Cruce_F03_F04,,cambios_fuera_de_cobertura_completa,6,cambios,F03
+Cruce_F03_F04,,ventanas_cubiertas_con_par_F03_no_evaluable,12,ventanas,Hueco F03

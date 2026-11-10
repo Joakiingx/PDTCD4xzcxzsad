@@ -5,7 +5,7 @@ Fuente F03. Entre la jornada del 15-09-2026 y la jornada del 17-10-2026 hay **33
 ## Reglas de depuración
 
 1. Lee las columnas de fecha, hora y zona en el orden del archivo original. Omite las dos filas de encabezado y la fila final vacía.
-2. Cada jornada se rotula al inicio del bloque de 07:00 a 06:00. Para construir una marca civil, las horas de 00:00 a 06:00 corresponden al día siguiente al rótulo de la jornada. El último registro corresponde a las 06:00 del 18-10 en tiempo civil.
+2. Cada jornada se rotula al inicio del bloque de 07:00 a 06:00. La hora Excel original ya contiene el día adicional en las 231 filas de 00:00 a 06:00. Para construir la marca civil se suma ese valor original a la fecha de jornada corregida. El último registro corresponde a las 06:00 del 18-10 en tiempo civil.
 3. Las filas 603–626 se guardaron como 10-11-2026. Por secuencia se tratan como jornada del 10-10-2026. Conserva ambas versiones y etiqueta la corrección como supuesto.
 4. El 06-10 entre 09:00 y 19:00 hay nueve guiones y dos celdas vacías en la columna zona. Déjalas sin dato. Los extremos observados del hueco están en Z8, sin información de lo que ocurrió dentro.
 5. Cuenta cambios únicamente entre filas horarias consecutivas con zona válida. Atribuye cada cambio al instante y jornada de la observación posterior. Para permanencia, la política conservadora corta la estadía en un hueco. Produce 80 estadías y mediana de 7,5 h, con rango 1–43 h. El dossier informa mediana de 8 h. Unir los registros válidos a ambos lados del hueco cuando tienen la misma zona da 79 estadías y mediana de 8 h.
@@ -103,3 +103,5 @@ Totales por sectores definidos en la ES1. Z6–Z13 registran 357 h, Z15–Z24 28
 | 33 | 17-10 | 24 | 2 |
 
 [[03-Linea-base]] · [[16-Registro-de-estados]] · [[17-Memoria-de-impacto]]
+
+[Serie depurada de 792 filas](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/03%20Datos%20trabajados/Revision_D4_v1/posicion_tripper_depurada.csv) · [Resumen recalculado](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/03%20Datos%20trabajados/Revision_D4_v1/resumen_linea_base.csv) · [[24-Auditoria-de-datos-D4]]

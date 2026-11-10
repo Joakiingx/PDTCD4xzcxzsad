@@ -49,3 +49,7 @@ Fuentes y enlaces de originales en [[04-Evidencias-y-fuentes]]. Inventario de la
 Fuente docente. *Retroalimentación y propuestas de mejora para la Evaluación Sumativa 1 (1)*, documento adjunto del equipo, 17 páginas.
 
 [[10-Evaluacion-2]] · [[19-Registro-de-pendientes]] · [[00-Mapa-de-estudios]]
+
+## Actualización de trazabilidad
+
+La [[24-Auditoria-de-datos-D4]] publicó la serie fila por fila y la memoria recalculada. El expediente de la ES1 se conserva para consultar qué se presentó en esa etapa.

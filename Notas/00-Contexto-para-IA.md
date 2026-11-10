@@ -25,3 +25,5 @@ Esta nota es la entrada para cualquier sesión nueva. Lee también [AGENTS](../A
 - En una respuesta técnica, etiqueta los datos como documentados, declarados, estimados, hipótesis, supuestos, metas o pendientes. Usa los códigos de [[04-Evidencias-y-fuentes]] para que el equipo pueda rastrear cada afirmación.
 
 Para empezar un chat con acceso a GitHub, indica el repositorio privado `Joakiingx/proyecto-titulo-d4` y pide leer `AGENTS.md` y esta nota en `main`. Si la sesión tiene acceso al disco, abre la carpeta clonada como espacio de trabajo. La base de conocimiento permite continuar el diseño, la redacción y la preparación de defensa con los datos documentados aquí. El índice de fuentes enlaza los originales ya incorporados a `Evidencias/M7/Propuesta de solución M7/`. Para reproducir cálculos o inspeccionar imágenes, utiliza la fuente correspondiente y registra sus limitaciones.
+
+Para datos y cálculos de la propuesta, empieza por [[24-Auditoria-de-datos-D4]]. Separa las tablas corregidas de las cifras del expediente ES1 histórico.

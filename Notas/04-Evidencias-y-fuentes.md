@@ -36,3 +36,7 @@ Los módulos 2, 3 y 6 quedan como referencias de procedimiento, análisis causal
 Las figuras son representaciones del equipo. Las cifras y componentes de diseño se contrastan con las notas que documentan su estado.
 
 [[13-Ficha-y-acta]] · [[14-Expediente-ES1]] · [[20-Referencias-de-modulos]]
+
+## Revisión de datos D4 v1
+
+[[24-Auditoria-de-datos-D4]] identifica los datos trabajados vigentes, reglas y correcciones. D04 y D08 corresponden a la ES1 histórica. Para la propuesta, consulta el [resumen recalculado](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/03%20Datos%20trabajados/Revision_D4_v1/resumen_linea_base.csv) y los [escenarios recalculados](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/04%20Calculos/Revision_D4_v1/escenarios_impacto.csv).
