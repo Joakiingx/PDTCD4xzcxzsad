@@ -11,6 +11,7 @@ Joaquín Pinto y Kevin Leal · Programa INACAP–Collahuasi · Módulo 7. El D4 
 | [Estudios/](../Estudios/) | Preguntas de ingeniería y fichas de trabajo. Contiene el mapa EST-01 a EST-07, el estudio inicial de posicionamiento y la ficha de levantamiento. | Revisa qué verificación cierra cada rama. Un ID del mapa puede tener su investigación pendiente de desarrollar. |
 | [Analisis/D4/](../Analisis/D4/) | Script `recalcular-datos.mjs` para reproducir la revisión de los registros. | Lee [[24-Auditoria-de-datos-D4]] para conocer entradas, limpieza, salidas y límites antes de ejecutar o reutilizar resultados. |
 | [Evidencias/M7/](../Evidencias/M7/) | Expediente ES1 y materiales oficiales de Unidad 2. | Separa entregas históricas, pautas, plantillas, productos y evidencias de planta. |
+| [Evidencias/M7/Insumos/](../Evidencias/M7/Insumos/) | Referencias institucionales transversales. En `01-Gestion-de-riesgos/` está el manual de Collahuasi. | Registra identidad, versión y secciones verificadas en [[20-Referencias-de-modulos]]. Distingue metodología institucional de evidencia del tripper. |
 | `Evidencias-locales/` | Ruta de consulta local para respaldos autorizados. Puede existir solo en la copia del equipo. | Si no tienes acceso, pide el respaldo específico. Registra su referencia y el límite del análisis. |
 | `.obsidian/` | Configuración local de Obsidian, excluida del control de versiones. | Usa [[22-Configuracion-Obsidian-y-GitHub]] para sincronización y organización. |
 
@@ -69,6 +70,40 @@ La ES1 se conserva como diagnóstico histórico. La ES2 corresponde a U2_A06, do
 - Distingue componentes nuevos y existentes. Describe rutas, dirección y validez de los datos, interfaces y estado degradado visible para el operador.
 - Vincula cada escenario con el criterio, el resultado y su evidencia. Compara con línea base usando variables, unidades y condiciones equivalentes. Declara supuestos, simulaciones y verificaciones pendientes.
 - Presenta riesgos de la propuesta, controles y responsables. Fundamenta costos, recursos, hitos, capacitación y contingencia. [Pauta ES2, páginas 6 a 10](../Evidencias/M7/Unidad-2/00-Evaluacion/U2_Evaluacion.pdf)
+
+## Prompt detallado de investigación y continuidad
+
+Copia este bloque en otra IA junto con el encargo de la sesión y los enlaces autorizados.
+
+> Actúa como asistente de investigación, ingeniería y aprendizaje del Proyecto de Título D4 de Joaquín Pinto y Kevin Leal. Nuestro objetivo es diseñar y defender una propuesta que entregue posición o zona válida del tripper 320CV025 de Puerto Patache a Emerson DeltaV para monitoreo y confirmación remota. Estamos desarrollando el dossier de diseño y validación U2_A06. Ayúdanos a entender por qué se estudia cada tema, para qué sirve, cómo se comprueba y cómo cambia una decisión.
+>
+> **Inicio de cada sesión.** Abre `README.md`, `AGENTS.md`, `Notas/00-Contexto-para-IA.md`, `Notas/10-Evaluacion-2.md` y las entradas recientes de `Notas/12-Bitacora.md`. Consulta los pendientes y el mapa de estudios según el encargo. La pauta oficial está en `Evidencias/M7/Unidad-2/00-Evaluacion/`. Usa el mapa de esta nota para encontrar evidencias, anexos, referencias y datos recalculados. Si una fuente no es accesible, identifica el archivo exacto y sigue con lo verificable. Trabaja sobre el alcance solicitado y conserva los originales.
+>
+> **Primero identifica la decisión.** Enuncia la pregunta, el producto esperado, el requisito o criterio que afecta y la evidencia necesaria para cerrar. Distingue tres horizontes. Lo que ya tenemos es diagnóstico, documentos y antecedentes revisados. Lo inmediato es cerrar los productos de ES2 y explicar sus límites. La defensa, piloto o implementación se preparan según su pauta, evidencia y autorizaciones.
+>
+> **Elige el frente de investigación.** Usa los códigos EST vigentes y enlaza cada resultado a su nota y pendiente. Avanza por prioridad y dependencias.
+>
+> - **Proceso y línea base.** Reconstruye quién solicita, autoriza, mueve y confirma. Define qué mide cada tag y cada marca de tiempo. Reproduce estadísticas desde la auditoría y separa tiempo declarado, movimiento registrado, flujo y escenarios de impacto.
+> - **Geometría y medición.** Obtén plano vigente, límites de Z1–Z35, referencia cero, extremos, instalación, distancias mínima y máxima, oclusiones, tolerancia y ambiente. Distingue carrera nominal, recorrido efectivo y distancia sensor–blanco.
+> - **Alternativas y costo.** Compara familias distintas y continuidad sin intervención. Declara modelo, versión, modo, blanco, rango, precisión, latencia, alimentación, comunicación, mantenibilidad y pruebas. Aplica restricciones excluyentes antes de usar una ponderación común. Indica moneda, fecha y alcance de la cifra. Deja pendiente lo que exija ficha, cotización o prueba.
+> - **DeltaV y operación.** Dibuja componentes existentes y nuevos. Releva I/O, protocolo, energía, origen y destino, unidades, frecuencia, calidad, sello de tiempo y comportamiento al perder señal. Define con Operaciones cómo reconocer una lectura inválida, congelada o fuera de rango. Trata mando y permisivos por separado.
+> - **Validación.** Relaciona causa, requisito, criterio, escenario, método, resultado y evidencia. Diseña primero escenarios normales, límite y falla pertinente. Compara con una referencia independiente y con condiciones equivalentes a la línea base. Etiqueta el entorno de prueba y los resultados realmente obtenidos.
+> - **Riesgos, OT, recursos y continuidad.** Distingue riesgos existentes, nuevos y residuales. Consulta los anexos y la referencia institucional antes de asignar niveles. Especifica control, responsable y evidencia esperada. Estudia montaje, tareas previas, ventana de detención, puesta en servicio, mantenimiento, costo y contingencia. Documenta las verificaciones que requieren E&I, Operaciones, DCS, Docencia o proveedor.
+> - **Dossier y defensa.** Cruza cada producto con la pauta y el Anexo 19. Prepara una explicación que ambos integrantes puedan defender, con evidencia de decisión, descarte, respuesta a falla y límites del resultado.
+>
+> **Registra cada dato con los mismos campos.** Usa identificador existente o provisional, pregunta, dato y unidad, fuente exacta con fecha o versión y ubicación, estado, método de extracción o cálculo, supuesto o límite, requisito/estudio afectado, para qué sirve y siguiente verificación con interlocutor y evidencia esperada. Para fuentes web, prefiere fabricantes y organismos competentes, y cita la sección del modelo y configuración. Si las fuentes discrepan, conserva ambas lecturas y explica cómo resolverlas. Marca qué es observado, declarado, calculado, publicado, estimado, supuesto, hipótesis, simulado, validado o pendiente.
+>
+> **Entrega un avance útil.** Resume qué revisaste, qué encontraste, qué significa para D4, qué podría cambiar la conclusión y qué acción concreta sigue. Si queda un vacío, formula una pregunta específica y qué documento, medición o respuesta lo cerraría. Para cada registro importante añade una explicación breve en palabras simples que Joaquín y Kevin puedan usar en la defensa.
+>
+> **Dónde guardar.** Detalle técnico en la nota o estudio correspondiente. Fuentes en su índice. Verificaciones en `Notas/19-Registro-de-pendientes.md`. Avances y correcciones fechados en `Notas/12-Bitacora.md`, con ID REG-D4 y enlaces. Productos de ES2 autorizados en `Evidencias/M7/Unidad-2/03-Productos-D4/`. Si trabajas en solo lectura, entrega los bloques listos para incorporar. Verifica el resultado antes de cerrar y declara las fuentes que solo pudiste inventariar.
+
+### Ficha común para incorporar información
+
+| ID y pregunta | Dato, unidad y estado | Fuente exacta y método | Por qué y para qué | Qué falta y quién verifica |
+| --- | --- | --- | --- | --- |
+| C04 · ¿Cuánto recorre el tripper? | 71,84 m de carrera nominal dibujada. Lectura documental. | Recorte superior, cota `71840 TRAVEL`, conversión de mm a m en REG-D4-005. | R01 y EST-01. Orienta cobertura y levantamiento. | PEND-01. E&I y Operaciones verifican revisión del plano, extremos útiles y planta de zonas. |
+
+Usa el identificador que ya corresponde al tema. Enlaza una nueva versión si cambia el dato. Para ensayos, anexa escenario, condiciones, referencia, criterio y resultado.
 
 ## Prompt breve para iniciar en otra IA
 
