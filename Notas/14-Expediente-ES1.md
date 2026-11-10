@@ -25,3 +25,5 @@ La presentación tiene siete láminas. La secuencia es portada, delimitación, a
 - El conjunto de alternativas cambia entre dossier, láminas y Excel. La comparación histórica está en [[21-Matriz-historica-de-alternativas]].
 - La meta de tiempo se expresa con porcentajes distintos según el archivo. La comparación con un escenario fijo de 2 min está en [[17-Memoria-de-impacto]].
 - El esquema de radar usa `ZT-025`, iRPU, 4–20 mA y una fuente de 24 VDC como componentes conceptuales. El tag definitivo, la compatibilidad y la alimentación efectiva deben verificarse.
+
+La revisión frente a la retroalimentación del docente y las condiciones que pasan al diseño están en [[23-Revision-ES1-antes-de-ES2]].

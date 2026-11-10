@@ -1,6 +1,6 @@
 # Evaluación 2 Propuesta de solución
 
-Estado en preparación. Completar requisitos oficiales cuando se entregue la pauta.
+Estado en preparación. La [[23-Revision-ES1-antes-de-ES2]] distingue las correcciones del expediente y los insumos de terreno que condicionan la propuesta. Completar requisitos oficiales cuando se entregue la pauta.
 
 - [ ] Obtener pauta, formato, fecha y entregables.
 - [ ] Definir con la contraparte el alcance entre monitoreo, confirmación y mando.
