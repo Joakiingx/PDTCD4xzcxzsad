@@ -1,4 +1,8 @@
-# Bitácora de decisiones
+# Bitácora del proyecto D4
+
+Esta nota reúne las decisiones, los avances técnicos y lo aprendido en cada revisión. Al retomar el proyecto, lee primero las últimas entradas de avances y revisa [[19-Registro-de-pendientes]] para conocer el estado vigente de cada verificación.
+
+## Decisiones del proyecto
 
 | Registro | Estado | Evidencia y consecuencia |
 | --- | --- | --- |
@@ -14,3 +18,42 @@ Para cada nuevo acuerdo agrega fecha, participantes, decisión, fuente, estado y
 [[04-Evidencias-y-fuentes|Fuentes]] · [[10-Evaluacion-2|Trabajo próximo]] · [[11-Defensa-ES3|Defensa]]
 
 El detalle de los pendientes se mantiene en [[19-Registro-de-pendientes]]. El estado de cada dato del diagnóstico se conserva en [[14-Expediente-ES1]] y [[04-Evidencias-y-fuentes]].
+
+## Avances y aprendizajes
+
+Agrega una entrada fechada al completar una revisión, recibir evidencia, recalcular un indicador, acordar un cambio o cerrar una verificación. Usa identificadores `REG-D4-NNN` consecutivos. Para cada entrada deja quién hizo el aporte, qué se revisó y por qué, la fuente, el resultado y su estado, para qué se usará, y el paso siguiente o criterio de cierre. Si cambia una conclusión, conserva la entrada original y vincula la que la corrige. La bitácora registra el avance. Las notas técnicas y [[19-Registro-de-pendientes]] mantienen el detalle y el estado vigente. Las fotos y documentos de terreno se referencian desde su respaldo autorizado.
+
+### REG-D4-001 · 2026-11-10 · Cruce de posición horaria y estado RUN
+
+- **Aporte y evidencia.** Revisión asistida por IA a partir de las series depuradas F03 y F04, con criterio de calidad documentado en [[24-Auditoria-de-datos-D4]]. Consultar [[15-Estadistica-de-zonas]] y [[16-Registro-de-estados]].
+- **Por qué.** El diagnóstico necesitaba distinguir la espera total de la duración del estado `FUNCIONANDO` y verificar si es posible vincular una entrada a ese estado con cada cambio de zona.
+- **Resultado documentado.** De 224 tramos completos en `FUNCIONANDO`, 142 duraron menos de 30 s, 34 duraron desde 30 s hasta menos de 2 min y 48 duraron 2 min o más. La mediana fue de 18,991 s. De 72 cambios con ventana horaria evaluable, 35 coincidieron con al menos una entrada a ese estado en la hora previa y 17 de esos 35 tuvieron varias entradas.
+- **Aprendizaje y uso.** El cruce horario orienta qué eventos investigar. La duración mecánica y la asociación de una entrada con una maniobra requieren identificar el tag y la convención de la planilla. Sirve para definir qué se medirá al evaluar la meta de 2 minutos.
+- **Siguiente paso.** Contrastar una maniobra corta y una larga con Operaciones y DCS. Levantar las horas de solicitud, orden, movimiento observado y confirmación, además del estado del flujo. Asociado a PEND-02, PEND-05 y PEND-10.
+
+### REG-D4-002 · 2026-11-10 · Preguntas de levantamiento para ES2
+
+- **Aporte y estado.** Borrador preparado en la investigación del equipo con apoyo de IA. Respuestas pendientes de levantamiento. Se conserva la numeración del registro original.
+- **Por qué y para qué.** Cada pregunta identifica una incertidumbre que condiciona el alcance, los requisitos, la selección o las pruebas. Las respuestas se vinculan al pendiente y a la nota técnica correspondiente.
+
+| ID | Pregunta | Uso de la respuesta |
+| --- | --- | --- |
+| C01 | ¿Cómo ocurre el cambio de zona, quién mueve el carro, desde dónde y con qué permisivos? | Secuencia operativa y límites de intervención. |
+| C02 | ¿Sala de Control debe ver la posición, confirmar llegada o también comandar el movimiento? | Alcance funcional y pruebas. |
+| C03 | ¿Entre qué eventos se miden los 10 a 15 minutos actuales y la meta de menos de 2 minutos? ¿Incluye el recorrido largo? | Línea base y criterio de aceptación comparables. |
+| C04 | ¿Cuál es el plano acotado de zonas y recorrido, dónde se podría montar un sensor y qué margen de posición admite la descarga? | Cobertura, precisión y montaje. |
+| C05 | ¿Qué tipo de entrada, canal, alimentación y canalización fija pueden asignarse? | Interfaz viable con DeltaV. |
+| C06 | ¿Qué equipo y variable origina `320CV0251RUN`? ¿Es orden, realimentación de marcha o indicación de movimiento? ¿Se puede contrastar con una maniobra? | Interpretar F04 y sus tiempos. |
+| C07 | ¿Cuándo se detiene o reduce el flujo durante la maniobra y qué registro lo respalda? | Estimar el tonelaje diferido con datos de operación. |
+| C08 | ¿Qué componente está instalado, a qué eje está acoplado y qué señales están disponibles? Por separado, ¿el 845H de bodega sigue disponible, está operativo y tiene sus accesorios? | Evaluar evidencia existente y el candidato de bodega como dos activos por identificar. |
+| C09 | ¿Cuál fue el modelo, montaje y modo de falla del láser anterior? | Convertir el antecedente en condiciones de prueba. |
+| C10 | ¿Cuánto tiempo efectivo queda para instalación y pruebas dentro de la parada mensual? | Dimensionar el plan de ejecución. |
+
+### REG-D4-003 · 2026-11-10 · Encoder Allen-Bradley informado en bodega
+
+- **Aporte y fuente.** Joaquín adjuntó en la conversación del 2026-11-10 una foto de placa e informó que el encoder estaba disponible en bodega de Puerto Patache. Ubicación del respaldo autorizado y disponibilidad actual pendientes. Las imágenes del componente en terreno siguen referenciadas en [[05-Evidencia-visual]].
+- **Observado en placa.** Allen-Bradley `845H-SJDL26CMY2`, serie C, incremental, 500 y 8–24 V CC.
+- **Contrastado con fabricante.** El boletín 845H corresponde a encoders ópticos incrementales rotativos. El código `CM` corresponde a 500 pulsos por vuelta y `6` a salida digital diferencial de 8–24 V CC. El grado de protección IP66 corresponde a la familia de catálogo. Rockwell indica que la serie 847 reemplazó a la 845H. [Catálogo Rockwell, págs. impresas 6-37 a 6-39](https://support.rockwellautomation.com/ci/okcsFattach/get/609416_20) · [Familia sucesora 847](https://www.rockwellautomation.com/es-ar/products/hardware/motion-control/847-high-resolution.html)
+- **Por qué importa.** El disco óptico está dentro del equipo y lee el giro del eje. El láser anterior dependía de un haz en el ambiente de la nave. Para convertir el giro en posición del carro se requieren una referencia física, una relación de transmisión conocida y una verificación del error acumulado, incluida la pérdida de referencia y el deslizamiento cuando el montaje dependa de una rueda.
+- **Para qué se usará.** Mantener el 845H como candidato de banco y de comparación en [[07-Alternativas]]. Su disponibilidad informada justifica evaluar el equipo. La aptitud para terreno, el costo de integración y la equivalencia con el componente instalado quedan pendientes.
+- **Siguiente paso y criterio de cierre.** E&I confirma identidad, estado, conector y posible acople. DCS identifica el equipo receptor y verifica compatibilidad de niveles, conteo bidireccional a la frecuencia esperada y ruta de comunicación. El equipo contrasta conteo con una referencia física y documenta recuperación después de un corte de alimentación. La ausencia de hilos de reserva en el festón obliga a verificar una ruta de señal viable. Asociado a PEND-04, PEND-06, PEND-07 y C08.
