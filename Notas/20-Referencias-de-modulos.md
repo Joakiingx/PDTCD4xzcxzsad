@@ -1,0 +1,19 @@
+# Referencias del programa
+
+Separa las referencias metodológicas de los datos específicos de Puerto Patache. Estos recursos complementan el diseño y la defensa.
+
+| Recurso | Qué aporta al D4 | Límite de uso |
+| --- | --- | --- |
+| Módulo 2 · GTI-PR-00000004 | Lista de chequeo para redes OT. Es referencia si la alternativa introduce comunicaciones o nuevos equipos de red. | Confirmar aplicabilidad, versión y alcance con la contraparte. |
+| Módulo 2 · GMP-SAyC-SC-INS-003, 050, 095 y 222 | Referencias sobre hardware DCS, revisión de lógica, continuidad y gestión de cambios de lógica. | Los documentos de Procesos se deben contrastar con el procedimiento vigente en Puerto. |
+| Módulo 2 · GMP-IT-INST-024 | Referencia de mantención de instrumentación en correas de alimentación y traspaso. | No describe el tripper del caso. |
+| Módulo 3 · Anexo 9 | Análisis de causa raíz con cadena causal, evidencia por vínculo y verificación pendiente. | Aplicar el método a F01–F05. |
+| Módulo 3 · Anexos 13, 14 y 16 | Referencias de recuperación, estabilización e informe de caso. | AJ-032 es un caso formativo separado. |
+| Módulo 6 · Anexos 2, 4, 5 y 8 | Ficha de indicadores, diccionario de variables, registro de transformaciones y formato de línea base. | AMAP y su dataset corresponden a un caso simulado. |
+| Módulo 7 · Guía U1 y Anexo 2 | Delimitar, construir línea base, diagnosticar, derivar requisitos, comparar alternativas, validar y defender ante una comisión. Ambos integrantes deben poder explicar el proyecto completo. | Esta guía corresponde a U1. Falta la pauta específica de las siguientes evaluaciones. |
+
+## Dónde se encontraron
+
+Los módulos 2, 3 y 6 están bajo `MODULOS/` en la carpeta local de evidencias. El material inicial del M7 se localizó en una carpeta de curso separada, `MODULO 7/Materiales iniciales/`. La guía es `Guia_Contenidos_M7_U1_Delimitacion_y_diagnostico_operacional.docx`. También se encontró un borrador temprano del Anexo 2 con encoder como ejemplo. El alcance consolidado del D4 se toma del expediente ES1.
+
+[[14-Expediente-ES1]] · [[18-Diagnostico-causal-y-riesgos]] · [[10-Evaluacion-2]] · [[11-Defensa-ES3]]
