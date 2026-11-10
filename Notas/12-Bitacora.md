@@ -21,7 +21,7 @@ El detalle de los pendientes se mantiene en [[19-Registro-de-pendientes]]. El es
 
 ## Avances y aprendizajes
 
-Agrega una entrada fechada al completar una revisión, recibir evidencia, recalcular un indicador, acordar un cambio o cerrar una verificación. Usa identificadores `REG-D4-NNN` consecutivos. Para cada entrada deja quién hizo el aporte, qué se revisó y por qué, la fuente, el resultado y su estado, para qué se usará, y el paso siguiente o criterio de cierre. Si cambia una conclusión, conserva la entrada original y vincula la que la corrige. La bitácora registra el avance. Las notas técnicas y [[19-Registro-de-pendientes]] mantienen el detalle y el estado vigente. Las fotos y documentos de terreno se referencian desde su respaldo autorizado.
+Agrega una entrada fechada en la misma actualización que incluya un cambio autorizado del repositorio. Enumera los archivos afectados. Registra también las revisiones, nuevas evidencias, recálculos, acuerdos y verificaciones cerradas. Usa identificadores `REG-D4-NNN` consecutivos. Para cada entrada deja quién hizo el aporte, qué se revisó y por qué, la fuente, el resultado y su estado, para qué se usará, y el paso siguiente o criterio de cierre. Si cambia una conclusión, conserva la entrada original y vincula la que la corrige. La bitácora registra el avance. Las notas técnicas y [[19-Registro-de-pendientes]] mantienen el detalle y el estado vigente. Las fotos y documentos de terreno se referencian desde su respaldo autorizado.
 
 ### REG-D4-001 · 2026-11-10 · Cruce de posición horaria y estado RUN
 
@@ -105,3 +105,35 @@ Agrega una entrada fechada al completar una revisión, recibir evidencia, recalc
 - **Estado.** Localización y referencia en la pauta verificadas. La revisión directa del PDF y la identificación de su versión quedan pendientes. La pauta menciona aparte la planilla institucional de matriz.
 - **Por qué y para qué.** El insumo dará contexto metodológico para justificar los controles, responsables y evidencias de los riesgos que introduce cada configuración del D4. Se indexó en [[20-Referencias-de-modulos]] y se dejó el cierre en PEND-11.
 - **Siguiente paso.** Leer el manual, registrar sus páginas y criterios aplicables, verificar disponibilidad de la planilla y relacionar esos criterios con escenarios concretos de montaje, pérdida de datos y operación degradada.
+
+### REG-D4-010 · 2026-11-10 · Trazabilidad de cada actualización
+
+- **Aporte y evidencia.** Joaquín solicitó que cada cambio se registre. Se formalizó la regla en [AGENTS.md](../AGENTS.md) y [[12-Bitacora]]. Cada cambio autorizado en GitHub debe llevar su entrada en la misma actualización, con archivos afectados, por qué, evidencia, consecuencia y siguiente paso.
+- **Uso.** Permite auditar qué cambió entre sesiones y retomar el trabajo desde su fuente.
+
+### REG-D4-011 · 2026-11-10 · Borrador v0.1 del Anexo 11
+
+- **Archivos.** [[06-Requisitos]] y [[10-Evaluacion-2]].
+- **Evidencia y resultado.** Se cruzó el [Anexo 11](../Evidencias/M7/Unidad-2/02-Anexos/06_M7_Anexo_11_Matriz_de_requisitos_CTX_V01.docx) con R01–R07 y las causas del diagnóstico. Se prepararon sus cuatro tablas de trabajo con criterios, métodos, interfaces y una regla de prioridad preliminar.
+- **Por qué y para qué.** La aceptación necesita evidencias comparables y responsables concretos. Se diferenció qué se puede evaluar documentalmente, qué se puede simular y qué requiere comprobación física.
+- **Siguiente paso.** Confirmar tolerancias de zona, definición de fase de tiempo, ruta de señal y criterio de datos inválidos.
+
+### REG-D4-012 · 2026-11-10 · Revisión documental de interfaces DeltaV
+
+- **Archivos.** [[08-Arquitectura-DeltaV]].
+- **Evidencia y resultado.** [SAG](https://sag.ind.br/produtos/radares/ky-ray-1d/) publica TCP/IP, UDP y PROFINET. Emerson documenta [PROFINET en PK](https://www.emerson.com/is/content/emerson/es/systems-and-software/deltav-distributed-control-system-dcs/product-data-sheets/documents/deltav-pk-controller.pdf) integrado desde v15.FP1 y otros protocolos en su [tarjeta EIOC](https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-distributed-control-system-dcs/product-data-sheets/documents/deltav-ethernet-io-card.pdf). La [entrada analógica CHARM](https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-distributed-control-system-dcs/product-data-sheets/documents/deltav-electronic-marshalling.pdf) admite 4–20 mA con las condiciones de su ficha.
+- **Por qué y para qué.** Los nombres de interfaz y la disponibilidad de I/O no confirman compatibilidad. El hardware instalado y el método de transmitir validez deciden si hay conexión directa, conversión o necesidad de evaluar otra variante.
+- **Siguiente paso.** Solicitar hardware, versión, protocolo y ruta autorizados a DCS, y documentación de posición, validez y vigencia al proveedor.
+
+### REG-D4-013 · 2026-11-10 · Prueba de escritorio de datos congelados
+
+- **Archivos.** [[09-Validacion]].
+- **Evidencia y resultado.** Siete casos sintéticos en JavaScript. Seis coincidieron con lo esperado. Una lectura antigua aceptada tras volver a fecharla dejó en evidencia una limitación de la regla simple de antigüedad.
+- **Aprendizaje y uso.** Una posición constante puede ser correcta con nuevas adquisiciones. Un mensaje nuevo puede transportar una medición antigua. Enlazar R07 con marca de adquisición o contador comprobable y repetir con evidencia representativa.
+- **Estado.** Prueba de escritorio, con parámetros sintéticos. La lógica y los resultados de faena siguen por validar.
+
+### REG-D4-014 · 2026-11-10 · Revisión de los once pendientes
+
+- **Archivos.** [[19-Registro-de-pendientes]].
+- **Evidencia y resultado.** Se revisaron PEND-01 a PEND-11. Cada uno tiene estado y evidencia de cierre. Se distinguieron geometría, integración y desempeño de las verificaciones de operación, docencia y riesgos.
+- **Siguiente paso.** Priorizar plano acotado y recorrido real, inventario DCS y evidencia del proveedor. Completar en paralelo la secuencia de operación y el paquete académico. La lectura directa del manual institucional sigue pendiente.

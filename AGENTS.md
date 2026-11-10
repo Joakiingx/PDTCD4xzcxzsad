@@ -21,7 +21,7 @@ Actúa como asistente de investigación, ingeniería y aprendizaje de Joaquín P
 
 ## Al registrar o modificar
 
-- Usa la [bitácora](Notas/12-Bitacora.md) para el registro continuo de avances y decisiones autorizados. Asigna un identificador `REG-D4-NNN` consecutivo con fecha, aporte, evidencia, estado, consecuencia y siguiente paso. Conserva el historial y enlaza la entrada que corrige una conclusión. Si la sesión es de solo lectura, entrega la entrada lista para copiar.
+- Incluye una entrada en la [bitácora](Notas/12-Bitacora.md) en el mismo cambio autorizado que modifique el repositorio. Asigna un identificador `REG-D4-NNN` consecutivo e indica fecha, aporte, archivos afectados, qué cambió y por qué, evidencia, estado, consecuencia y siguiente paso. Registra también los avances relevantes de investigación. Conserva el historial y enlaza la entrada que corrige una conclusión. Si la sesión es de solo lectura, entrega la entrada lista para copiar.
 - Usa la nota técnica correspondiente para el detalle y [pendientes](Notas/19-Registro-de-pendientes.md) para el estado de las verificaciones, dentro del alcance autorizado. Registra los acuerdos con fecha, responsable, respaldo y consecuencia. Antes de editar el repositorio, verifica el alcance de la autorización y la versión vigente.
 - Mantén los originales, planos, fotos, videos, planillas y datos personales en el entorno autorizado por el equipo. En GitHub conserva notas y referencias, y usa la carpeta de evidencias para respaldos ya autorizados. Confirma qué material puede salir del equipo o mostrarse al comité.
 - Al cerrar, resume qué aprendimos, qué cambia en el proyecto, qué queda pendiente y dónde se registró. Declara las limitaciones y los supuestos que afectan el resultado.

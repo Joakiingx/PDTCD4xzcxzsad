@@ -21,7 +21,7 @@ Los frentes 1, 2 y el levantamiento de operación del frente 3 pueden avanzar en
 
 ## Próximo producto de trabajo
 
-Completar una primera matriz de requisitos del Anexo 11, vinculada a los pendientes de terreno. Comenzar por cobertura R01, integración R02 y señal válida R07, y conservar los requisitos operacionales de tiempo y exposición. Para cada criterio, registrar qué condición conocemos, qué valor falta acordar y con qué prueba sería defendible.
+Revisar el borrador v0.1 de la matriz del Anexo 11 en [[06-Requisitos]] y completar sus criterios con los pendientes de terreno. Comenzar por cobertura R01, integración R02 y señal válida R07, y conservar los requisitos operacionales de tiempo y exposición. Para cada criterio, registrar qué condición conocemos, qué valor falta acordar y con qué prueba sería defendible.
 
 | Requisito | Base disponible | Qué falta para redactar un criterio comprobable |
 | --- | --- | --- |
