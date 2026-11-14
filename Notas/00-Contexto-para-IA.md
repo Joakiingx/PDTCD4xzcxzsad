@@ -1,6 +1,6 @@
 # Guía para retomar el Proyecto de Título D4 con cualquier IA
 
-Joaquín Pinto y Kevin Leal · Programa INACAP–Collahuasi · Módulo 7. El D4 aborda la falta de monitoreo en línea de la posición del tripper de la correa 320CV025 en Puerto Patache. Lee primero [AGENTS.md](../AGENTS.md). Esta guía indica dónde buscar, cómo interpretar cada tipo de respaldo y dónde dejar constancia.
+Joaquín Pinto y Kevin Leal · Programa INACAP–Collahuasi · Módulo 7. El D4 aborda la falta de monitoreo en línea de la posición del tripper de la correa 320CV025 en Puerto Patache. Lee primero [AGENTS.md](../AGENTS.md). Consulta el [README](../README.md) para el estado vigente. Los aportes de Kevin se incorporan tras la revisión de Joaquín contra las fuentes del proyecto.
 
 ## Mapa de carpetas
 
@@ -8,7 +8,7 @@ Joaquín Pinto y Kevin Leal · Programa INACAP–Collahuasi · Módulo 7. El D4 
 | --- | --- | --- |
 | [README.md](../README.md) | Presentación y navegación general de la bóveda. | Úsalo para orientarte. Confirma el estado vigente con la pauta, la bitácora y los pendientes. |
 | [Notas/](.) | Conocimiento consolidado sobre diagnóstico, datos, requisitos, alternativas, DeltaV, validación, evaluaciones, pendientes y bitácora. | Entra por el tema de la tabla siguiente y rastrea afirmaciones hasta su fuente. |
-| [Estudios/](../Estudios/) | Preguntas de ingeniería y fichas de trabajo. Contiene el mapa EST-01 a EST-07, el estudio inicial de posicionamiento y la ficha de levantamiento. | Revisa qué verificación cierra cada rama. Un ID del mapa puede tener su investigación pendiente de desarrollar. |
+| [Estudios/](../Estudios/) | Preguntas de ingeniería y fichas de trabajo. Contiene el mapa de estudios, el trabajo preliminar de posicionamiento y la ficha de levantamiento. | Revisa qué verificación cierra cada rama. Un ID del mapa puede tener su investigación pendiente de desarrollar. |
 | [Analisis/D4/](../Analisis/D4/) | Script `recalcular-datos.mjs` para reproducir la revisión de los registros. | Lee [[24-Auditoria-de-datos-D4]] para conocer entradas, limpieza, salidas y límites antes de ejecutar o reutilizar resultados. |
 | [Evidencias/M7/](../Evidencias/M7/) | Expediente ES1 y materiales oficiales de Unidad 2. | Separa entregas históricas, pautas, plantillas, productos y evidencias de planta. |
 | [Evidencias/M7/Insumos/](../Evidencias/M7/Insumos/) | Referencias institucionales transversales. En `01-Gestion-de-riesgos/` está el manual de Collahuasi. | Registra identidad, versión y secciones verificadas en [[20-Referencias-de-modulos]]. Distingue metodología institucional de evidencia del tripper. |
@@ -115,4 +115,4 @@ Usa el identificador que ya corresponde al tema. Enlaza una nueva versión si ca
 
 ## Prompt breve para iniciar en otra IA
 
-> Trabaja como asistente de investigación y aprendizaje del Proyecto de Título D4 de Joaquín Pinto y Kevin Leal. Abre el repositorio privado `Joakiingx/proyecto-titulo-d4` en `main` o la bóveda local autorizada. Lee `AGENTS.md`, `Notas/00-Contexto-para-IA.md`, las últimas entradas de `Notas/12-Bitacora.md` y los pendientes relevantes. Si no tienes acceso, indícame qué archivos necesitas para el encargo concreto. Sigue el mapa de carpetas, aplica la auditoría integral del D4 y verifica las fuentes antes de reutilizar datos. Si hay algo que corregir, documéntalo en el registro de hallazgos y conserva intacta la evidencia. Explica qué encontraste, por qué importa, para qué sirve, qué queda por comprobar y cómo se comprobará. Trabaja dentro del alcance autorizado y deja un registro que otra IA o un integrante del equipo pueda continuar.
+> Trabaja como asistente de investigación y aprendizaje del Proyecto de Título D4 de Joaquín Pinto y Kevin Leal. Abre el repositorio público `Joakiingx/PDTCD4xzcxzsad` en `main` o la bóveda local autorizada. Consulta el README para el estado actual. Lee `AGENTS.md`, `Notas/00-Contexto-para-IA.md`, las últimas entradas de `Notas/12-Bitacora.md` y los pendientes relevantes. Si no tienes acceso, indícame qué archivos necesitas para el encargo concreto. Sigue el mapa de carpetas, aplica la auditoría integral del D4 y verifica las fuentes antes de reutilizar datos. Si hay algo que corregir, documéntalo en el registro de hallazgos y conserva intacta la evidencia. Explica qué encontraste, por qué importa, para qué sirve, qué queda por comprobar y cómo se comprobará. Trabaja dentro del alcance autorizado y deja un registro que otra IA o un integrante del equipo pueda continuar.

@@ -2,7 +2,7 @@
 
 Según la ficha D4, Sala de Control coordina con el operador de terreno cuando requiere cambiar de zona. El operador se desplaza a la parte superior del stockpile, verifica visualmente la posición y confirma o ejecuta el cambio. La ficha reporta 10–15 minutos por movimiento y describe el traslado como componente relevante de esa espera.
 
-La contraparte informó que el control existente usa Emerson DeltaV. La espera declarada, el movimiento físico del carro y la confirmación efectiva de zona deben poder distinguirse mediante marcas de tiempo comparables.
+En F02 la contraparte informó que el control existente usa Emerson DeltaV. Durante la visita del 1 de noviembre, el equipo vio al tripper descargando en un stockpile, según el relato de Joaquín. Esa observación corresponde a una descarga. La secuencia de cambio de zona sigue por documentar. [Registro de visita](13-Ficha-y-acta.md#visita-a-puerto-patache-del-01-11-2026) La espera declarada, el movimiento físico del carro y la confirmación efectiva de zona deben poder distinguirse mediante marcas de tiempo comparables.
 
 ## Lo que falta levantar
 

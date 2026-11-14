@@ -1,6 +1,6 @@
 # Evaluación 2 · Plan de diseño y validación D4
 
-**Estado al 10 de noviembre de 2026.** Pauta U2_A06, actividades U2_A02 a U2_A04 y anexos 11, 13, 14, 15, 16 y 19 disponibles. La pauta menciona U2_A05 y el Anexo 19 lo vincula a viabilidad y riesgos. La actividad específica, la fecha de entrega y la matriz institucional editable quedan por confirmar. Los productos D4 se encuentran en preparación. [Pauta U2_A06](../Evidencias/M7/Unidad-2/00-Evaluacion/U2_Evaluacion.pdf) · [[19-Registro-de-pendientes]]
+**Insumos académicos localizados.** Pauta U2_A06, actividades U2_A02 a U2_A04 y anexos 11, 13, 14, 15, 16 y 19 disponibles. La pauta menciona U2_A05 y el Anexo 19 lo vincula a viabilidad y riesgos. La actividad específica, la fecha de entrega y la matriz institucional editable quedan por confirmar. Los productos D4 se encuentran en preparación. [Pauta U2_A06](../Evidencias/M7/Unidad-2/00-Evaluacion/U2_Evaluacion.pdf) · [[19-Registro-de-pendientes]]
 
 ## Producto de esta etapa
 
@@ -20,6 +20,8 @@ Dossier grupal de diseño y validación, con requisitos, alternativas, arquitect
 Los frentes 1, 2 y el levantamiento de operación del frente 3 pueden avanzar en paralelo. El protocolo se puede redactar mientras se levantan insumos. La aceptación final y la estimación de montaje dependen de la configuración y de la evidencia que realmente se consiga. Las asignaciones de ES2 se acuerdan entre Joaquín y Kevin.
 
 ## Próximo producto de trabajo
+
+La revisión del 13 de noviembre prioriza respaldar la observación de la visita y recuperar la lámina asociada a las zonas. Con Operaciones se debe acordar si basta confirmar la zona al llegar antes de cerrar R01. RFID y radar quedan en reevaluación. [Fuentes de la visita y del plano](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano)
 
 Revisar el borrador v0.1 de la matriz del Anexo 11 en [[06-Requisitos]] y completar sus criterios con los pendientes de terreno. Comenzar por cobertura R01, integración R02 y señal válida R07, y conservar los requisitos operacionales de tiempo y exposición. Para cada criterio, registrar qué condición conocemos, qué valor falta acordar y con qué prueba sería defendible.
 

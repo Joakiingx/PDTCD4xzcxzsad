@@ -1,13 +1,13 @@
 # Desafío D4
 
-La correa 320CV025 descarga concentrado en dos stockpiles de Puerto Patache mediante un carro tripper. Sala de Control depende de una verificación presencial porque carece de una variable de posición en línea en el DCS Emerson DeltaV.
+La ficha F01 y el acta F02 describen la descarga de concentrado mediante el tripper de la correa 320CV025 en Puerto Patache. Según esos antecedentes, Sala de Control recurre a verificación presencial y el DCS Emerson DeltaV carece de una variable de posición en línea para el carro. [Fuentes F01 y F02](04-Evidencias-y-fuentes.md)
 
 | Elemento | Estado |
 | --- | --- |
-| Síntoma | Espera y desplazamiento del operador para confirmar la zona de descarga. |
-| Condición técnica | Falta de medición de posición integrada al DCS. |
-| Consecuencias | Demora operacional, indisponibilidad del operador para otras tareas y exposición durante sus ingresos de verificación. |
-| Alcance físico | Stockpiles 1 y 2, zonas Z1–Z35, nave de aproximadamente 200 m según contraparte. Recorrido real pendiente de plano. |
+| Síntoma | Espera y desplazamiento del operador para confirmar la zona de descarga, según F01. |
+| Condición técnica | Falta de una variable de posición en línea en el DCS, declarada en F02. |
+| Consecuencias reportadas | Demora operacional, indisponibilidad del operador para otras tareas y exposición durante sus ingresos de verificación, según F01. |
+| Alcance físico | Stockpiles 1 y 2 y zonas Z1–Z35 según F02. La extensión aproximada de la nave es un antecedente declarado. La elevación disponible aporta una cota nominal. Falta cotejar el recorrido real y las zonas. [Plano y procedencia](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión) |
 | Alcance funcional propuesto | Medición en línea y confirmación remota de zona. El mando se evalúa con DCS y Operaciones. |
 | Equipo | Joaquín Pinto y Kevin Leal. Daniela Guerra Sepúlveda es la contraparte técnica de Mantención E&I. |
 

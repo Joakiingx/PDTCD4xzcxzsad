@@ -2,10 +2,10 @@
 
 | ID | Qué obtener o decidir | Fuente o contraparte | Para qué se necesita |
 | --- | --- | --- | --- |
-| PEND-01 | Planta acotada Z1–Z35, extremos operativos y secciones. La elevación aporta 71,84 m de carrera nominal en REG-D4-005. | E&I y Operaciones. Verificar el plano vigente y su aplicación en terreno. | Cobertura, referencias y conversión a zona. |
+| PEND-01 | Localizar en el PPT mostrado por la tutora la lámina con Z1–Z35. Vincular la elevación existente con su origen y cotejar unidades, revisión y extremos operativos. | E&I y Operaciones. Verificar el plano vigente y su aplicación en terreno. | Cobertura, referencias y conversión a zona. |
 | PEND-02 | Identificación de la señal 320CV0251RUN y equipo que la origina. | DCS y Operaciones. | Interpretación de F04 y cruce con F03. |
 | PEND-03 | Filosofía de control, secuencia y permisivos actuales. | DCS. Solicitado por tutora el 23-10-2026. | Acotar confirmación y eventual mando. |
-| PEND-04 | Tipo de I/O libre, alimentación exacta, bornes y canalización. | E&I y DCS. | Elegir señal, alimentación y ruta fija compatibles. |
+| PEND-04 | Tipo de I/O libre, alimentación exacta, bornes y canalización. | E&I y DCS. | Elegir señal, alimentación y ruta de comunicación compatibles. |
 | PEND-05 | Medición antes de la propuesta. | Sala de Control y operador en terreno. | Separar caminata, verificación, traslación, confirmación y efecto sobre el flujo. |
 | PEND-06 | Desempeño de la configuración candidata con alcance real y diagnóstico de calidad. | Proveedor y E&I. | Revisar requisitos excluyentes y validar selección. |
 | PEND-07 | Identificar carro y componente rotulado encoder en las imágenes. | Mantención E&I. | Ubicación de montaje y compatibilidad de alternativas. |
@@ -20,7 +20,7 @@
 
 | ID | Avance y estado | Evidencia concreta que permitiría avanzar o cerrar |
 | --- | --- | --- |
-| PEND-01 | Carrera nominal leída. Geometría operativa abierta. | Plano vigente con cajetín, referencia cero, extremos, planta de zonas y cotas sensor–blanco por montaje. E&I y Operaciones. |
+| PEND-01 | El equipo tenía acceso al material del PPT. La elevación está identificada y queda por cotejar la lámina de zonas. | Lámina de zonas, referencias físicas, revisión, extremos vigentes y cotas de montaje cuando correspondan. E&I y Operaciones. |
 | PEND-02 | El plano contiene un identificador semejante al tag. La semántica del estado sigue abierta. | Nombre del módulo y definición de `320CV0251RUN`, más un evento de maniobra identificado por Operaciones. DCS. |
 | PEND-03 | Se separaron monitoreo, confirmación y mando. Falta la secuencia vigente. | Secuencia autorizada y descripción de permisivos, responsables y contingencia. DCS y Operaciones. |
 | PEND-04 | Contraste documental de rutas analógica y de datos en [[08-Arquitectura-DeltaV]]. | Modelo, versión, protocolo y rol habilitados, canal, bornes, alimentación y ruta. DCS y E&I. |
@@ -43,6 +43,16 @@ Se conservan abiertos PEND-01–11. No llegó nueva confirmación de faena ni co
 | PEND-12 | Cumplimiento RF de SKU, banda, potencia y modo para uso en Chile; aprobación interna del radioenlace si aplica | Proveedor/importador, DCS/OT y E&I | Documentación de la variante y requisitos SUBTEL aplicables. Habilita evaluar radar activo, RFID y puentes de radio sin inferir aprobación de CE/FCC. |
 | PEND-13 | Oferta y lista de materiales comparables por configuración | Proveedores y equipo, revisión E&I | Código completo, cantidad, moneda, condición, impuestos/logística, entrega, garantía, licencias, servicio y exclusiones; costo instalado por componentes. Precios públicos quedan como referencias. |
 | PEND-14 | Criterio funcional y metrológico de aceptación: continuo o por puntos, tolerancia de zona, latencia, antigüedad, disponibilidad y recuperación | Operaciones y DCS, con E&I | Acuerdo de magnitudes y estados; delimitar fase <2 min. Determina si discretos/RFID cumplen R01 y cómo se prueba R07. |
-| PEND-15 | Reglas y arquitectura OT efectivamente autorizadas | DCS/OT | Segmentación, protocolo/rol, puertos, accesos, cuentas, respaldos, sincronización y recuperación. Completa Anexo 14 y evita asumir compatibilidad por Ethernet. |
+| PEND-15 | Reglas y arquitectura OT efectivamente autorizadas | DCS/OT | Estado y función de la instalación inalámbrica mencionada en la visita. Confirmar con Mantención y DCS/OT si puede usarse para D4 y qué documentación de interfaz corresponde. Completa Anexo 14. |
 
 Las [26 preguntas precisas](../Estudios/00-Revision-integral-y-brechas-2026-11-10.md) indican destinatario, por qué se solicitan y qué evidencia cambia la decisión. La [matriz v02](../Estudios/EST-01-Matriz-de-soluciones-D4-v02.md) prioriza PEND-01/04/06 y los criterios de PEND-14 antes de ordenar candidatos. REG-D4-019.
+
+## Confirmaciones abiertas a partir de la visita
+
+| Prioridad | Qué confirmar | Qué evidencia sirve |
+| --- | --- | --- |
+| Plano y zonas · PEND-01 | ¿En qué lámina del PPT aparecen Z1–Z35 y con qué referencias físicas se pueden ubicar? | Nombre y número de lámina o captura legible. Cotejar su versión y vigencia con la contraparte. |
+| Evidencia visual · PEND-09 | ¿En qué foto o tramo de video se ve al tripper descargando durante la visita del 01-11-2026? | Nombre, minuto o imagen, descripción de lo visible y autorización de uso aplicable. |
+| Requisito de llegada · PEND-14 | ¿Basta mostrar la zona confirmada al llegar o hace falta conocer la posición durante el traslado? ¿Qué distingue una llegada de un simple paso? | Respuesta de Operaciones asociada a la secuencia real. |
+| Enlace inalámbrico · PEND-12/15 | ¿Qué función tiene la instalación, cuál es su estado y quién puede confirmar si está disponible para D4? | Confirmación de Mantención E&I y de DCS/OT, con el respaldo técnico que corresponda. |
+| Alternativas · PEND-06/13 | ¿Qué datos de terreno, pruebas y costos comparables permitirán evaluar RFID y radar frente al mismo requisito? | Lámina operativa, aceptación de Operaciones, antecedentes de montaje y oferta con configuración identificada. |

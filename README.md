@@ -2,34 +2,25 @@
 
 Joaquín Pinto y Kevin Leal · Programa INACAP–Collahuasi · Módulo 7
 
-## Qué problema estamos resolviendo
+El proyecto estudia cómo confirmar desde Sala de Control la zona de descarga del tripper de la correa 320CV025 en Puerto Patache. La ficha del desafío describe una verificación presencial. El diseño académico para ES2 parte de esa condición. [Desafío D4](Notas/01-Desafio-D4.md) · [Operación descrita en la ficha](Notas/02-Operacion-actual.md)
 
-El carro tripper de la correa 320CV025 distribuye concentrado entre zonas de descarga en Puerto Patache. Sala de Control depende de una verificación presencial para confirmar la zona. La propuesta busca llevar información válida de posición o zona a Emerson DeltaV para **monitorear y confirmar a distancia**. El alcance base es de supervisión. Un eventual mando y sus permisivos quedan sujetos a acuerdo con Operaciones y DCS. [Desafío](Notas/01-Desafio-D4.md) · [Operación actual](Notas/02-Operacion-actual.md)
+## Estado al 13 de noviembre de 2026
 
-## Qué tenemos, qué haremos y qué viene después
-
-| Momento | Estado y próximo resultado | Dónde seguir |
+| Antecedente | Qué podemos afirmar | Qué falta |
 | --- | --- | --- |
-| **Ya tenemos · Diagnóstico ES1** | Expediente histórico, ficha, acta, registros originales y auditoría reproducible. La serie horaria permite identificar 78 cambios observados durante un período de 33 jornadas. Los 10–15 minutos por maniobra son un antecedente declarado. | [Expediente ES1](Notas/14-Expediente-ES1.md) · [Auditoría](Notas/24-Auditoria-de-datos-D4.md) |
-| **Ya tenemos · Punto de partida ES2** | Pauta U2_A06, tres actividades formativas localizadas, seis anexos de apoyo, manual de riesgos incorporado y estudios iniciales. El plano aporta 71,84 m de carrera nominal dibujada. Las configuraciones estudiadas y el encoder de bodega son candidatos. | [Plan ES2](Notas/10-Evaluacion-2.md) · [Mapa de estudios](Estudios/00-Mapa-de-estudios.md) · [Bitácora](Notas/12-Bitacora.md) |
-| **Haremos ahora · Diseño y validación académica** | Convertir el diagnóstico en requisitos verificables, comparar familias y la continuidad sin intervención, definir arquitectura y modo degradado, documentar validación, riesgos, recursos y plan. Quedan por levantar zonas y geometría efectiva, secuencia de operación, señales y canal disponible en DeltaV. | [Entregables y secuencia de ES2](Notas/10-Evaluacion-2.md) · [Verificaciones pendientes](Notas/19-Registro-de-pendientes.md) |
-| **Haremos después · Defensa y factibilidad** | Consolidar una decisión defendible por ambos integrantes. Si se autoriza avanzar hacia un piloto o implementación, verificar el montaje, el desempeño en terreno y la integración antes de comprometer operación. | [Preparación de defensa](Notas/11-Defensa-ES3.md) · [Validación](Notas/09-Validacion.md) |
+| Visita del 01-11-2026 | Según el relato de Joaquín, el equipo observó al tripper descargando concentrado en un stockpile. Hay fotos y videos de la visita. | Vincular esa observación con el archivo y momento que la muestren. [Evidencia visual](Notas/05-Evidencia-visual.md) |
+| Plano | La tutora mostró un PPT con un plano en la primera reunión, según el equipo. La elevación disponible muestra la cota «71840 TRAVEL», equivalente a 71,84 m si las unidades son milímetros. | Recuperar la lámina completa y cotejar revisión, unidades, extremos operativos y rotulado de zonas Z1–Z35. [Fuentes](Notas/04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano) |
+| Antena | Durante la visita, Mantención E&I informó una instalación inalámbrica en curso cerca del tripper y mencionó un posible uso para enviar señales. | Confirmar función, estado y posibilidad de uso para D4 con Mantención y DCS. [Antecedentes](Notas/13-Ficha-y-acta.md#visita-a-puerto-patache-del-01-11-2026) |
+| Alternativas | Mantención E&I recomendó reevaluar RFID junto con radar. Joaquín propone estudiar etiquetas por zona y confirmar al llegar. | Acordar con Operaciones qué se necesita informar durante el traslado y cómo se confirma la llegada. [Alternativas](Notas/07-Alternativas.md) |
 
-## Dónde encontrar cada parte
+La línea base conserva las cifras reproducibles de F03 y F04 con sus límites. Los tiempos de maniobra y caudales son antecedentes declarados. Los valores de tonelaje dependen de los supuestos de cálculo. [Línea base](Notas/03-Linea-base.md) · [Auditoría de datos](Notas/24-Auditoria-de-datos-D4.md)
 
-| Necesito… | Abro… |
-| --- | --- |
-| Retomar el proyecto con una IA | [Guía y prompt detallado](Notas/00-Contexto-para-IA.md) y [reglas de trabajo](AGENTS.md). |
-| Ver qué aprendimos y qué cambió | [Bitácora](Notas/12-Bitacora.md). |
-| Ver insumos y respaldos | [Índice de evidencias](Notas/04-Evidencias-y-fuentes.md), [referencias del programa](Notas/20-Referencias-de-modulos.md) y [carpetas del M7](Evidencias/M7/). |
-| Reproducir cálculos y gráficos | [Auditoría](Notas/24-Auditoria-de-datos-D4.md), [script de recálculo](Analisis/D4/recalcular-datos.mjs) y [memoria de impacto](Notas/17-Memoria-de-impacto.md). |
-| Investigar una decisión de ingeniería | [Mapa de estudios](Estudios/00-Mapa-de-estudios.md), [requisitos](Notas/06-Requisitos.md), [alternativas](Notas/07-Alternativas.md) y [arquitectura DeltaV](Notas/08-Arquitectura-DeltaV.md). |
-| Preparar la evaluación | [Plan de ES2](Notas/10-Evaluacion-2.md), [pauta U2_A06](Evidencias/M7/Unidad-2/00-Evaluacion/U2_Evaluacion.pdf) y [carpetas de Unidad 2](Evidencias/M7/Unidad-2/). |
+## Trabajo de ES2
 
-La bitácora conserva el historial. Los pendientes indican qué falta verificar. El plan ES2 define el trabajo de la etapa. Para sincronizar la bóveda y consultar respaldos locales, abre la [guía de Obsidian y GitHub](Notas/22-Configuracion-Obsidian-y-GitHub.md).
+1. Vincular observaciones y datos a su evidencia y completar los pendientes que cambian la propuesta.
+2. Acordar qué debe confirmar Sala de Control y comparar RFID con radar a partir de ese criterio.
+3. Definir integración y pruebas cuando se cuente con las condiciones de campo y los requisitos acordados.
 
-## Investigación y comparación actualizadas · 10-11-2026
+Kevin desarrolla aportes. Joaquín los revisa con la evidencia y los integra a la versión del equipo. La bitácora registra qué se incorporó y con qué respaldo. [Guía de trabajo](AGENTS.md) · [Bitácora](Notas/12-Bitacora.md)
 
-Comenzar por la [revisión integral y brechas](Estudios/00-Revision-integral-y-brechas-2026-11-10.md). Reúne qué se revisó, qué falta, explicaciones para el equipo y 26 preguntas para solicitar evidencia. La [matriz v02](Estudios/EST-01-Matriz-de-soluciones-D4-v02.md) compara 13 escenarios/configuraciones y el [catálogo](Estudios/EST-01-Catalogo-y-precios-2026-11-10.md) conserva modelos, precios publicados y sus límites.
-
-Los originales de ES1 permanecen como respaldo. [Hallazgos](Notas/25-Registro-de-hallazgos-de-revision.md) indica qué debe revisar el equipo; [bitácora](Notas/12-Bitacora.md) registra REG-D4-016–019. La selección comercial y las validaciones de faena siguen abiertas.
+[Fuentes](Notas/04-Evidencias-y-fuentes.md) · [Pendientes](Notas/19-Registro-de-pendientes.md) · [Hallazgos](Notas/25-Registro-de-hallazgos-de-revision.md) · [Plan ES2](Notas/10-Evaluacion-2.md) · [Obsidian y GitHub](Notas/22-Configuracion-Obsidian-y-GitHub.md)

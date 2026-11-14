@@ -1,10 +1,10 @@
 # Instrucciones para asistentes del Proyecto de Título D4
 
-Actúa como asistente de investigación, ingeniería y aprendizaje de Joaquín Pinto y Kevin Leal. El proyecto del Módulo 7 INACAP–Collahuasi estudia el monitoreo y la confirmación remota de la posición del carro tripper de la correa 320CV025 en Puerto Patache. Cada avance debe ayudar al equipo a explicar qué se comprobó, por qué importa y para qué se usará.
+Actúa como asistente de investigación, ingeniería y aprendizaje de Joaquín Pinto y Kevin Leal. Kevin desarrolla aportes y Joaquín los contrasta con las fuentes para incorporarlos a la versión del equipo. El proyecto del Módulo 7 INACAP–Collahuasi estudia el monitoreo y la confirmación remota de la posición del carro tripper de la correa 320CV025 en Puerto Patache. Cada avance debe ayudar al equipo a explicar qué se comprobó, por qué importa y para qué se usará.
 
 ## Antes de trabajar
 
-1. Lee [00-Contexto-para-IA](Notas/00-Contexto-para-IA.md) para identificar las carpetas, fuentes y ruta de trabajo. Revisa las últimas entradas de la [bitácora](Notas/12-Bitacora.md) y los [pendientes](Notas/19-Registro-de-pendientes.md) relacionados con la tarea.
+1. Lee el [README](README.md) para conocer el estado vigente y [00-Contexto-para-IA](Notas/00-Contexto-para-IA.md) para identificar las carpetas, fuentes y ruta de trabajo. Revisa las últimas entradas de la [bitácora](Notas/12-Bitacora.md) y los [pendientes](Notas/19-Registro-de-pendientes.md) relacionados con la tarea.
 2. Usa el [índice de evidencias](Notas/04-Evidencias-y-fuentes.md) para seguir los respaldos. Para la revisión integral aplica la sección de auditoría y deja constancia de su cobertura. Para un cálculo, consulta primero la [auditoría de datos](Notas/24-Auditoria-de-datos-D4.md). Para una entrega académica, consulta la pauta de esa evaluación.
 3. Determina qué pidió el equipo, qué puede resolverse con las fuentes disponibles y qué verificación cambiaría la decisión. Si careces de acceso a una fuente, identifica su ruta o nombre exacto. Continúa con lo sustentado y señala el dato que queda abierto.
 
@@ -30,7 +30,7 @@ Toda IA con acceso al D4 debe revisar la propuesta completa y los archivos e inf
 
 ## Al registrar o modificar
 
-- Incluye una entrada en la [bitácora](Notas/12-Bitacora.md) en el mismo cambio autorizado que modifique el repositorio. Asigna un identificador `REG-D4-NNN` consecutivo e indica fecha, aporte, archivos afectados, qué cambió y por qué, evidencia, estado, consecuencia y siguiente paso. Registra también los avances relevantes de investigación. Conserva el historial y enlaza la entrada que corrige una conclusión. Si la sesión es de solo lectura, entrega la entrada lista para copiar.
+- Añade al mismo cambio una entrada breve en la [bitácora](Notas/12-Bitacora.md) con ID REG-D4, fecha, qué se incorporó, fuente y qué queda pendiente. Cuando una conclusión cambia, enlaza su respaldo.
 - Usa la nota técnica correspondiente para el detalle y [pendientes](Notas/19-Registro-de-pendientes.md) para el estado de las verificaciones, dentro del alcance autorizado. Registra los acuerdos con fecha, responsable, respaldo y consecuencia. Antes de editar el repositorio, verifica el alcance de la autorización y la versión vigente.
-- Mantén los originales, planos, fotos, videos, planillas y datos personales en el entorno autorizado por el equipo. En GitHub conserva notas y referencias, y usa la carpeta de evidencias para respaldos ya autorizados. Confirma qué material puede salir del equipo o mostrarse al comité.
+- Mantén los originales, planos, fotos, videos, planillas y datos personales en el entorno autorizado por el equipo. El repositorio actual es público. Usa la carpeta de evidencias para respaldos habilitados para difusión pública y la bóveda local autorizada para material de circulación interna. Confirma qué material puede salir del equipo o mostrarse al comité.
 - Al cerrar, resume qué aprendimos, qué cambia en el proyecto, qué queda pendiente y dónde se registró. Declara las limitaciones y los supuestos que afectan el resultado.

@@ -18,7 +18,7 @@ El expediente original está en `Evidencias/M7/Propuesta de solución M7/`. Las 
 | D07 | [03 Datos trabajados/Analisis_Linea_Base_Posicion_Tripper_y_Correa.docx](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/03%20Datos%20trabajados/Analisis_Linea_Base_Posicion_Tripper_y_Correa.docx) | Análisis del equipo. Conserva D3 en el encabezado. |
 | D08 | [04 Calculos/Memoria_Calculos_Tonelaje_Diferido_D4.docx](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/04%20Calculos/Memoria_Calculos_Tonelaje_Diferido_D4.docx) | Cálculos por flujo, antecedentes declarados y verificaciones pendientes. |
 | D09 | [07 Registros del equipo/Registro_Equipo_Distribucion_y_Acuerdos_D3.docx](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/07%20Registros%20del%20equipo/Registro_Equipo_Distribucion_y_Acuerdos_D3.docx) | Distribución histórica de aportes de Joaquín y Kevin. |
-| V01–V03, P01–P03 | `05 Figuras/` | Fotos y videos de la visita. Ver inventario visual. |
+| V01–V03, P01–P03 | `05 Figuras/` | Fotos y videos inventariados. Falta asociar el archivo y momento específicos con la descarga observada en la visita F06. |
 
 Los módulos 2, 3 y 6 quedan como referencias de procedimiento, análisis causal y definición de indicadores. El caso AMAP del Módulo 6 y los ejercicios didácticos del Módulo 3 se registran como material formativo.
 
@@ -46,3 +46,10 @@ Las figuras son representaciones del equipo. Las cifras y componentes de diseño
 El [catálogo técnico](../Estudios/EST-01-Catalogo-y-precios-2026-11-10.md) conserva WEB26-01–32 con enlaces, fecha de consulta, modelo, uso y limitación. Sus precios PR-01–13 identifican condición, vendedor, moneda y componentes excluidos. La publicación comercial respalda el precio anunciado; no equivale a cotización de un sistema aceptado para D4.
 
 La [matriz v02](../Estudios/EST-01-Matriz-de-soluciones-D4-v02.md) relaciona esas fuentes con configuraciones y pruebas. El [inventario de revisión](../Analisis/D4/Inventario-revision-2026-11-10.csv) identifica SHA, tamaño y cobertura de los 86 archivos de la base f012d9b. La [revisión integral](../Estudios/00-Revision-integral-y-brechas-2026-11-10.md) distingue lectura directa, extracción textual, revisión previa y acceso pendiente. Registro AUD-D4-002; REG-D4-016–019.
+
+## Antecedentes de la visita y del plano
+
+| ID | Fuente y acceso | Qué respalda |
+| --- | --- | --- |
+| F06 | Relato de Joaquín comunicado al revisar el repositorio el 13-11-2026. [Nota de visita](13-Ficha-y-acta.md#visita-a-puerto-patache-del-01-11-2026). | Fecha de visita y observación directa de una descarga según un integrante. También registra lo que el equipo recibió verbalmente de Mantención E&I sobre la antena y las alternativas. Sigue pendiente asociar los respaldos audiovisuales o escritos. |
+| F07 | Captura ampliada compartida por Joaquín el 13-11-2026, atribuida por el equipo al PPT que mostró la tutora en la primera reunión. [Elevación del repositorio](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/05%20Figuras/planos%20tripper.png). | Permite localizar la cota longitudinal de traslación mediante la vista ampliada. Falta registrar el nombre del PPT, el número de lámina, la revisión del plano y la vista que identifica las zonas. |

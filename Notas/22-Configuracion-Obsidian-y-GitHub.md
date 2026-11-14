@@ -1,25 +1,21 @@
 # Configuración de Obsidian y GitHub
 
-La carpeta clonada del repositorio privado es la bóveda sincronizada. En Windows, desde PowerShell ejecuta:
+Abre la carpeta clonada de [Joakiingx/PDTCD4xzcxzsad](https://github.com/Joakiingx/PDTCD4xzcxzsad) en Obsidian con **Abrir carpeta como bóveda**. La misma carpeta sirve como espacio de trabajo para una IA con acceso local. Si necesitas una copia nueva, puedes usar **File → Clone Repository → URL** en GitHub Desktop o ejecutar desde la carpeta elegida:
 
 ```powershell
-Set-Location "$env:USERPROFILE\Documents\GitHub"
-git clone https://github.com/Joakiingx/proyecto-titulo-d4.git
+git clone https://github.com/Joakiingx/PDTCD4xzcxzsad.git
 ```
 
-Si tu carpeta de trabajo es otra, ejecuta el clon desde esa carpeta. Git puede abrir el inicio de sesión de GitHub. Después, en Obsidian selecciona **Abrir carpeta como bóveda** y elige la nueva carpeta `proyecto-titulo-d4`. Abre [README](../README.md) o [[00-Contexto-para-IA]] para navegar.
+Trabaja desde el [README](../README.md) y consulta la [guía para IA](00-Contexto-para-IA.md) cuando necesites retomar un tema. Si tu carpeta local conserva un clon anterior, comprueba qué dirección muestra GitHub Desktop para el remoto antes de sincronizar.
 
-La carpeta original del ZIP puede mantenerse como copia local. Para conservar sus ajustes, cierra ambas bóvedas y copia la carpeta oculta `.obsidian` de la bóveda anterior a la clonada antes de abrirla de nuevo. Si la bóveda anterior contiene notas propias, copia únicamente esas notas después de revisar sus nombres.
+## Aportes del equipo
 
-## Sincronización habitual
+Kevin puede preparar un aporte con su IA en la carpeta clonada y enviarlo a Joaquín con la fuente o evidencia. Una rama y un pull request sirven para compartir cambios de varios archivos. Joaquín contrasta el aporte con el repositorio y lo incorpora a la versión del equipo. Registra lo incorporado en la [bitácora](12-Bitacora.md).
 
-En Obsidian de escritorio, entra a **Ajustes → Plugins de la comunidad → Explorar**, busca **Git** de Vinzent, instálalo y actívalo si quieres sincronizar dentro de Obsidian. En Windows este complemento utiliza la instalación de Git del equipo. Desde la paleta de comandos, usa **Git: Pull** antes de empezar y **Git: Commit-and-sync** al cerrar una sesión de trabajo. Mantén el remoto `origin` que configuró el clon. Empieza con sincronización manual mientras el equipo adopta el flujo.
+Antes de trabajar en GitHub Desktop, selecciona la rama correspondiente y usa **Fetch origin** y, cuando aparezca, **Pull origin**. Para la sincronización habitual basta GitHub Desktop. El plugin Git de Obsidian es opcional. Su pull periódico actualiza la rama abierta, por lo que conviene usarlo solo si prefieres esa forma de sincronización. [Sincronizar ramas](https://docs.github.com/en/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/syncing-your-branch-in-github-desktop) · [Plugin Git de Obsidian](https://publish.obsidian.md/git-doc/Installation)
 
-- [Instalación de Git para Obsidian](https://publish.obsidian.md/git-doc/Installation)
-- [Uso con un repositorio existente](https://publish.obsidian.md/git-doc/Getting%20Started)
+## Dónde guardar planos y material de la visita
 
-## Adjuntos locales y sesiones de IA
-
-El repositorio contiene notas, tablas derivadas, referencias y enlaces públicos. Para conservar los originales disponibles desde la bóveda local, puedes copiar la estructura `Propuesta de solución M7` bajo `Evidencias-locales/`. La regla de Git excluye esa carpeta completa y las extensiones comunes de archivos originales. Respeta los permisos aplicables a los datos de faena.
-
-Un asistente con acceso al repositorio privado puede leer la memoria de trabajo desde GitHub. Un asistente que opera sobre la bóveda clonada puede leer los originales si están presentes en `Evidencias-locales/` y la sesión tiene acceso a esa carpeta. Para iniciar una sesión, comparte el nombre del repositorio y la ruta de la nota [[00-Contexto-para-IA]].
+- **Copias autorizadas para difusión pública.** En `Evidencias/M7/Propuesta de solución M7/05 Figuras/` registra fotos, videos o láminas de referencia. Conserva el nombre original o registra su correspondencia en el índice.
+- **Respaldos de circulación interna.** Usa la ruta local `Evidencias-locales/`, excluida por la configuración de Git, o el medio autorizado del equipo. En la nota pública registra la existencia del respaldo y qué dato se puede citar.
+- **Referencia.** Anota fecha de visita, archivo, minuto o número de lámina, qué se ve y de quién proviene. Reutiliza los identificadores existentes cuando el archivo ya esté en el inventario. [Inventario visual](05-Evidencia-visual.md) · [Índice de fuentes](04-Evidencias-y-fuentes.md)

@@ -24,7 +24,7 @@ Asigna `REV-D4-NNN` y anota fecha, auditoría relacionada, archivo y ubicación 
 
 ## AUD-D4-001 · 2026-11-10 · Primera pasada parcial
 
-Revisión asistida por IA sobre la [versión base de GitHub](https://github.com/Joakiingx/proyecto-titulo-d4/tree/c04874b4e3fc1268c30bddcf69d23394046f66a8). Inventario de 85 archivos versionados, incluidos cinco marcadores de carpeta. El inventario acredita presencia. Las comprobaciones realizadas se describen abajo.
+Revisión asistida por IA sobre la [versión base de GitHub](https://github.com/Joakiingx/PDTCD4xzcxzsad/tree/c04874b4e3fc1268c30bddcf69d23394046f66a8). Inventario de 85 archivos versionados, incluidos cinco marcadores de carpeta. El inventario acredita presencia. Las comprobaciones realizadas se describen abajo.
 
 | Alcance exacto | Comprobación | Resultado |
 | --- | --- | --- |
@@ -41,7 +41,7 @@ Revisión asistida por IA sobre la [versión base de GitHub](https://github.com/
 
 ## AUD-D4-002 · 2026-11-10 · Contraste de originales, figuras y configuraciones
 
-Revisión asistida por IA solicitada por Joaquín. Base [f012d9b](https://github.com/Joakiingx/proyecto-titulo-d4/tree/f012d9bfb6aac21b22fab6c44c9cc438e31b92b9). Se inventariaron 86 archivos con SHA/tamaño. El [CSV por archivo](../Analisis/D4/Inventario-revision-2026-11-10.csv) y la [revisión integral](../Estudios/00-Revision-integral-y-brechas-2026-11-10.md) delimitan cobertura. La auditoría integral permanece **parcial**.
+Revisión asistida por IA solicitada por Joaquín. Base [f012d9b](https://github.com/Joakiingx/PDTCD4xzcxzsad/tree/f012d9bfb6aac21b22fab6c44c9cc438e31b92b9). Se inventariaron 86 archivos con SHA/tamaño. El [CSV por archivo](../Analisis/D4/Inventario-revision-2026-11-10.csv) y la [revisión integral](../Estudios/00-Revision-integral-y-brechas-2026-11-10.md) delimitan cobertura. La auditoría integral permanece **parcial**.
 
 | Bloque | Comprobación efectiva | Resultado y límite |
 | --- | --- | --- |
@@ -69,3 +69,18 @@ Las observaciones siguientes se dejan **por revisar**. La solicitud actual autor
 | REV-D4-007 · Por revisar | Meta <2 min por maniobra y apoyo en microciclos F04 de ~18 s | Recuento original: 48/224 tramos completos FUNCIONANDO duran al menos 120 s; semántica del tag y relación maniobra–tramo pendientes | Si el tag fuera traslación y la meta incluyera todo el movimiento, hay casos por explicar. No refuta la meta sin identificar el tag, ni prueba que un sensor reduzca velocidad mecánica. Delimitar fase, medir trayecto y confirmar PEND-02/05/14. |
 
 No se cerró ningún REV por esta actualización. Para cada cierre conservar responsable, decisión y evidencia. Ver [matriz v02](../Estudios/EST-01-Matriz-de-soluciones-D4-v02.md), [catálogo](../Estudios/EST-01-Catalogo-y-precios-2026-11-10.md) y REG-D4-016–019.
+
+## AUD-D4-003 · Revisión de trazabilidad del 13-11-2026
+
+Base [4358538](https://github.com/Joakiingx/PDTCD4xzcxzsad/tree/4358538e063b3c791c46045d492de0f744aaf655). Se localizaron 90 archivos y se recorrieron 35 notas Markdown para identificar afirmaciones, repeticiones y referencias. Se leyó la ficha y el acta, se revisó texto o celdas de 14 documentos adicionales y se contrastaron la elevación versionada y la captura ampliada. El recálculo desde F03/F04 reprodujo los cinco CSV analíticos, comparando el contenido con finales de línea normalizados. La lámina de zonas, el minuto de la descarga, los binarios de dossier y presentación, los PDF, los videos y la comprobación de cada ficha comercial quedan fuera del cierre de esta ronda.
+
+| Afirmación revisada | Corrección aplicada a las notas de trabajo | Qué queda por confirmar |
+| --- | --- | --- |
+| Plano tratado como ausente. Uso de 200 m como ejemplo de carrera y de 71,84 m como cota de referencia. REV-D4-001/002. | Se identificó la elevación disponible como F07. Se retiró del estudio el ejemplo de 200 m como carrera y se documentó «71840 TRAVEL» con su condición de unidades. Las posiciones de montaje de la matriz v02 quedan identificadas como cálculos condicionados. La estimación visual anterior del ancho de base se conserva en el historial como estimación. | Lámina del PPT con zonas, unidades, revisión, extremos operativos y geometría de montaje. |
+| Ruta fija, prioridad del radar y cobertura durante todo el recorrido como orientación activa. | Se registró la declaración verbal de instalación inalámbrica y la reevaluación de RFID y radar. R01 y arquitectura muestran por separado la necesidad operativa y la ruta que falta comprobar. | Criterio de llegada/tránsito con Operaciones y disponibilidad de la instalación con Mantención y DCS. |
+| Fecha de visita y acción observada sin referencia en el resumen vigente. | Se registró el 01-11-2026 y la observación de una descarga como relato del equipo. Las fechas en nombres de archivos se usan para localizarlos. | Archivo, foto o marca de video que permita cotejar la acción. |
+| Reutilización de 78 cambios como maniobras, de estados RUN como traslación o de tonelaje calculado como pérdida. DAT-05/08/10/11 y REV-D4-007. | Se recalcó la base y se explicitó que F03 cuenta diferencias horarias y F04 describe estados de una señal. Los tiempos declarados y el cálculo de capacidad diferida mantienen sus fuentes y condiciones. | Identidad del tag, marcas de una maniobra real, interrupción efectiva del flujo y confirmación de la fecha anómala de F03. |
+| Puntajes, horas y costos de ES1 y configuraciones comerciales preliminares. REV-D4-002/003/004. | Las notas vigentes remiten a esos valores como antecedentes fechados. Comparar propuestas a partir de requisitos y evidencia aplicable antes de puntuar. | Configuraciones exactas, prueba, cotización y plan de montaje. |
+| URL y visibilidad anteriores, y pauta ES2 marcada como pendiente en la revisión histórica. | Se actualizó la guía de acceso al repo público y la referencia a U2_A06 disponible. | Permiso de difusión para cualquier nuevo respaldo y pendientes académicos de PEND-08. |
+
+La bitácora [REG-D4-020](12-Bitacora.md#reg-d4-020--2026-11-13--trazabilidad-de-la-visita-y-base-del-diseño) registra los cambios. Los hallazgos que dependen de terreno permanecen abiertos.

@@ -1,13 +1,10 @@
 # Evidencias del Módulo 7
 
-Copia aquí los archivos de la carpeta original `Propuesta de solución M7` que estén autorizados para el repositorio privado. Conserva las subcarpetas y los nombres de archivo para mantener la trazabilidad.
+Este repositorio es público. Incorpora aquí las copias autorizadas para difusión pública. Para fotos, videos, planos o material de faena de circulación interna, usa `Evidencias-locales/` en la raíz de la bóveda o el medio autorizado. Consulta el [índice de fuentes](../../Notas/04-Evidencias-y-fuentes.md) para registrar su referencia.
 
-- `01 Antecedentes`
-- `02 Datos originales`
-- `03 Datos trabajados`
-- `04 Calculos`
-- `05 Figuras`
-- `06 Dossier`
-- `07 Registros del equipo`
+Dentro de `Propuesta de solución M7/`:
 
-Consulta el [índice de fuentes](../../Notas/04-Evidencias-y-fuentes.md) para identificar cada respaldo. `Evidencias-locales/`, en la raíz de la bóveda, es la ruta para archivos de consulta local.
+- `01 Antecedentes` reúne fichas, actas y antecedentes de reuniones.
+- `02 Datos originales`, `03 Datos trabajados` y `04 Calculos` reúnen datos y cálculos con sus versiones.
+- `05 Figuras` reúne imágenes, planos y videos.
+- `06 Dossier` y `07 Registros del equipo` reúnen los entregables y registros históricos.

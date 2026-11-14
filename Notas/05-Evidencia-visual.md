@@ -1,6 +1,6 @@
 # Evidencia visual de terreno
 
-Inventario de la carpeta local `Propuesta de solución M7/05 Figuras`. Revisión de nueve fotos y cinco fotogramas distribuidos por cada uno de los tres videos.
+Inventario de `Propuesta de solución M7/05 Figuras` preparado en una revisión anterior de fotos y fotogramas. Joaquín sitúa la visita el **1 de noviembre de 2026** y recuerda que el equipo vio al tripper descargar concentrado en un stockpile. Falta localizar el archivo y el minuto donde se aprecia esa descarga. La fecha de la visita proviene de su relato. Los nombres de los archivos sirven para localizarlos. [Registro F06](13-Ficha-y-acta.md#visita-a-puerto-patache-del-01-11-2026)
 
 | ID | Archivo o grupo | Observación |
 | --- | --- | --- |
@@ -33,3 +33,9 @@ Inventario de la carpeta local `Propuesta de solución M7/05 Figuras`. Revisión
 | `WhatsApp Image 2026-11-09 at 20.57.14.jpeg` | Vista de conjunto con estructura de transporte, material y participantes. |
 
 La revisión visual sustenta el levantamiento cualitativo de accesos y posibles obstrucciones. Para medir distancias, identificar activos o seleccionar puntos de montaje, usa planos y levantamiento validados.
+
+## Plano mostrado en la primera reunión
+
+El equipo recuerda que la tutora mostró en un PPT el material de referencia para las zonas. En el repositorio existe una captura de la elevación longitudinal. La captura ampliada aportada durante esta revisión deja leer «71840 TRAVEL». Su equivalencia de **71,84 m** resulta de interpretar esa cota en milímetros. Los círculos numerados del 1 al 18 identifican ejes del dibujo. La vista compartida requiere una lámina adicional o más información para relacionar los límites y las referencias de descarga Z1–Z35.
+
+Para identificar el respaldo en el índice, registrar nombre del PPT, lámina y versión si constan. Para cada foto o video, registrar fecha de visita, nombre de archivo y qué se aprecia. Si muestra un movimiento o descarga, anotar el tramo de tiempo. Usar la ruta de evidencias de faena que corresponda al permiso de difusión. [Fuentes F06 y F07](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano) · [Ubicación de respaldos](22-Configuracion-Obsidian-y-GitHub.md)

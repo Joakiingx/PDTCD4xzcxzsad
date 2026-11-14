@@ -1,6 +1,8 @@
 # Matriz de soluciones D4 · v02
 **Fecha:** 10-11-2026. **Estado:** comparación documental de trabajo para ES2; selección e implementación pendientes. **Autorización:** solicitud de Joaquín de ampliar investigación y mejorar la matriz. Registro REG-D4-018.
 
+**Contexto de vigencia.** La lista corta de la sección 6 registra la prioridad de investigación del 10-11-2026. Para el trabajo actual, la reevaluación de RFID y radar depende del criterio de confirmación que se acuerde con Operaciones. Las distancias de montaje de la sección 2 son cálculos geométricos condicionados. [Alternativas en revisión](../Notas/07-Alternativas.md)
+
 Esta matriz se usa junto al [catálogo y precios](EST-01-Catalogo-y-precios-2026-11-10.md), que identifica fabricantes, vendedores, condiciones y fuentes WEB26. Conserva como antecedente la [matriz histórica ES1](../Notas/21-Matriz-historica-de-alternativas.md). Los documentos, Excel y figuras originales permanecen intactos. Las observaciones a ese material están en [hallazgos](../Notas/25-Registro-de-hallazgos-de-revision.md).
 
 ## 1. Decisión que debemos preparar
@@ -115,6 +117,8 @@ No ordenar esta tabla por monto como si representara CAPEX equivalente. No reuti
 La falla de un láser anterior documenta una experiencia de faena. No demuestra que todo sensor óptico protegido sea imposible. Si se estudia alguno, debe justificar protección y mantenimiento frente a esa experiencia. WCS se examina con su principio real y una trayectoria óptica distinta de un telémetro a larga distancia.
 
 ## 6. Lista corta recomendada para la próxima investigación
+
+Prioridad provisional registrada el 10-11-2026. El enfoque actual se consulta en [Alternativas](../Notas/07-Alternativas.md).
 
 1. **C01 y C02: consulta técnica de medición fija con reflector.** Es la ruta con menor dependencia de energía y transmisión de datos en el carro. SAG aporta una ficha numérica concreta; Indurad debe responder con variante largo alcance y configuración completa. Estudiar ambos permite comparar servicio, interfaces y costo con el mismo caso.
 2. **C03: alternativa activa de contraste.** Mantenerla como referencia de alcance y robustez de intercambio entre unidades; resolver potencia móvil y oferta del par antes de considerarla económicamente viable.

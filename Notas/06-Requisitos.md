@@ -2,7 +2,7 @@
 
 | ID | Requisito o meta | Fuente o estado |
 | --- | --- | --- |
-| R01 | Determinar posición o zona en todo el recorrido operativo acordado, incluyendo extremos. | Plano Z1–Z35 y recorrido real pendientes. |
+| R01 | Identificar la zona de descarga según el criterio que acuerde Operaciones. | Joaquín propone confirmar al llegar. Falta acordar si se exige información durante el traslado y cotejar los límites de zona. [Antecedente F06](13-Ficha-y-acta.md#visita-a-puerto-patache-del-01-11-2026) |
 | R02 | Integrar la posición a Emerson DeltaV con señal válida y diagnóstico disponible para Sala de Control. | I/O disponibles en Sala Eléctrica, F05. Tipo de canal y protocolo por levantar. |
 | R03 | Prescindir de hilos de reserva del festón existente. | Restricción confirmada en F05. |
 | R04 | Evaluar desempeño con polvo, humedad, calor y geometría de la nave. | F01–F02 y evidencia visual. Criterios de prueba por acordar. |
@@ -16,7 +16,7 @@
 
 Se excluyen cambios estructurales mayores, reemplazo de DeltaV y detenciones prolongadas. La ventana de 12 h es una restricción declarada para la intervención completa. La duración de cada fase es una estimación hasta contar con un plan. La fuente eléctrica disponible y la alimentación que exige el instrumento son dos datos que se deben cotejar.
 
-Para R01, usa cotas físicas y un criterio de error por zona. Para R02, demuestra datos, calidad y eventos en DeltaV. Para R06, acuerda qué instantes delimitan la meta de tiempo y registra excepciones. [[09-Validacion]] · [[19-Registro-de-pendientes]]
+Para R01, acuerda qué observación demuestra la llegada y define una referencia física para contrastar la zona indicada. Para R02, demuestra datos, calidad y eventos en DeltaV. Para R06, acuerda qué instantes delimitan la meta de tiempo y registra excepciones. [[09-Validacion]] · [[19-Registro-de-pendientes]]
 
 ## Anexo 11 · Borrador de trabajo v0.1 · 2026-11-10
 
@@ -26,7 +26,7 @@ Se conservan los identificadores R01–R07. Esta propuesta organiza las cuatro t
 
 | ID | Capacidad o condición exigida | Tipo | Causa o restricción de origen | Prioridad y carácter propuestos |
 | --- | --- | --- | --- | --- |
-| R01 | Determinar zona o posición utilizable a lo largo de todo el recorrido operativo acordado, incluidos extremos y fronteras. | Técnico | Ausencia de información remota de posición obliga a verificar visualmente, F01 y diagnóstico ES1. | Alta · Obligatorio |
+| R01 | Identificar la zona de descarga en las posiciones y condiciones operativas que se acuerden. | Técnico | F01 describe la dependencia de verificación presencial. La propuesta de identificar al llegar es preliminar. | Alta · Criterio de alcance por acordar con Operaciones |
 | R02 | Entregar a Sala de Control el dato de posición o zona, su validez y el estado de la interfaz. | Técnico | El sistema de supervisión carece de la señal, F01. La contraparte declara I/O disponibles en Sala Eléctrica, F05. | Alta · Obligatorio |
 | R03 | Integrar y alimentar la configuración usando rutas autorizadas que prescindan de hilos de reserva del festón. | Técnico | Festón sin hilos de reserva, F05. | Alta · Obligatorio |
 | R04 | Mantener identificación utilizable bajo las condiciones ambientales y geométricas acordadas. | Técnico | Falla previa de medición en ambiente con polvo y suciedad, F01 y F02. | Alta · Obligatorio |
@@ -38,7 +38,7 @@ Se conservan los identificadores R01–R07. Esta propuesta organiza las cuatro t
 
 | ID | Magnitud o condición esperada | Método | Condiciones y recurso |
 | --- | --- | --- | --- |
-| R01 | Cobertura de todos los tramos operativos acordados. Error máximo y tratamiento de las fronteras pendientes. | Contrastar posición o zona con referencias independientes en extremos, puntos intermedios y fronteras. | Planta de zonas, extremos vigentes y tolerancia de Operaciones. La cota nominal de 71,84 m orienta el diseño. |
+| R01 | Alcance de las zonas a confirmar, tolerancia y tratamiento del tránsito por acordar. | Contrastar la indicación con una referencia física al llegar y, si Operaciones lo requiere, durante el recorrido. | Lámina Z1–Z35, extremos vigentes y criterio de Operaciones. F07 aporta una elevación con cota nominal. |
 | R02 | El operador recibe posición o zona y una indicación interpretable de su calidad. Formato, latencia y tasa por acordar. | Prueba funcional desde el origen hasta pantalla y, cuando aplique, registro de evento o histórico. | Configuración de I/O autorizada o maqueta representativa. El ensayo de maqueta verifica lógica e intercambio representado. |
 | R03 | Trazabilidad completa de cada conexión, sin asignar hilos de reserva del festón. | Revisar esquema de energía y señal, bornes y listado de rutas. | Levantamiento E&I y DCS. Si existe unidad móvil, identificar fuente, protección y ruta autorizadas. |
 | R04 | Resultado dentro del criterio R01 y de la calidad R07 en el entorno acordado. | Definir escenario ambiental representativo y contrastar desempeño con referencia física. | Definir polvo, acumulación, humedad, temperatura, obstáculos y método de ensayo con E&I. |
