@@ -37,6 +37,12 @@ Las figuras del expediente son representaciones del equipo. Consulta las [correc
 
 [[13-Ficha-y-acta]] · [[14-Expediente-ES1]] · [[20-Referencias-de-modulos]]
 
+## Peso de las fuentes
+
+Prioriza planos vigentes, registros originales, documentos y confirmaciones atribuibles que respalden la afirmación y correspondan al equipo estudiado. Los cálculos reproducibles conservan el alcance de sus entradas y supuestos. Un relato atribuido aporta contexto de la visita y puede orientar qué verificar. Los datos de origen incierto o sin trazabilidad quedan con menor prioridad y sirven para orientar la búsqueda de respaldo.
+
+Por ejemplo, F09 respalda que Joaquín relata haber visto el láser del primer tripper. La identificación del equipo y la causa técnica de la falla requieren respaldo propio. Para comparar costos y definir requisitos, prioriza evidencia aplicable al tripper de referencia. [Pendientes](19-Registro-de-pendientes.md)
+
 ## Revisión de datos D4 v1
 
 [[24-Auditoria-de-datos-D4]] identifica los datos trabajados vigentes, reglas y correcciones. D04 y D08 corresponden a la ES1 histórica. Para la propuesta, consulta el [resumen recalculado](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/03%20Datos%20trabajados/Revision_D4_v1/resumen_linea_base.csv) y los [escenarios recalculados](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/04%20Calculos/Revision_D4_v1/escenarios_impacto.csv).
@@ -54,3 +60,4 @@ La [matriz v02](../Estudios/EST-01-Matriz-de-soluciones-D4-v02.md) relaciona esa
 | F06 | Relato de Joaquín comunicado al revisar el repositorio el 13-11-2026. [Nota de visita](13-Ficha-y-acta.md#visita-a-puerto-patache-del-01-11-2026). | Fecha de visita y observación directa de una descarga según un integrante. También registra lo que el equipo recibió verbalmente de Mantención E&I sobre la antena y las alternativas. Sigue pendiente asociar los respaldos audiovisuales o escritos. |
 | F07 | Captura ampliada compartida por Joaquín el 13-11-2026, atribuida por el equipo al PPT que mostró la tutora en la primera reunión. [Elevación del repositorio](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/05%20Figuras/planos%20tripper.png). | Muestra la cota longitudinal de traslación y las referencias 1–18. Joaquín identifica esta misma imagen como la lámina de referencia para el conteo de posiciones. Falta registrar PPT, lámina y revisión si están disponibles. |
 | F08 | Aclaración de Joaquín del 14-11-2026 sobre los dos trippers, los recintos, los usos y el conteo de posiciones. [Interpretación del plano](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión). | Sustenta la configuración descrita por el equipo. Los tags, tonelajes, destino por equipo y correspondencia con F03 requieren cotejo. |
+| F09 | Aclaración de Joaquín del 14-11-2026 sobre el láser mostrado durante la visita y el alcance propuesto. [Alcance de trabajo](10-Evaluacion-2.md#alcance-de-trabajo). | Relato de que les mostraron el láser instalado en el primer tripper. Sustenta la hipótesis de concentrar ES2 en ese equipo. Falta confirmar el tag, el recinto y su vínculo con los registros. |

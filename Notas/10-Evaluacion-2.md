@@ -2,6 +2,12 @@
 
 **Insumos académicos localizados.** Pauta U2_A06, actividades U2_A02 a U2_A04 y anexos 11, 13, 14, 15, 16 y 19 disponibles. La pauta menciona U2_A05 y el Anexo 19 lo vincula a viabilidad y riesgos. La actividad específica, la fecha de entrega y la matriz institucional editable quedan por confirmar. Los productos D4 se encuentran en preparación. [Pauta U2_A06](../Evidencias/M7/Unidad-2/00-Evaluacion/U2_Evaluacion.pdf) · [[19-Registro-de-pendientes]]
 
+## Alcance de trabajo
+
+El alcance de trabajo propuesto para ES2 es **un tripper y su recinto**. Según Joaquín, durante la visita les mostraron el láser instalado en el primer tripper. El equipo propone tomarlo como caso de referencia. Falta confirmar con la contraparte su tag, la relación con la correa 320CV025 y el alcance de los registros F03 y F04. Las zonas a confirmar dentro de ese recinto se definen con Operaciones. [Fuente F09](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano) · [Pendientes](19-Registro-de-pendientes.md#próximas-confirmaciones)
+
+El dossier prevé una **réplica futura en el segundo tripper**. Al documentar la solución, indicar qué lógica de confirmación y método de prueba podrían reutilizarse y qué habría que ajustar por equipo, como las referencias de zona, el montaje, la alimentación y la interfaz. La comparación, el dimensionamiento, los recursos y las pruebas de esta etapa se refieren al tripper de referencia, con el alcance de cada prueba indicado.
+
 ## Producto de esta etapa
 
 Dossier grupal de diseño y validación, con requisitos, alternativas, arquitectura e interfaces, evidencia de prueba, riesgos, recursos y plan preliminar. Ambos integrantes deben poder explicar la decisión, la alternativa descartada y la respuesta a fallas. El trabajo se apoya en el diagnóstico auditado y declara el entorno y el alcance de cada prueba. [Carpeta Unidad 2](../Evidencias/M7/Unidad-2/) · [[24-Auditoria-de-datos-D4]]
@@ -21,7 +27,7 @@ Los frentes 1, 2 y el levantamiento de operación del frente 3 pueden avanzar en
 
 ## Próximo producto de trabajo
 
-La revisión del 13 de noviembre prioriza respaldar la observación de la visita y cruzar la lámina disponible con los códigos de zona. [Plano y conteo](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión) Con Operaciones se debe acordar si basta confirmar la zona al llegar antes de cerrar R01. RFID y radar quedan en reevaluación. [Fuentes de la visita y del plano](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano)
+Identificar el tripper de referencia, cruzar su recinto con los códigos de zona y acordar con Operaciones si basta confirmar la zona al llegar antes de cerrar R01. RFID y radar se comparan para ese caso. Priorizar fuentes trazables y aplicables al equipo. [Plano y conteo](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión) · [Fuentes](04-Evidencias-y-fuentes.md#peso-de-las-fuentes)
 
 Revisar el borrador de Anexo 11 en [[06-Requisitos]] y completar sus criterios con los pendientes de terreno. La carpeta [Productos D4](../Evidencias/M7/Unidad-2/03-Productos-D4/README.md) indica dónde vincular los documentos del equipo. Comenzar por cobertura R01, integración R02 y señal válida R07, y conservar los requisitos operacionales de tiempo y exposición. Para cada criterio, registrar qué condición conocemos, qué valor falta acordar y con qué prueba sería defendible.
 

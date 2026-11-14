@@ -47,4 +47,6 @@ Según el criterio que explicó Joaquín, el 1 y el 18 se cuentan como extremos 
 
 La cota TRAVEL y las referencias numeradas son elementos distintos del dibujo. El conteo se registra con el criterio de F08 y se contrastará con las posiciones de descarga y los límites efectivos. Para vincular el plano con la planilla F03, falta asociar cada código Z con un tripper y una referencia física. Ese cruce define qué posiciones requerirían detección y cuántas etiquetas podría necesitar una configuración RFID.
 
-Para completar la identificación documental basta registrar el nombre del PPT, número de lámina y revisión, si constan. Para la observación de descarga, registrar el archivo y el momento donde aparece. [Fuentes F06–F08](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano) · [Ubicación de respaldos](22-Configuracion-Obsidian-y-GitHub.md)
+Según Joaquín, durante la visita les mostraron el láser instalado en el primer tripper. F09 registra esta observación relatada. Si se dispone de una imagen o confirmación de Mantención, vincularla con el tag del equipo y el punto de montaje. [Alcance de trabajo](10-Evaluacion-2.md#alcance-de-trabajo)
+
+Para completar la identificación documental basta registrar el nombre del PPT, número de lámina y revisión, si constan. Para la observación de descarga, registrar el archivo y el momento donde aparece. [Fuentes F06–F09](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano) · [Ubicación de respaldos](22-Configuracion-Obsidian-y-GitHub.md)

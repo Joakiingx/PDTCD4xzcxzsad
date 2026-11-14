@@ -2,7 +2,7 @@
 
 | ID | Requisito o meta | Fuente o estado |
 | --- | --- | --- |
-| R01 | Identificar la zona de descarga según el criterio que acuerde Operaciones. | Joaquín propone confirmar al llegar. Falta acordar si se exige información durante el traslado y cotejar los límites de zona. [Antecedente F06](13-Ficha-y-acta.md#visita-a-puerto-patache-del-01-11-2026) |
+| R01 | Identificar la zona de descarga del tripper de referencia según el criterio que acuerde Operaciones. | Joaquín propone confirmar al llegar. Falta acordar si se exige información durante el traslado y cotejar los límites de zona. [Antecedente F06](13-Ficha-y-acta.md#visita-a-puerto-patache-del-01-11-2026) |
 | R02 | Entregar una indicación válida de zona o posición a Sala de Control mediante la interfaz acordada con DCS. | I/O disponibles en Sala Eléctrica, F05. Tipo de canal y protocolo por levantar. |
 | R03 | Prescindir de hilos de reserva del festón existente. | Restricción confirmada en F05. |
 | R04 | Evaluar desempeño con polvo, humedad, calor y geometría de la nave. | F01–F02 y evidencia visual. Criterios de prueba por acordar. |

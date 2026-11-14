@@ -8,7 +8,7 @@ La conversación en terreno abrió una reevaluación de **RFID y radar**. Según
 | Radar | Si se justifica medir distancia a lo largo del recorrido para el objetivo operativo y si una configuración concreta puede hacerlo desde un montaje viable. | Geometría real sensor–blanco, condiciones de instalación, prueba representativa y cotización del conjunto. |
 | Situación actual | Cuánto tiempo ocupa la verificación presencial y en cuál fase. | Acordar secuencia y marcas de tiempo con Operaciones. |
 
-El conteo preliminar del equipo aporta 16 posiciones interiores por tripper. Para dimensionar lectores y etiquetas hay que confirmar cuáles se usarán para descargar y si ES2 incluye uno o ambos equipos. [Plano y conteo](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión)
+La comparación para ES2 considera un tripper. El conteo de 16 posiciones interiores orienta el levantamiento. La cantidad de etiquetas se define con las posiciones de descarga que confirme Operaciones. Para valorar una réplica, estimar por separado los ajustes y componentes que requeriría el segundo equipo. [Plano y conteo](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión)
 
 La instalación inalámbrica mencionada durante la visita se estudia como posible medio de transmisión. Su estado y uso para D4 están pendientes. El principio de detección de zona y el medio de envío quedan por definir en conjunto. [Integración a DeltaV](08-Arquitectura-DeltaV.md)
 

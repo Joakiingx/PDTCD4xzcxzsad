@@ -8,7 +8,7 @@ La ficha F01 y el acta F02 describen la descarga de concentrado mediante el trip
 | Condición técnica | Falta de una variable de posición en línea en el DCS, declarada en F02. |
 | Consecuencias reportadas | Demora operacional, indisponibilidad del operador para otras tareas y exposición durante sus ingresos de verificación, según F01. |
 | Configuración de Puerto Patache | Según Joaquín (F08), existen dos trippers en recintos de igual medida, con distinto tonelaje de acopio. Los usos para embarcaciones y camiones se diferencian según el tripper. Falta asociar equipo, recinto, destino y tonelaje por stockpile. [Plano y conteo](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión) |
-| Alcance del D4 | La ficha y el acta identifican la correa 320CV025. Falta confirmar qué tripper alimenta la serie F03, cómo se relacionan sus códigos Z1–Z35 con la numeración física y si la ES2 cubre uno o ambos equipos. [Pendientes](19-Registro-de-pendientes.md#próximas-confirmaciones) |
+| Alcance de ES2 | Caso de trabajo para un tripper y su recinto. El equipo toma como referencia aquel donde les mostraron el láser y propone que el diseño pueda adaptarse al segundo. La ficha y el acta mencionan la correa 320CV025. Queda por confirmar su correspondencia con el tripper del láser y con F03 y F04. [Alcance de trabajo](10-Evaluacion-2.md#alcance-de-trabajo) |
 | Alcance funcional propuesto | Medición en línea y confirmación remota de zona. El mando se evalúa con DCS y Operaciones. |
 | Equipo | Joaquín Pinto y Kevin Leal. Daniela Guerra Sepúlveda es la contraparte técnica de Mantención E&I. |
 
