@@ -1,5 +1,5 @@
 # Revisión integral, aprendizaje y brechas · D4
-**Corte:** 10-11-2026. **Base:** commit f012d9bfb6aac21b22fab6c44c9cc438e31b92b9 de Joakiingx/proyecto-titulo-d4. **Revisor:** asistente IA a solicitud de Joaquín. **Registros:** AUD-D4-002 y REG-D4-016–019. **Estado:** revisión documental amplia, todavía parcial por fuentes sin lectura directa y verificaciones de terreno pendientes.
+**Corte:** 10-11-2026. **Base:** commit f012d9bfb6aac21b22fab6c44c9cc438e31b92b9 del repositorio D4. **Revisor:** asistente IA a solicitud de Joaquín. **Registros:** AUD-D4-002 y REG-D4-016–019. **Estado:** revisión documental amplia, todavía parcial por fuentes sin lectura directa y verificaciones de terreno pendientes.
 
 Este documento registra la revisión del 10-11-2026. El estado actualizado de la visita, el plano y la reevaluación de alternativas se consulta en el [README](../README.md).
 

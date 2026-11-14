@@ -1,6 +1,6 @@
 # Alternativas de posicionamiento
 
-La conversación en terreno abrió una reevaluación de **RFID y radar**. Según Joaquín, Omar, de Mantención E&I, consideró RFID una opción que vale la pena estudiar. La propuesta preliminar del equipo es colocar etiquetas de referencia en zonas de descarga y leerlas con un lector para identificar la zona del tripper. La prioridad de prueba depende de lo que Operaciones necesite confirmar. [Registro F06](13-Ficha-y-acta.md#visita-a-puerto-patache-del-01-11-2026)
+La conversación en terreno abrió una reevaluación de **RFID y radar**. Según Joaquín, Omar, de Mantención E&I, consideró RFID una opción que vale la pena estudiar. La propuesta preliminar del equipo es colocar etiquetas de referencia en zonas de descarga y leerlas con un lector para identificar la zona del tripper. Para ES2, compara las opciones con el mismo criterio de confirmación. El alcance se define con Operaciones. [Registro F06](13-Ficha-y-acta.md#visita-a-puerto-patache-del-01-11-2026)
 
 | Opción | Qué se quiere comprobar | Evidencia que falta |
 | --- | --- | --- |

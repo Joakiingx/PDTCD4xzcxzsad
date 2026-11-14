@@ -1,26 +1,6 @@
-# Registro de cobertura y hallazgos de revisión · D4
+# Hallazgos de revisión del D4
 
-Este registro documenta las auditorías del proyecto. Los [pendientes](19-Registro-de-pendientes.md) conservan las verificaciones técnicas y académicas abiertas. La [bitácora](12-Bitacora.md) conserva las sesiones y sus efectos. Aquí se registra qué material revisó cada IA y qué observaciones remite al equipo.
-
-## Cómo registrar una auditoría
-
-1. Asigna `AUD-D4-NNN`. Identifica fecha, revisor, commit o copia de la bóveda, carpeta inventariada y alcance. Identifica además las fuentes locales autorizadas y externas citadas que deban cotejarse.
-2. Registra cada archivo o conjunto enumerado, versión, comprobación, resultado, limitaciones y fecha. Usa estados **verificado en el alcance descrito**, **hallazgo abierto**, **pendiente de revisar** o **acceso pendiente**. Distingue materiales vigentes, históricos y simulados.
-3. Abarca como mínimo los bloques siguientes. Vuelve a contrastar los elementos relacionados cuando se agregue una nueva evidencia o versión.
-
-| Bloque | Qué comprobar |
-| --- | --- |
-| Diagnóstico y fuentes | Correspondencia entre afirmación y evidencia, origen, fecha, versión y diferencia entre dato observado, declarado y supuesto. |
-| Datos, scripts y cálculos | Reproducción de fórmulas y resultados, filas, faltantes, filtros, redondeo, unidades, períodos y separación de escenarios respecto de medición real. |
-| Figuras, planos y gráficos | Legibilidad, origen, revisión, escala o unidad, ejes, leyendas, coherencia con tablas y diferencia entre cotas, estimaciones y geometría confirmada. |
-| Avances, descubrimientos y alternativas | Validez de las nuevas evidencias, trazabilidad, vigencia de fichas, modelo y configuración, límites de los hallazgos y compatibilidad con la condición de faena. |
-| Propuesta de ingeniería | Coherencia entre alcance, requisitos, selección, interfaces, arquitectura, riesgos, continuidad, costos y mantenimiento. |
-| Evaluación y validación | Cobertura de pauta y anexos, cadena causa → requisito → criterio → prueba → evidencia, resultados obtenidos y límites de prueba. |
-| Integridad documental | Originales y derivados identificables, enlaces, diferencias entre versiones y contradicciones entre notas, dossier, planillas y presentación. |
-
-## Cómo registrar un posible cambio sin aplicarlo
-
-Asigna `REV-D4-NNN` y anota fecha, auditoría relacionada, archivo y ubicación exacta, afirmación actual, evidencia de contraste, motivo, posible efecto, verificación necesaria y estado. Si otra fuente sostiene una lectura distinta, consérvala y explica la discrepancia. Los estados de hallazgo son **por revisar**, **en revisión por el equipo** y **cerrado por el equipo con evidencia**. Cerrar requiere anotar quién decidió, cuándo y con qué respaldo. Durante la auditoría escribe las observaciones aquí y en la bitácora. Conserva intactas las fuentes y el trabajo revisado.
+Registra aquí una discrepancia importante que requiera seguimiento. Indica dato, ubicación, respaldo, corrección o próxima verificación. Para el trabajo vigente, actualiza la nota del tema si su evidencia permite resolverlo. Usa la [bitácora](12-Bitacora.md) para resumir el cambio y el [registro de pendientes](19-Registro-de-pendientes.md) para las confirmaciones abiertas.
 
 ## AUD-D4-001 · 2026-11-10 · Primera pasada parcial
 
@@ -84,3 +64,15 @@ Base [4358538](https://github.com/Joakiingx/PDTCD4xzcxzsad/tree/4358538e063b3c79
 | URL y visibilidad anteriores, y pauta ES2 marcada como pendiente en la revisión histórica. | Se actualizó la guía de acceso al repo público y la referencia a U2_A06 disponible. | Permiso de difusión para cualquier nuevo respaldo y pendientes académicos de PEND-08. |
 
 La bitácora [REG-D4-020](12-Bitacora.md#reg-d4-020--2026-11-13--trazabilidad-de-la-visita-y-base-del-diseño) registra los cambios. Los hallazgos que dependen de terreno permanecen abiertos.
+
+## AUD-D4-004 · Revisión de organización y evidencias del 13-11-2026
+
+Base `c5fa009`, rama propuesta de trazabilidad sobre `4358538`. Se inventariaron los 90 archivos de esa base y se revisaron las 35 notas Markdown como conjunto de trabajo. El script reprocesó F03/F04 y comprobó los cinco CSV derivados con `node Analisis/D4/recalcular-datos.mjs --check`.
+
+| Grupo | Resultado y límite |
+| --- | --- |
+| Office | Comprobación de integridad ZIP de 14 DOCX, cinco XLSX y un PPTX. Lectura del texto del dossier y de las siete láminas de ES1, además de extracción del resto de los DOCX y revisión de hojas de los libros. [Correcciones para ES2](14-Expediente-ES1.md#correcciones-para-reutilizar-la-es1-en-es2). |
+| Pauta y manual | Se extrajo texto de los cinco PDF. Se contrastaron los identificadores U2_A02–04 y U2_A06. Se localizaron en el manual las secciones de fases, evaluación y controles. Falta confirmar la versión aplicable y obtener la planilla institucional. [Referencias](20-Referencias-de-modulos.md). |
+| Imágenes y videos | Se revisaron las imágenes y los medios del PPT histórico en vistas reducidas. Se decodificaron los tres videos y se examinaron fotogramas muestreados. El archivo y momento exacto de la descarga y la lámina con el rotulado de zonas quedan por identificar. [Evidencia visual](05-Evidencia-visual.md). |
+| Catálogo y matriz | Se revisó cómo se utiliza el estudio fechado en las notas activas. Las fichas y precios conservan el alcance de su consulta anterior. Confirmar variante, oferta y condiciones antes de incorporarlas a una decisión nueva. [Alternativas](07-Alternativas.md). |
+| Instrucciones coincidentes | AGENTS.md y la guía repetían la auditoría integral al incorporar una IA y derivaban la corrección de un hallazgo a otro encargo. La guía pasa a ubicar archivos y AGENTS.md describe cómo revisar y corregir según lo solicitado. Los pendientes repetidos se integran en sus IDs vigentes. |

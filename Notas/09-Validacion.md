@@ -4,8 +4,8 @@ Protocolo inicial para acordar con Operaciones, Mantención E&I y DCS. Los crite
 
 | Qué comprobar | Evidencia esperada |
 | --- | --- |
-| Identificación de zona | Comparación entre señal de posición y referencia física en extremos y puntos intermedios. |
-| Señal a DeltaV | Registro de posición, zona, calidad y marcas de tiempo en pantalla o histórico. |
+| Identificación de zona | Comparación con una referencia física en las zonas acordadas. Si se evalúa RFID, comprobar paso por una etiqueta, llegada y pérdida de la confirmación vigente. |
+| Señal a DeltaV | Registro de posición o zona, calidad y marcas de tiempo en la interfaz que se ensaye. |
 | Pérdida y recuperación de señal | Prueba de lectura inválida y recuperación con la respuesta operativa acordada. |
 | Tiempo de maniobra | Marcas desde solicitud hasta confirmación, con traslación medida por separado. Comparar trayectos y condiciones equivalentes. |
 | Ingresos rutinarios | Registro de ingresos por verificación y de excepciones durante el período de prueba acordado. |

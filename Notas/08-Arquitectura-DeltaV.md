@@ -4,8 +4,8 @@ El diseño estudia cómo llevar a Sala de Control una indicación de zona o posi
 
 | Elemento | Decisión o antecedente pendiente |
 | --- | --- |
-| Medición | Cotas extrema a extrema, referencia cero, tolerancia por zona y calidad de la lectura. |
-| Interfaz | Modelo, alimentación, protocolo o salida, tipo de I/O y ruta de canalización. |
+| Medición | Criterio de llegada y calidad de lectura, etiquetas o puntos de medición según la alternativa y referencias físicas de zona. |
+| Interfaz | Modelo, alimentación, protocolo o salida, tipo de I/O y ruta aplicable. Confirmar estado y uso de la instalación inalámbrica con Mantención y DCS. |
 | DCS | Interpretación del dato recibido, indicación de zona, vigencia y calidad. La conversión de distancia aplica si el diseño adopta una medición de distancia. |
 | Estado degradado | Detección de señal perdida, inválida o congelada. Validar indicación y contingencia con Operaciones. |
 | Traslación | Obtener permisivos y enclavamientos vigentes. Definir con DCS cualquier alcance de mando. |

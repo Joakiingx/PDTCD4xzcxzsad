@@ -33,7 +33,7 @@ Los módulos 2, 3 y 6 quedan como referencias de procedimiento, análisis causal
 | FIG-03 | [fig3_flujo_situacion_actual.jpg](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/05%20Figuras/fig3_flujo_situacion_actual.jpg) | Solicitud, aviso radial, traslado, verificación y registro. |
 | FIG-04 | [diagrama_arquitectura_radar.png](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/05%20Figuras/diagrama_arquitectura_radar.png) | Esquema conceptual con radar fijo, blanco pasivo, ruta fija a Sala Eléctrica y visualización DeltaV. |
 
-Las figuras son representaciones del equipo. Las cifras y componentes de diseño se contrastan con las notas que documentan su estado.
+Las figuras del expediente son representaciones del equipo. Consulta las [correcciones para ES2](14-Expediente-ES1.md#correcciones-para-reutilizar-la-es1-en-es2) antes de copiar cifras, conclusiones o componentes de esas láminas.
 
 [[13-Ficha-y-acta]] · [[14-Expediente-ES1]] · [[20-Referencias-de-modulos]]
 

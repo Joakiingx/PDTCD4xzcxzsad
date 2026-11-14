@@ -3,7 +3,7 @@
 | ID | Requisito o meta | Fuente o estado |
 | --- | --- | --- |
 | R01 | Identificar la zona de descarga según el criterio que acuerde Operaciones. | Joaquín propone confirmar al llegar. Falta acordar si se exige información durante el traslado y cotejar los límites de zona. [Antecedente F06](13-Ficha-y-acta.md#visita-a-puerto-patache-del-01-11-2026) |
-| R02 | Integrar la posición a Emerson DeltaV con señal válida y diagnóstico disponible para Sala de Control. | I/O disponibles en Sala Eléctrica, F05. Tipo de canal y protocolo por levantar. |
+| R02 | Entregar una indicación válida de zona o posición a Sala de Control mediante la interfaz acordada con DCS. | I/O disponibles en Sala Eléctrica, F05. Tipo de canal y protocolo por levantar. |
 | R03 | Prescindir de hilos de reserva del festón existente. | Restricción confirmada en F05. |
 | R04 | Evaluar desempeño con polvo, humedad, calor y geometría de la nave. | F01–F02 y evidencia visual. Criterios de prueba por acordar. |
 | R05 | Planificar la intervención dentro de la ventana mensual de 12 h y con la alimentación disponible. | 12 h y 110 VAC declarados en F02. Verificar punto de conexión. |
@@ -18,7 +18,7 @@ Se excluyen cambios estructurales mayores, reemplazo de DeltaV y detenciones pro
 
 Para R01, acuerda qué observación demuestra la llegada y define una referencia física para contrastar la zona indicada. Para R02, demuestra datos, calidad y eventos en DeltaV. Para R06, acuerda qué instantes delimitan la meta de tiempo y registra excepciones. [[09-Validacion]] · [[19-Registro-de-pendientes]]
 
-## Anexo 11 · Borrador de trabajo v0.1 · 2026-11-10
+## Anexo 11 · Borrador de trabajo actualizado el 13-11-2026
 
 Se conservan los identificadores R01–R07. Esta propuesta organiza las cuatro tablas del [Anexo 11](../Evidencias/M7/Unidad-2/02-Anexos/06_M7_Anexo_11_Matriz_de_requisitos_CTX_V01.docx). La clasificación y las pruebas son de trabajo. Se deben acordar tolerancias, prioridades operacionales y criterios finales con sus responsables. Las causas y restricciones remiten al expediente ES1 y a [[04-Evidencias-y-fuentes]].
 

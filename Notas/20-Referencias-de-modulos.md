@@ -11,11 +11,11 @@ Separa las referencias metodológicas de los datos específicos de Puerto Patach
 | Módulo 3 · Anexos 13, 14 y 16 | Referencias de recuperación, estabilización e informe de caso. | AJ-032 es un caso formativo separado. |
 | Módulo 6 · Anexos 2, 4, 5 y 8 | Ficha de indicadores, diccionario de variables, registro de transformaciones y formato de línea base. | AMAP y su dataset corresponden a un caso simulado. |
 | Módulo 7 · Guía U1 y Anexo 2 | Delimitar, construir línea base, diagnosticar, derivar requisitos, comparar alternativas, validar y defender ante una comisión. Ambos integrantes deben poder explicar el proyecto completo. | Esta guía corresponde a U1. Para ES2 usa la pauta U2_A06. La pauta de la evaluación posterior requiere confirmación. |
-| Módulo 7 · Insumo CMDIC N.º 35, Manual de Ciclo de Gestión de Riesgos | Según la pauta ES2, orienta estructura de matriz, ámbitos, riesgo puro y residual, probabilidad, jerarquía de controles y escalamiento. | Archivo localizado. Revisión directa de versión, secciones y criterios pendiente. La pauta identifica por separado la planilla institucional de matriz. |
+| Módulo 7 · Insumo CMDIC N.º 35, Manual de Ciclo de Gestión de Riesgos | Según la pauta ES2, orienta estructura de matriz, ámbitos, riesgo puro y residual, probabilidad, jerarquía de controles y escalamiento. | Archivo revisado en las secciones citadas abajo. Falta confirmar la versión aplicable y obtener la planilla institucional que la pauta pide por separado. |
 
 ## Insumo institucional de riesgos
 
-Joaquín incorporó el [Manual Ciclo Gestion de Riesgos.pdf](../Evidencias/M7/Insumos/01-Gestion-de-riesgos/Manual%20Ciclo%20Gestion%20de%20Riesgos.pdf) en `Evidencias/M7/Insumos/01-Gestion-de-riesgos/`. La [Pauta U2_A06](../Evidencias/M7/Unidad-2/00-Evaluacion/U2_Evaluacion.pdf), p. 5, identifica el insumo y su uso esperado. Para la ES2 se utilizará como referencia para fundamentar riesgos y controles. Al revisar el PDF, registrar fecha o versión, páginas y relación con la propuesta D4. Véase PEND-11 en [[19-Registro-de-pendientes]].
+El manual disponible contiene 54 páginas de PDF. La página 7 presenta las etapas e instrumentos del ciclo. La página 20 describe ámbitos y categorías de riesgo. Las páginas 24–25 tratan el riesgo residual y la evaluación global. La página 28 introduce verificaciones y medidas de control. Estos apartados orientan el trabajo y la planilla aplicable sigue en PEND-11. [Manual](../Evidencias/M7/Insumos/01-Gestion-de-riesgos/Manual%20Ciclo%20Gestion%20de%20Riesgos.pdf) · [Pauta U2_A06, p. 5](../Evidencias/M7/Unidad-2/00-Evaluacion/U2_Evaluacion.pdf#page=5)
 
 ## Dónde se encontraron
 
