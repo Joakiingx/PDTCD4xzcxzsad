@@ -18,7 +18,7 @@ El expediente original está en `Evidencias/M7/Propuesta de solución M7/`. Las 
 | D07 | [03 Datos trabajados/Analisis_Linea_Base_Posicion_Tripper_y_Correa.docx](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/03%20Datos%20trabajados/Analisis_Linea_Base_Posicion_Tripper_y_Correa.docx) | Análisis del equipo. Conserva D3 en el encabezado. |
 | D08 | [04 Calculos/Memoria_Calculos_Tonelaje_Diferido_D4.docx](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/04%20Calculos/Memoria_Calculos_Tonelaje_Diferido_D4.docx) | Cálculos por flujo, antecedentes declarados y verificaciones pendientes. |
 | D09 | [07 Registros del equipo/Registro_Equipo_Distribucion_y_Acuerdos_D3.docx](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/07%20Registros%20del%20equipo/Registro_Equipo_Distribucion_y_Acuerdos_D3.docx) | Distribución histórica de aportes de Joaquín y Kevin. |
-| V01–V03, P01–P03 | `05 Figuras/` | Fotos y videos de la visita. Ver inventario visual. |
+| V01–V03, P01–P03 | `05 Figuras/` | Fotos y videos inventariados. Falta asociar el archivo y momento específicos con la descarga observada en la visita F06. |
 
 Los módulos 2, 3 y 6 quedan como referencias de procedimiento, análisis causal y definición de indicadores. El caso AMAP del Módulo 6 y los ejercicios didácticos del Módulo 3 se registran como material formativo.
 
@@ -33,9 +33,15 @@ Los módulos 2, 3 y 6 quedan como referencias de procedimiento, análisis causal
 | FIG-03 | [fig3_flujo_situacion_actual.jpg](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/05%20Figuras/fig3_flujo_situacion_actual.jpg) | Solicitud, aviso radial, traslado, verificación y registro. |
 | FIG-04 | [diagrama_arquitectura_radar.png](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/05%20Figuras/diagrama_arquitectura_radar.png) | Esquema conceptual con radar fijo, blanco pasivo, ruta fija a Sala Eléctrica y visualización DeltaV. |
 
-Las figuras son representaciones del equipo. Las cifras y componentes de diseño se contrastan con las notas que documentan su estado.
+Las figuras del expediente son representaciones del equipo. Consulta las [correcciones para ES2](14-Expediente-ES1.md#correcciones-para-reutilizar-la-es1-en-es2) antes de copiar cifras, conclusiones o componentes de esas láminas.
 
 [[13-Ficha-y-acta]] · [[14-Expediente-ES1]] · [[20-Referencias-de-modulos]]
+
+## Peso de las fuentes
+
+Prioriza planos vigentes, registros originales, documentos y confirmaciones atribuibles que respalden la afirmación y correspondan al equipo estudiado. Los cálculos reproducibles conservan el alcance de sus entradas y supuestos. Un relato atribuido aporta contexto de la visita y puede orientar qué verificar. Los datos de origen incierto o sin trazabilidad quedan con menor prioridad y sirven para orientar la búsqueda de respaldo.
+
+Por ejemplo, F09 respalda que Joaquín relata haber visto el láser del primer tripper. La identificación del equipo y la causa técnica de la falla requieren respaldo propio. Para comparar costos y definir requisitos, prioriza evidencia aplicable al tripper de referencia. [Pendientes](19-Registro-de-pendientes.md)
 
 ## Revisión de datos D4 v1
 
@@ -46,3 +52,12 @@ Las figuras son representaciones del equipo. Las cifras y componentes de diseño
 El [catálogo técnico](../Estudios/EST-01-Catalogo-y-precios-2026-11-10.md) conserva WEB26-01–32 con enlaces, fecha de consulta, modelo, uso y limitación. Sus precios PR-01–13 identifican condición, vendedor, moneda y componentes excluidos. La publicación comercial respalda el precio anunciado; no equivale a cotización de un sistema aceptado para D4.
 
 La [matriz v02](../Estudios/EST-01-Matriz-de-soluciones-D4-v02.md) relaciona esas fuentes con configuraciones y pruebas. El [inventario de revisión](../Analisis/D4/Inventario-revision-2026-11-10.csv) identifica SHA, tamaño y cobertura de los 86 archivos de la base f012d9b. La [revisión integral](../Estudios/00-Revision-integral-y-brechas-2026-11-10.md) distingue lectura directa, extracción textual, revisión previa y acceso pendiente. Registro AUD-D4-002; REG-D4-016–019.
+
+## Antecedentes de la visita y del plano
+
+| ID | Fuente y acceso | Qué respalda |
+| --- | --- | --- |
+| F06 | Relato de Joaquín comunicado al revisar el repositorio el 13-11-2026. [Nota de visita](13-Ficha-y-acta.md#visita-a-puerto-patache-del-01-11-2026). | Fecha de visita y observación directa de una descarga según un integrante. También registra lo que el equipo recibió verbalmente de Mantención E&I sobre la antena y las alternativas. Sigue pendiente asociar los respaldos audiovisuales o escritos. |
+| F07 | Captura ampliada compartida por Joaquín el 13-11-2026, atribuida por el equipo al PPT que mostró la tutora en la primera reunión. [Elevación del repositorio](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/05%20Figuras/planos%20tripper.png). | Muestra la cota longitudinal de traslación y las referencias 1–18. Joaquín identifica esta misma imagen como la lámina de referencia para el conteo de posiciones. Falta registrar PPT, lámina y revisión si están disponibles. |
+| F08 | Aclaración de Joaquín del 14-11-2026 sobre los dos trippers, los recintos, los usos y el conteo de posiciones. [Interpretación del plano](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión). | Sustenta la configuración descrita por el equipo. Los tags, tonelajes, destino por equipo y correspondencia con F03 requieren cotejo. |
+| F09 | Aclaración de Joaquín del 14-11-2026 sobre el láser mostrado durante la visita y el alcance propuesto. [Alcance de trabajo](10-Evaluacion-2.md#alcance-de-trabajo). | Relato de que les mostraron el láser instalado en el primer tripper. Sustenta la hipótesis de concentrar ES2 en ese equipo. Falta confirmar el tag, el recinto y su vínculo con los registros. |

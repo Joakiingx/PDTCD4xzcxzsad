@@ -1,12 +1,12 @@
 # Arquitectura de integración a DeltaV
 
-Concepto en estudio. El sistema mide el carro desde terreno, entrega una señal por una ruta fija a Sala Eléctrica y presenta posición, zona y calidad en Sala de Control. El equipo y la interfaz se definen en conjunto.
+El diseño estudia cómo llevar a Sala de Control una indicación de zona o posición con validez identificable. F05 documenta I/O disponibles en Sala Eléctrica y ausencia de hilos de reserva en el festón. Durante la visita se informó de una instalación inalámbrica en curso cerca del tripper y se sugirió evaluar su posible uso. La ruta de señal para D4 está por definir. [Acta y registro de visita](13-Ficha-y-acta.md)
 
 | Elemento | Decisión o antecedente pendiente |
 | --- | --- |
-| Medición | Cotas extrema a extrema, referencia cero, tolerancia por zona y calidad de la lectura. |
-| Interfaz | Modelo, alimentación, protocolo o salida, tipo de I/O y ruta de canalización. |
-| DCS | Conversión distancia a zona, sello de tiempo, calidad y estado en pantalla. |
+| Medición | Criterio de llegada y calidad de lectura, etiquetas o puntos de medición según la alternativa y referencias físicas de zona. |
+| Interfaz | Modelo, alimentación, protocolo o salida, tipo de I/O y ruta aplicable. Confirmar estado y uso de la instalación inalámbrica con Mantención y DCS. |
+| DCS | Interpretación del dato recibido, indicación de zona, vigencia y calidad. La conversión de distancia aplica si el diseño adopta una medición de distancia. |
 | Estado degradado | Detección de señal perdida, inválida o congelada. Validar indicación y contingencia con Operaciones. |
 | Traslación | Obtener permisivos y enclavamientos vigentes. Definir con DCS cualquier alcance de mando. |
 

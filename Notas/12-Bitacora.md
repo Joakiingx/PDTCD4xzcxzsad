@@ -10,7 +10,7 @@ Esta nota reúne las decisiones, los avances técnicos y lo aprendido en cada re
 | Cierre de la Evaluación 1 | Informado por el equipo | El dossier ES1 v2.0 se mantiene como referencia de la etapa completada. |
 | Radar fijo como candidato | Preliminar | El concepto responde a la ausencia de reserva en festón. Los modelos de la ES1 requieren revisión por alcance e interfaz. |
 | Alcance inicial de monitoreo y confirmación | Propuesto | Acordar cualquier mando con Operaciones y DCS antes de cerrar ingeniería. |
-| Fecha anómala en F03 | Supuesto documentado | El bloque rotulado 10-11-2026 corresponde por continuidad al 10-10-2026. Confirmar con la fuente. |
+| Fecha anómala en F03 | Supuesto documentado | El recálculo interpreta como 10-10-2026 el bloque guardado como 10-11-2026. Confirmación de origen pendiente en PEND-10. |
 | Evaluación 3 ante comité | Prevista | El equipo informa que sería la presentación y defensa. Confirmar en pauta. |
 
 Para cada nuevo acuerdo agrega fecha, participantes, decisión, fuente, estado y notas afectadas.
@@ -21,7 +21,7 @@ El detalle de los pendientes se mantiene en [[19-Registro-de-pendientes]]. El es
 
 ## Avances y aprendizajes
 
-Agrega una entrada fechada en la misma actualización que incluya un cambio autorizado del repositorio. Enumera los archivos afectados. Registra también las revisiones, nuevas evidencias, recálculos, acuerdos y verificaciones cerradas. Usa identificadores `REG-D4-NNN` consecutivos. Para cada entrada deja quién hizo el aporte, qué se revisó y por qué, la fuente, el resultado y su estado, para qué se usará, y el paso siguiente o criterio de cierre. Si cambia una conclusión, conserva la entrada original y vincula la que la corrige. La bitácora registra el avance. Las notas técnicas y [[19-Registro-de-pendientes]] mantienen el detalle y el estado vigente. Las fotos y documentos de terreno se referencian desde su respaldo autorizado.
+Registra cambios que afecten datos, decisiones o entregables. Basta indicar la fecha, el aporte, el respaldo y qué queda pendiente.
 
 ### REG-D4-001 · 2026-11-10 · Cruce de posición horaria y estado RUN
 
@@ -178,3 +178,27 @@ Agrega una entrada fechada en la misma actualización que incluya un cambio auto
 - **Uso con otras IA.** Cada aporte debe identificar base, fuente, categoría, cálculo, consecuencia y próxima verificación; las discrepancias se remiten a REV. Cada cambio conserva su REG.
 - **Siguiente paso.** Resolver paquete de definición, registrar tiempos y solicitar especificaciones/BOM. Preparar material de consulta; su envío no se ha realizado.
 - **Control documental de esta actualización.** Once archivos preparados, cuatro nuevos y siete ampliados. Se comprobaron 168 destinos de enlaces internos en los Markdown resultantes, sin destinos faltantes; subtotales de componentes y suma de pesos recalculados. No hay ediciones dentro de Evidencias ni cambios del script o CSV técnicos previos.
+
+### REG-D4-020 · 2026-11-13 · Trazabilidad de la visita y base del diseño
+
+- Según Joaquín, la visita se realizó el 01-11-2026 y el equipo vio al tripper descargar en un stockpile. El relato también registra lo informado por Omar, de Mantención E&I, sobre una instalación inalámbrica en curso y su sugerencia de reevaluar RFID con radar. La confirmación de zona al llegar y las etiquetas por zona son una propuesta por acordar. [Fuentes F06 y F07](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano).
+- Se corrigieron las notas vigentes de alcance, operación, evidencia, alternativas, requisitos e integración. Se simplificó el acceso desde el README y se actualizó la guía al repositorio público. La matriz v02 conserva la comparación documental fechada y remite al enfoque vigente. Kevin prepara aportes y Joaquín revisa su incorporación.
+- Se reprodujeron los cinco CSV a partir de los Excel F03/F04 y se precisaron los límites de sus conclusiones. El [registro de auditoría AUD-D4-003](25-Registro-de-hallazgos-de-revision.md#aud-d4-003--revisión-de-trazabilidad-del-13-11-2026) indica la cobertura y los pendientes. Las fuentes originales y la entrega histórica quedan como respaldo.
+- Falta ubicar la lámina de zonas y el respaldo visual de la descarga, confirmar la función de la antena y acordar el criterio funcional con Operaciones. [Pendientes](19-Registro-de-pendientes.md#próximas-confirmaciones).
+
+### REG-D4-021 · 2026-11-13 · Organización y correcciones para ES2
+
+- El README enlaza las notas vigentes, el expediente histórico y los productos de ES2. Las instrucciones permiten revisar por alcance y aplicar una corrección respaldada en el mismo encargo.
+- Se concentraron los pendientes en una fila por ID y se precisó cómo usar la evidencia de terreno, los resultados de pruebas y las afirmaciones de ES1. [Pendientes](19-Registro-de-pendientes.md) · [Expediente ES1](14-Expediente-ES1.md).
+- El recálculo reprodujo los cinco CSV. Se revisaron el dossier, la presentación, la pauta y las secciones del manual que orientan el caso. Quedan abiertas la lámina de zonas, el tramo de descarga y las confirmaciones de Operaciones, E&I y DCS. [Auditoría](25-Registro-de-hallazgos-de-revision.md#aud-d4-004--revisión-de-organización-y-evidencias-del-13-11-2026).
+
+### REG-D4-022 · 2026-11-14 · Dos trippers y referencias del plano
+
+- Joaquín aclaró que Puerto Patache tiene dos trippers en recintos de igual medida, con distinto tonelaje de acopio y destinos relacionados con embarcaciones y camiones según el equipo. Identificó la elevación ya disponible como la lámina que usaron para contar posiciones. [Fuente F08](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano).
+- Según el criterio del equipo, las referencias interiores son 2–17. Se obtienen 16 posiciones interiores por tripper y 32 en conjunto. Incluyendo las referencias de los extremos, el conteo es 18 por equipo y 36 en total. [Plano y conteo](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión).
+- Falta asociar los códigos de F03 con los equipos y sus referencias físicas, además de confirmar destino, tonelaje y alcance de ES2 por tripper. Se verificaron en la serie derivada 792 filas, 23 códigos observados y 78 cambios horarios. [Pendientes](19-Registro-de-pendientes.md#próximas-confirmaciones).
+
+### REG-D4-023 · 2026-11-14 · Alcance de ES2 y peso de la evidencia
+
+- Joaquín relata que durante la visita les mostraron el láser instalado en el primer tripper. ES2 toma como caso de trabajo ese tripper y su recinto. Se documentarán las condiciones para una posible réplica en el otro. Falta confirmar identificación del activo y correspondencia con la correa y los registros. [Alcance](10-Evaluacion-2.md#alcance-de-trabajo) · [Fuente F09](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano).
+- Las decisiones dan prioridad a la evidencia verificable y aplicable. Los datos de origen incierto o sin trazabilidad quedan como antecedentes de menor peso y orientan verificaciones. [Peso de las fuentes](04-Evidencias-y-fuentes.md#peso-de-las-fuentes).

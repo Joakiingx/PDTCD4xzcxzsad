@@ -1,6 +1,8 @@
 # Matriz de soluciones D4 · v02
 **Fecha:** 10-11-2026. **Estado:** comparación documental de trabajo para ES2; selección e implementación pendientes. **Autorización:** solicitud de Joaquín de ampliar investigación y mejorar la matriz. Registro REG-D4-018.
 
+**Contexto de vigencia.** La lista corta de la sección 6 registra la prioridad de investigación del 10-11-2026. Para el trabajo actual, la reevaluación de RFID y radar depende del criterio de confirmación que se acuerde con Operaciones. Las distancias de montaje de la sección 2 son cálculos geométricos condicionados. [Alternativas en revisión](../Notas/07-Alternativas.md)
+
 Esta matriz se usa junto al [catálogo y precios](EST-01-Catalogo-y-precios-2026-11-10.md), que identifica fabricantes, vendedores, condiciones y fuentes WEB26. Conserva como antecedente la [matriz histórica ES1](../Notas/21-Matriz-historica-de-alternativas.md). Los documentos, Excel y figuras originales permanecen intactos. Las observaciones a ese material están en [hallazgos](../Notas/25-Registro-de-hallazgos-de-revision.md).
 
 ## 1. Decisión que debemos preparar
@@ -19,7 +21,7 @@ Ningún equipo queda seleccionado únicamente por esta revisión. Se propone una
 | Carrera dibujada | 71,84 m, cota TRAVEL del plano compartido; lectura registrada en REG-D4-005 | Dimensionamiento provisional. Confirmar cajetín, revisión, carro, límites actuales y correspondencia con Z1–Z35. |
 | Cadena longitudinal dibujada | 28,36 + 71,84 + 35,80 = 136,00 m | Permite comparar dos ubicaciones teóricas de radar, sin convertirlas en puntos aprobados. |
 | Radar en eje 1 / eje 18 | Distancia teórica al blanco 28,36–100,20 m / 35,80–107,64 m | Válido solo si sensor y blanco siguen la geometría longitudinal asumida, sin desplazamientos, altura relativa ni obstrucciones. |
-| Zonas | 35 identificadores; 23 observados en F03 | No dividir 71,84/35 para asignar centros sin plano de zonas. Zonas sin horas registradas no equivalen a zonas prohibidas. |
+| Zonas en la comparación del 10-11-2026 | Códigos Z1–Z35 de F03, con 23 observados | Las cantidades de 35 etiquetas o referencias son escenarios de esta versión. Para dimensionar cada tripper, cotejar los códigos de F03 con la elevación y el conteo del equipo. [Plano y conteo](../Notas/05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión) |
 | Festón | Sin hilos de reserva, F05 declarado | Cada configuración debe mostrar ruta de señal y energía autorizables. |
 | I/O | Disponibles en Sala Eléctrica, F05; tipo y protocolo abiertos | No asumir tarjeta AI, contador A/B, gateway o PROFINET instalados. |
 | Energía | 110 VAC declarados, ubicación por confirmar | Un equipo de 24 VDC exige fuente y protección; una unidad móvil exige alimentación móvil comprobada. |
@@ -115,6 +117,8 @@ No ordenar esta tabla por monto como si representara CAPEX equivalente. No reuti
 La falla de un láser anterior documenta una experiencia de faena. No demuestra que todo sensor óptico protegido sea imposible. Si se estudia alguno, debe justificar protección y mantenimiento frente a esa experiencia. WCS se examina con su principio real y una trayectoria óptica distinta de un telémetro a larga distancia.
 
 ## 6. Lista corta recomendada para la próxima investigación
+
+Prioridad provisional registrada el 10-11-2026. El enfoque actual se consulta en [Alternativas](../Notas/07-Alternativas.md).
 
 1. **C01 y C02: consulta técnica de medición fija con reflector.** Es la ruta con menor dependencia de energía y transmisión de datos en el carro. SAG aporta una ficha numérica concreta; Indurad debe responder con variante largo alcance y configuración completa. Estudiar ambos permite comparar servicio, interfaces y costo con el mismo caso.
 2. **C03: alternativa activa de contraste.** Mantenerla como referencia de alcance y robustez de intercambio entre unidades; resolver potencia móvil y oferta del par antes de considerarla económicamente viable.

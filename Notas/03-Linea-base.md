@@ -3,14 +3,16 @@
 | Dato | Valor | Estado y fuente |
 | --- | --- | --- |
 | Registro horario | 792 registros en 33 bloques, 781 con zona y 11 sin zona | Reproducido desde F03. |
-| Cambios observados | 78, equivalentes a 2,36 por día | Reproducido desde F03. Cada registro representa una observación horaria. |
+| Cambios observados | 78 diferencias de zona entre pares horarios válidos, equivalentes a 2,36 por jornada del registro | Reproducido desde F03. La resolución horaria limita el recuento a cambios observados y su relación con maniobras o ingresos requiere evidencia adicional. |
 | Tamaño del cambio | 37 de una zona y 20 de diez zonas o más. Máximo de 25 zonas. | Reproducido desde F03. Los saltos se expresan en zonas. |
-| Tiempo actual | 10–15 min por movimiento | Declarado en F01 y F02. Falta medir fases de la maniobra. |
+| Tiempo de referencia | 10–15 min por movimiento | Declarado en F01 y F02. Falta medir fases de la maniobra. |
 | Flujo | 200–350 t/h y pico de 400 t/h | Declarado por escrito en F05. |
 | Tonelaje diferido | 78,8–206,8 t/día a flujo nominal | Escenario con frecuencia exacta. Supone interrupción durante toda la espera. |
-| Registro de estados | 488 registros, 224 en FUNCIONANDO, mediana de marcha ≈19 s, marcha ≈0,83 % del intervalo | Reproducido desde F04. El accionamiento asociado a la señal requiere confirmación. |
+| Registro de estados | 488 registros, 224 en FUNCIONANDO, mediana de 18,991 s por tramo completo en ese estado, 0,83 % del intervalo registrado en ese estado | Reproducido desde F04. El accionamiento asociado a la señal requiere confirmación. |
 
 Tonelaje diario del escenario = flujo horario × minutos de espera por maniobra ÷ 60 × cambios diarios. El dossier expresa el rango redondeado como aproximadamente 80–210 t/día. Mantén el mismo criterio de redondeo en informe, planilla y láminas.
+
+La muestra de F03 aporta 23 códigos observados. Su asignación por equipo y posición queda en PEND-01. El conteo del plano se documenta por separado. [Plano y conteo](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión)
 
 ## Regla de reproducción
 

@@ -1,48 +1,30 @@
-# Registro de verificaciones y decisiones pendientes
+# Pendientes del D4
 
-| ID | Qué obtener o decidir | Fuente o contraparte | Para qué se necesita |
+Cada ID tiene una sola fila vigente. Actualiza su estado y enlaza la fuente cuando llegue una respuesta. La [bitácora](12-Bitacora.md) conserva los cambios que afecten una decisión, un dato o una entrega.
+
+## Próximas confirmaciones
+
+| ID | Qué falta | Con quién o con qué respaldo | Para qué sirve |
 | --- | --- | --- | --- |
-| PEND-01 | Planta acotada Z1–Z35, extremos operativos y secciones. La elevación aporta 71,84 m de carrera nominal en REG-D4-005. | E&I y Operaciones. Verificar el plano vigente y su aplicación en terreno. | Cobertura, referencias y conversión a zona. |
-| PEND-02 | Identificación de la señal 320CV0251RUN y equipo que la origina. | DCS y Operaciones. | Interpretación de F04 y cruce con F03. |
-| PEND-03 | Filosofía de control, secuencia y permisivos actuales. | DCS. Solicitado por tutora el 23-10-2026. | Acotar confirmación y eventual mando. |
-| PEND-04 | Tipo de I/O libre, alimentación exacta, bornes y canalización. | E&I y DCS. | Elegir señal, alimentación y ruta fija compatibles. |
-| PEND-05 | Medición antes de la propuesta. | Sala de Control y operador en terreno. | Separar caminata, verificación, traslación, confirmación y efecto sobre el flujo. |
-| PEND-06 | Desempeño de la configuración candidata con alcance real y diagnóstico de calidad. | Proveedor y E&I. | Revisar requisitos excluyentes y validar selección. |
-| PEND-07 | Identificar carro y componente rotulado encoder en las imágenes. | Mantención E&I. | Ubicación de montaje y compatibilidad de alternativas. |
-| PEND-08 | Pauta U2_A06 disponible. Verificar actividad U2_A05, fecha de entrega y pauta, modalidad y fecha de la evaluación posterior. | Docencia INACAP–Collahuasi. | Completar viabilidad y riesgos de ES2 y programar entrega y defensa. |
-| PEND-09 | Acordar material audiovisual autorizado para presentación. | Equipo y contraparte. | Seleccionar imágenes para el comité. |
-| PEND-10 | Confirmar convención horaria y fecha anómala de la planilla. | Operaciones y fuente de F03. | Correlaciones temporales defendibles. |
-| PEND-11 | Revisar contenido y versión del Manual de Ciclo de Gestión de Riesgos, y obtener la planilla institucional de matriz que menciona la pauta. | Manual incorporado en Insumos. Verificar con Docencia y contraparte el formato y su vigencia. | Aplicar criterios, controles y escalamiento con la referencia correcta. |
+| PEND-01 | Identificar el tripper del láser mostrado, su recinto y su relación con la correa 320CV025. Confirmar si F03 corresponde al equipo de referencia y cruzar los códigos Z con el plano y los límites operativos. Dejar el destino, tonelaje y datos del otro recinto como contexto para una réplica. | Equipo, Mantención E&I y Operaciones. Identificación del activo y tabla de correspondencia. | Confirmar el caso de ES2, las posiciones de descarga y el alcance de RFID o radar. |
+| PEND-09 | Localizar el archivo y el momento que muestren la descarga relatada en la visita del 01-11-2026. Acordar qué material puede mostrarse. | Joaquín, Kevin y contraparte. Foto o tramo de video identificado y permiso según el uso. | Sustentar lo observado y preparar el material de entrega. |
+| PEND-14 | Acordar si basta confirmar al llegar, cómo se distingue de un paso y qué ve el operador ante tránsito o una lectura antigua. Definir tolerancia, vigencia y disponibilidad si aplican. | Operaciones, con DCS y E&I. Secuencia y criterio de aceptación acordados. | Cerrar R01 y R07 y comparar RFID con radar según la función esperada. |
+| PEND-15 | Confirmar función, estado y posible uso de la instalación inalámbrica informada por Omar. Si procede, levantar la interfaz y las condiciones de integración que autorice el sitio. | Mantención E&I y DCS/OT. Confirmación del alcance de la instalación. | Evaluar la ruta para transmitir el dato. |
+| PEND-02 | Identificar qué equipo y variable alimentan `320CV0251RUN` y si corresponde al tripper de referencia. | DCS y Operaciones. Definición del tag y ejemplo de un evento reconocido. | Interpretar F04 y el cruce con F03. |
+| PEND-05 | Medir una maniobra corta y una larga con marcas de solicitud, autorización, movimiento, llegada y confirmación. Registrar si hay interrupción del flujo, si el dato existe. | Sala de Control y operador en terreno. Marcas comparables y tendencia de flujo o evento. | Definir la fase de la meta y estimar impacto con una base comparable. |
 
-## Ronda de estudio · 2026-11-10
+## Otras verificaciones abiertas
 
-**Bloqueantes de selección.** PEND-01, PEND-04 y PEND-06. **Bloqueantes para confirmar operación e impacto.** PEND-02, PEND-03, PEND-05 y PEND-10. PEND-07 condiciona la alternativa encoder. PEND-08, PEND-09 y PEND-11 condicionan productos, material autorizado o metodología. Estos grupos ordenan el trabajo de esta ronda.
-
-| ID | Avance y estado | Evidencia concreta que permitiría avanzar o cerrar |
-| --- | --- | --- |
-| PEND-01 | Carrera nominal leída. Geometría operativa abierta. | Plano vigente con cajetín, referencia cero, extremos, planta de zonas y cotas sensor–blanco por montaje. E&I y Operaciones. |
-| PEND-02 | El plano contiene un identificador semejante al tag. La semántica del estado sigue abierta. | Nombre del módulo y definición de `320CV0251RUN`, más un evento de maniobra identificado por Operaciones. DCS. |
-| PEND-03 | Se separaron monitoreo, confirmación y mando. Falta la secuencia vigente. | Secuencia autorizada y descripción de permisivos, responsables y contingencia. DCS y Operaciones. |
-| PEND-04 | Contraste documental de rutas analógica y de datos en [[08-Arquitectura-DeltaV]]. | Modelo, versión, protocolo y rol habilitados, canal, bornes, alimentación y ruta. DCS y E&I. |
-| PEND-05 | Método de comparación por fase definido. Falta medición comparable. | Una maniobra corta y una larga con marcas de solicitud, autorización, movimiento, confirmación y dato de flujo o detención si existe. Operaciones. |
-| PEND-06 | Filtro nominal de alcance y prueba conceptual V07. Falta comprobar configuración completa. | Confirmación del blanco, alcance por montaje, diagnóstico, integración, prueba representativa y cotización con componentes. Proveedor y E&I. |
-| PEND-07 | Identificado el modelo en la foto de bodega. El componente instalado sigue abierto. | Placa y eje acoplado del componente instalado. Por separado, condición, conector y disponibilidad del Allen-Bradley de bodega. E&I. |
-| PEND-08 | Pauta U2_A06 disponible y Anexo 19 relaciona U2_A05 con viabilidad y riesgos. | Copia de U2_A05 y confirmación de fecha de entrega. Pauta y modalidad de evaluación posterior cuando corresponda. Docencia. |
-| PEND-09 | Inventario visual disponible. Material autorizado para defensa por acordar. | Lista de imágenes y planos aprobados para mostrar y restricciones de circulación aplicables. Equipo y contraparte. |
-| PEND-10 | Supuesto de fecha y tratamiento del registro horario documentados en la auditoría. | Confirmación de fecha civil, hora efectiva de registro y significado de la marca. Operaciones o responsable de F03. |
-| PEND-11 | Manual localizado. La pauta identifica su rol y distingue la planilla institucional. | PDF legible con versión y secciones aplicables, más copia autorizada de la planilla o confirmación de cómo usar el formato académico. Docencia y contraparte. |
-
-Al cerrar un pendiente, registra la fecha, quién entregó la evidencia, el identificador de la fuente y qué afirmaciones o decisiones pasan a otro estado. Usa [[12-Bitacora]] para acuerdos y [[10-Evaluacion-2]] para productos y plazos.
-
-## Ampliación por investigación comercial y funcional · 10-11-2026
-
-Se conservan abiertos PEND-01–11. No llegó nueva confirmación de faena ni cotización nominativa en esta ronda. Las fuentes de fabricante y precios públicos amplían la evidencia documental; no cierran por sí solas factibilidad, instalación o desempeño.
-
-| ID | Qué obtener o decidir | Responsable propuesto | Evidencia de cierre y uso |
+| ID | Qué falta | Con quién o con qué respaldo | Para qué sirve |
 | --- | --- | --- | --- |
-| PEND-12 | Cumplimiento RF de SKU, banda, potencia y modo para uso en Chile; aprobación interna del radioenlace si aplica | Proveedor/importador, DCS/OT y E&I | Documentación de la variante y requisitos SUBTEL aplicables. Habilita evaluar radar activo, RFID y puentes de radio sin inferir aprobación de CE/FCC. |
-| PEND-13 | Oferta y lista de materiales comparables por configuración | Proveedores y equipo, revisión E&I | Código completo, cantidad, moneda, condición, impuestos/logística, entrega, garantía, licencias, servicio y exclusiones; costo instalado por componentes. Precios públicos quedan como referencias. |
-| PEND-14 | Criterio funcional y metrológico de aceptación: continuo o por puntos, tolerancia de zona, latencia, antigüedad, disponibilidad y recuperación | Operaciones y DCS, con E&I | Acuerdo de magnitudes y estados; delimitar fase <2 min. Determina si discretos/RFID cumplen R01 y cómo se prueba R07. |
-| PEND-15 | Reglas y arquitectura OT efectivamente autorizadas | DCS/OT | Segmentación, protocolo/rol, puertos, accesos, cuentas, respaldos, sincronización y recuperación. Completa Anexo 14 y evita asumir compatibilidad por Ethernet. |
+| PEND-03 | Secuencia vigente, responsables, contingencia y permisivos de traslación. Los permisivos se solicitaron el 23-10-2026. | DCS y Operaciones. Secuencia o descripción validada. | Delimitar confirmación y eventual mando. |
+| PEND-04 | Tipo y modelo de I/O, bornes, alimentación en los puntos candidatos, protocolos disponibles y ruta de comunicación. | E&I y DCS. Inventario del equipo instalado. | Diseñar alimentación e interfaz que correspondan al sitio. |
+| PEND-06 | Cobertura o lectura representativa, calidad del dato, montaje y compatibilidad de cada configuración que se compare. | E&I y proveedor. Configuración identificada y evidencia de desempeño. | Sustentar la comparación y el ensayo. |
+| PEND-07 | Identificar el componente de las fotos y verificar por separado el estado, conector y disponibilidad del encoder de bodega. | Mantención E&I. Placa, ubicación y función del componente instalado, más resultado de inspección del de bodega. | Evaluar la alternativa de encoder. |
+| PEND-08 | Localizar U2_A05 y confirmar fecha de entrega. Obtener pauta y modalidad de la evaluación posterior. U2_A06 ya está disponible. | Docencia. Pauta, actividad o confirmación de fechas. | Completar viabilidad, riesgos y defensa. |
+| PEND-10 | Confirmar fecha del bloque almacenado como 10-11-2026 en F03, significado de las marcas y convención horaria frente a F04. | Responsable de F03 y Operaciones. Confirmación del registro. | Resolver el supuesto de depuración antes de atribuir coincidencias a maniobras. |
+| PEND-11 | Obtener la planilla institucional de riesgos y confirmar la versión o formato aplicable. | Docencia y contraparte. [Manual localizado y secciones revisadas](20-Referencias-de-modulos.md#insumo-institucional-de-riesgos). | Aplicar los criterios al caso D4. |
+| PEND-12 | Acreditar variante, uso autorizado y requisitos aplicables si una alternativa incorpora RF. | Proveedor/importador y área de la red del sitio. Documentación del equipo y aprobación aplicable. | Evaluar viabilidad de radio y coexistencia. |
+| PEND-13 | Obtener cotizaciones comparables por configuración, con cantidades, condición, fuente, moneda, componentes y alcance de instalación. | Proveedores y revisión del equipo. Oferta y lista de materiales. | Distinguir precios publicados del costo de la propuesta. |
 
-Las [26 preguntas precisas](../Estudios/00-Revision-integral-y-brechas-2026-11-10.md) indican destinatario, por qué se solicitan y qué evidencia cambia la decisión. La [matriz v02](../Estudios/EST-01-Matriz-de-soluciones-D4-v02.md) prioriza PEND-01/04/06 y los criterios de PEND-14 antes de ordenar candidatos. REG-D4-019.
+El [estudio del 10-11-2026](../Estudios/00-Revision-integral-y-brechas-2026-11-10.md#6-preguntas-para-solicitar-evidencia) conserva el cuestionario ampliado de esa ronda.

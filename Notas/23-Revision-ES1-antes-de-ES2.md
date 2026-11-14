@@ -1,6 +1,6 @@
 # Revisión de la Evaluación Sumativa 1 antes de la Evaluación 2
 
-Revisión del 9 de noviembre de 2026. Se contrastó la retroalimentación del docente con el expediente D4, los respaldos del repositorio y las notas de trazabilidad. La retroalimentación se usa como pauta de revisión de la ES1. La pauta específica de ES2 se mantiene pendiente.
+Revisión del 9 de noviembre de 2026. Se contrastó la retroalimentación del docente con el expediente D4, los respaldos del repositorio y las notas de trazabilidad. La retroalimentación se usa como pauta de revisión de la ES1. La pauta de ES2 estaba pendiente en esa revisión. El equipo incorporó después U2_A06. [Plan ES2](10-Evaluacion-2.md)
 
 **Resultado.** Están los cinco entregables descritos por el docente. El expediente permite sostener el problema y formular la condición que debe abordar la propuesta. Quedan correcciones de trazabilidad antes de reutilizar las cifras y verificaciones técnicas antes de cerrar alcance, tecnología e impacto.
 
@@ -12,7 +12,7 @@ Revisión del 9 de noviembre de 2026. Se contrastó la retroalimentación del do
 | Dossier con siete secciones | D01, versión 2.0, con conclusiones y referencias de respaldo | Presente. Revisar la separación entre condición accionable, hipótesis y selección tecnológica. |
 | Carpeta de evidencias | Siete subcarpetas numeradas, con originales, cálculos, figuras y registro de aportes | Presente. La tabla 9.3 del Anexo 9 aún cita rutas y entregables de otras versiones. |
 | Presentación breve | D03, siete láminas | Presente. Alinear estados y cifras con la revisión de la evidencia. |
-| Archivos de datos, cálculo y figuras | F03, F04, D04, D08 y FIG-01 a FIG-04 | Presentes. El libro de resumen y el de memoria de cálculo son copias del mismo archivo. Falta conservar la serie depurada que el Anexo 9 declara. |
+| Archivos de datos, cálculo y figuras | F03, F04, D04, D08 y FIG-01 a FIG-04 | Presentes. El libro de resumen y el de memoria de cálculo son copias del mismo archivo. La falta de la serie citada se detectó en la entrega histórica. La revisión posterior publicó las series derivadas. |
 
 Fuentes y enlaces de originales en [[04-Evidencias-y-fuentes]]. Inventario de la entrega y diferencias de versión en [[14-Expediente-ES1]].
 
@@ -42,7 +42,7 @@ Fuentes y enlaces de originales en [[04-Evidencias-y-fuentes]]. Inventario de la
 1. **Correcciones del equipo.** Conciliar el Anexo 9 con los nombres reales del expediente, documentar la serie depurada, corregir la leyenda de FIG-02 y homologar los estados y cifras que pasan del dossier a las láminas.
 2. **Confirmación con Operaciones y DCS.** Acordar qué evento empieza y termina la medición de la meta de menos de 2 min, quién hace cada paso y cuándo se afecta la descarga. Identificar `320CV0251RUN` antes de usarlo para inferir duración de traslación. PEND-02, PEND-03 y PEND-05.
 3. **Insumos para seleccionar y validar el diseño.** Conseguir el plano acotado Z1–Z35 y el recorrido útil. Confirmar tipo de I/O, alimentación, canalización y permisivos. Estos datos permiten contrastar las alternativas y cerrar la configuración. PEND-01, PEND-03, PEND-04 y PEND-06.
-4. **Criterio académico.** Obtener la pauta de ES2 para traducir estos hallazgos en entregables y criterios de aceptación. PEND-08.
+4. **Criterio académico.** Usar la pauta U2_A06 ya localizada. PEND-08 conserva los insumos y fechas aún por confirmar.
 
 **Condición accionable que pasa al diseño.** Sala de Control necesita disponer de una indicación confiable de la posición o zona del tripper para reducir la dependencia de la verificación presencial. La propuesta deberá demostrar cobertura operativa e integración a DeltaV con las restricciones de instalación del D4.
 

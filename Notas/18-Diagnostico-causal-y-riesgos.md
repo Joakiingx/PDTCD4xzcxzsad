@@ -1,6 +1,6 @@
 # Diagnóstico causal y riesgos
 
-El síntoma es la espera para verificar la zona de descarga. La condición directa es la falta de posición o zona visible en DeltaV. El intento óptico previo y la infraestructura existente explican por qué la solución debe demostrar desempeño en la nave y resolver el enlace sin hilos de reserva.
+F01 describe la espera para verificar la zona y registra el intento previo con un láser. F02 declara la falta de una variable de posición en línea. F05 documenta la restricción del festón. Estos antecedentes orientan qué comprobar del ambiente y la comunicación. La causa de la falla óptica requiere el respaldo indicado en la tabla. [Fuentes F01, F02 y F05](04-Evidencias-y-fuentes.md)
 
 | Relación que se investiga | Evidencia actual | Límite |
 | --- | --- | --- |

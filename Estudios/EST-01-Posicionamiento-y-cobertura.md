@@ -1,6 +1,6 @@
 # EST-01 Posicionamiento y cobertura del tripper
 
-Estado documental preliminar. Revisión del 9 de noviembre de 2026. La geometría del montaje y el desempeño en Puerto Patache requieren verificación. Alcance base de monitoreo y confirmación remota. Cualquier mando se define por separado con DCS y Operaciones.
+Estado documental preliminar. Revisión del 9 de noviembre de 2026. Para los antecedentes de visita, el plano y la reevaluación de RFID y radar, consultar [Alternativas](../Notas/07-Alternativas.md) y [Evidencia visual](../Notas/05-Evidencia-visual.md). La geometría del montaje y el desempeño en Puerto Patache requieren verificación. Alcance base de monitoreo y confirmación remota. Cualquier mando se define por separado con DCS y Operaciones.
 
 ## Pregunta y criterio de decisión
 
@@ -21,7 +21,7 @@ Los datos del fabricante describen configuraciones comerciales. Las condiciones 
 
 ## Comprobación preliminar de alcance
 
-Para una instalación alineada con el riel, la distancia al blanco en el extremo lejano se obtiene sumando la distancia al extremo cercano y el recorrido. **Ejemplo ilustrativo**. Un recorrido de 200 m y una separación inicial de 3 m producen un intervalo de 3 a 203 m. Un catálogo de 50 m en modo pasivo quedaría fuera de ese ejemplo. Un catálogo de 300 m en modo secundario superaría el filtro numérico del extremo lejano, sujeto a verificar el extremo cercano y la configuración instalada. Cuando exista desplazamiento lateral, cambios de cota o geometría distinta, usa las posiciones medidas del blanco y el sensor para calcular distancias y verificar la trayectoria.
+Para una instalación alineada con el riel, la distancia al blanco en el extremo lejano se obtiene sumando la distancia al extremo cercano y el recorrido. La cota «71840 TRAVEL» de la elevación da 71,84 m de carrera nominal dibujada bajo la interpretación indicada en F07. Para comparar alcances hace falta conocer los puntos reales del sensor y del blanco. Si la instalación incluye desfases laterales o de altura, la distancia se calcula a partir de las posiciones medidas. [Elevación y procedencia](../Notas/05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión)
 
 La prueba de cobertura debe incluir extremos, obstáculos representativos y fronteras de zona. El margen por incertidumbre, la latencia y la tolerancia se fijan con las referencias de terreno y el criterio de Operaciones. Hasta acordarlos, una lectura cuyo intervalo de incertidumbre cruza una frontera de zona puede presentarse como indeterminada en el diseño conceptual. La lógica y la reacción operativa se deben validar en EST-03 y EST-04.
 
@@ -30,7 +30,7 @@ La prueba de cobertura debe incluir extremos, obstáculos representativos y fron
 | Filtro | Evidencia para cerrarlo |
 | --- | --- |
 | Cobertura del recorrido | Plano acotado, distancias de montaje, zona cercana, posibles oclusiones, configuración exacta y prueba representativa. |
-| Zona correcta | Tabla de límites Z1–Z35, referencia independiente, error admisible y criterio para fronteras. |
+| Zona correcta | Tabla tripper–referencia del plano–código de zona, posición de descarga y criterio de aceptación acordado. |
 | Festón y alimentación | Esquema de energía para toda unidad móvil y confirmación del punto de conexión disponible. |
 | DeltaV | Señal y protocolo verificables, hardware instalado y forma de indicar calidad y antigüedad de datos. |
 | Intervención | Actividades previas y en parada, ruta de montaje, pruebas y duración de intervención. |
@@ -39,6 +39,6 @@ La prueba de cobertura debe incluir extremos, obstáculos representativos y fron
 
 ## Resultado y próxima verificación
 
-Mantener A y B en estudio y usar D como alternativa de contraste. C requiere una demostración específica antes de puntuarse como solución de posicionamiento. Para la referencia 291 se debe separar el caso pasivo del activo en la matriz. La selección queda abierta hasta contar con geometría, alimentación disponible, interfaz y evidencia de cobertura. Completar [[EST-01-Levantamiento-y-consulta-tecnica]] con E&I, DCS y Operaciones.
+Las configuraciones de la tabla son referencias documentales de la revisión inicial. La comparación actual reevaluará RFID y radar tras acordar qué debe confirmar el operador. Cualquier configuración necesita geometría, alimentación, interfaz y evidencia de desempeño aplicables. Completar [[EST-01-Levantamiento-y-consulta-tecnica]] con E&I, DCS y Operaciones.
 
 [[00-Mapa-de-estudios]] · [[06-Requisitos]] · [[07-Alternativas]] · [[08-Arquitectura-DeltaV]] · [[09-Validacion]]
