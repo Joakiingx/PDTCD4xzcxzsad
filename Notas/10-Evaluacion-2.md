@@ -21,7 +21,7 @@ Los frentes 1, 2 y el levantamiento de operación del frente 3 pueden avanzar en
 
 ## Próximo producto de trabajo
 
-La revisión del 13 de noviembre prioriza respaldar la observación de la visita y recuperar la lámina asociada a las zonas. Con Operaciones se debe acordar si basta confirmar la zona al llegar antes de cerrar R01. RFID y radar quedan en reevaluación. [Fuentes de la visita y del plano](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano)
+La revisión del 13 de noviembre prioriza respaldar la observación de la visita y cruzar la lámina disponible con los códigos de zona. [Plano y conteo](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión) Con Operaciones se debe acordar si basta confirmar la zona al llegar antes de cerrar R01. RFID y radar quedan en reevaluación. [Fuentes de la visita y del plano](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano)
 
 Revisar el borrador de Anexo 11 en [[06-Requisitos]] y completar sus criterios con los pendientes de terreno. La carpeta [Productos D4](../Evidencias/M7/Unidad-2/03-Productos-D4/README.md) indica dónde vincular los documentos del equipo. Comenzar por cobertura R01, integración R02 y señal válida R07, y conservar los requisitos operacionales de tiempo y exposición. Para cada criterio, registrar qué condición conocemos, qué valor falta acordar y con qué prueba sería defendible.
 

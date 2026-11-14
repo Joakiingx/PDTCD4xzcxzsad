@@ -12,6 +12,8 @@
 
 Tonelaje diario del escenario = flujo horario × minutos de espera por maniobra ÷ 60 × cambios diarios. El dossier expresa el rango redondeado como aproximadamente 80–210 t/día. Mantén el mismo criterio de redondeo en informe, planilla y láminas.
 
+La muestra de F03 aporta 23 códigos observados. Su asignación por equipo y posición queda en PEND-01. El conteo del plano se documenta por separado. [Plano y conteo](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión)
+
 ## Regla de reproducción
 
 El original F03 agrupa jornadas de 07:00 a 06:00. El bloque con fecha almacenada 10-11-2026 encaja por secuencia como 10-10-2026. Registra esa interpretación como supuesto. Trata guiones y celdas vacías como dato faltante. Cuenta diferencias de zona entre filas horarias adyacentes con zona válida. El bloque sin zona del 06-10 va de 09:00 a 19:00.

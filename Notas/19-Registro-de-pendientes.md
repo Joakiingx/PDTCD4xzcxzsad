@@ -6,7 +6,7 @@ Cada ID tiene una sola fila vigente. Actualiza su estado y enlaza la fuente cuan
 
 | ID | Qué falta | Con quién o con qué respaldo | Para qué sirve |
 | --- | --- | --- | --- |
-| PEND-01 | Identificar la lámina con Z1–Z35 del PPT mostrado por la tutora. Vincular la elevación y cotejar unidades, revisión y extremos operativos. | Equipo, Mantención E&I y Operaciones. Nombre del PPT, lámina y referencia vigente. | Ubicar las zonas y definir el recorrido que debe cubrirse. |
+| PEND-01 | Cruzar códigos Z de F03 con tripper, recinto y referencia 1–18 de la lámina ya localizada. Confirmar extremos operativos, tags, destino por equipo y tonelaje por stockpile. | Equipo, Mantención E&I y Operaciones. Tabla de correspondencia y referencia vigente. | Delimitar ES2 y definir posiciones de descarga y alcance de RFID o radar. |
 | PEND-09 | Localizar el archivo y el momento que muestren la descarga relatada en la visita del 01-11-2026. Acordar qué material puede mostrarse. | Joaquín, Kevin y contraparte. Foto o tramo de video identificado y permiso según el uso. | Sustentar lo observado y preparar el material de entrega. |
 | PEND-14 | Acordar si basta confirmar al llegar, cómo se distingue de un paso y qué ve el operador ante tránsito o una lectura antigua. Definir tolerancia, vigencia y disponibilidad si aplican. | Operaciones, con DCS y E&I. Secuencia y criterio de aceptación acordados. | Cerrar R01 y R07 y comparar RFID con radar según la función esperada. |
 | PEND-15 | Confirmar función, estado y posible uso de la instalación inalámbrica informada por Omar. Si procede, levantar la interfaz y las condiciones de integración que autorice el sitio. | Mantención E&I y DCS/OT. Confirmación del alcance de la instalación. | Evaluar la ruta para transmitir el dato. |

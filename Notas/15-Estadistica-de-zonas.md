@@ -10,7 +10,7 @@ Fuente F03. Entre la jornada del 15-09-2026 y la jornada del 17-10-2026 hay **33
 4. El 06-10 entre 09:00 y 19:00 hay nueve guiones y dos celdas vacías en la columna zona. Déjalas sin dato. Los extremos observados del hueco están en Z8, sin información de lo que ocurrió dentro.
 5. Cuenta cambios únicamente entre filas horarias consecutivas con zona válida. Atribuye cada cambio al instante y jornada de la observación posterior. Para permanencia, la política conservadora corta la estadía en un hueco. Produce 80 estadías y mediana de 7,5 h, con rango 1–43 h. El dossier informa mediana de 8 h. Unir los registros válidos a ambos lados del hueco cuando tienen la misma zona da 79 estadías y mediana de 8 h.
 
-Los saltos representan diferencias de número de zona. Para expresarlos en metros hace falta cotejar la posición física de cada zona con la lámina que la identifica. [Evidencia disponible](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión)
+Los saltos representan diferencias de código en F03. Z1–Z35 es la nomenclatura usada en esta serie y en su resumen histórico. Se observaron 23 códigos distintos. Antes de interpretar la distancia de saltos o asignarlos a alguno de los dos trippers, hace falta el cruce de códigos con sus referencias físicas. [Evidencia disponible](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión)
 
 ## Horas por zona
 

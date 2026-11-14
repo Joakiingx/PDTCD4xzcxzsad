@@ -21,7 +21,7 @@ Ningún equipo queda seleccionado únicamente por esta revisión. Se propone una
 | Carrera dibujada | 71,84 m, cota TRAVEL del plano compartido; lectura registrada en REG-D4-005 | Dimensionamiento provisional. Confirmar cajetín, revisión, carro, límites actuales y correspondencia con Z1–Z35. |
 | Cadena longitudinal dibujada | 28,36 + 71,84 + 35,80 = 136,00 m | Permite comparar dos ubicaciones teóricas de radar, sin convertirlas en puntos aprobados. |
 | Radar en eje 1 / eje 18 | Distancia teórica al blanco 28,36–100,20 m / 35,80–107,64 m | Válido solo si sensor y blanco siguen la geometría longitudinal asumida, sin desplazamientos, altura relativa ni obstrucciones. |
-| Zonas | 35 identificadores; 23 observados en F03 | No dividir 71,84/35 para asignar centros sin plano de zonas. Zonas sin horas registradas no equivalen a zonas prohibidas. |
+| Zonas en la comparación del 10-11-2026 | Códigos Z1–Z35 de F03, con 23 observados | Las cantidades de 35 etiquetas o referencias son escenarios de esta versión. Para dimensionar cada tripper, cotejar los códigos de F03 con la elevación y el conteo del equipo. [Plano y conteo](../Notas/05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión) |
 | Festón | Sin hilos de reserva, F05 declarado | Cada configuración debe mostrar ruta de señal y energía autorizables. |
 | I/O | Disponibles en Sala Eléctrica, F05; tipo y protocolo abiertos | No asumir tarjeta AI, contador A/B, gateway o PROFINET instalados. |
 | Energía | 110 VAC declarados, ubicación por confirmar | Un equipo de 24 VDC exige fuente y protección; una unidad móvil exige alimentación móvil comprobada. |

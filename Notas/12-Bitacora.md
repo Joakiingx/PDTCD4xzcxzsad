@@ -191,3 +191,9 @@ Registra cambios que afecten datos, decisiones o entregables. Basta indicar la f
 - El README enlaza las notas vigentes, el expediente histórico y los productos de ES2. Las instrucciones permiten revisar por alcance y aplicar una corrección respaldada en el mismo encargo.
 - Se concentraron los pendientes en una fila por ID y se precisó cómo usar la evidencia de terreno, los resultados de pruebas y las afirmaciones de ES1. [Pendientes](19-Registro-de-pendientes.md) · [Expediente ES1](14-Expediente-ES1.md).
 - El recálculo reprodujo los cinco CSV. Se revisaron el dossier, la presentación, la pauta y las secciones del manual que orientan el caso. Quedan abiertas la lámina de zonas, el tramo de descarga y las confirmaciones de Operaciones, E&I y DCS. [Auditoría](25-Registro-de-hallazgos-de-revision.md#aud-d4-004--revisión-de-organización-y-evidencias-del-13-11-2026).
+
+### REG-D4-022 · 2026-11-14 · Dos trippers y referencias del plano
+
+- Joaquín aclaró que Puerto Patache tiene dos trippers en recintos de igual medida, con distinto tonelaje de acopio y destinos relacionados con embarcaciones y camiones según el equipo. Identificó la elevación ya disponible como la lámina que usaron para contar posiciones. [Fuente F08](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano).
+- Según el criterio del equipo, las referencias interiores son 2–17. Se obtienen 16 posiciones interiores por tripper y 32 en conjunto. Incluyendo las referencias de los extremos, el conteo es 18 por equipo y 36 en total. [Plano y conteo](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión).
+- Falta asociar los códigos de F03 con los equipos y sus referencias físicas, además de confirmar destino, tonelaje y alcance de ES2 por tripper. Se verificaron en la serie derivada 792 filas, 23 códigos observados y 78 cambios horarios. [Pendientes](19-Registro-de-pendientes.md#próximas-confirmaciones).

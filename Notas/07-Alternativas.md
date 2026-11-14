@@ -4,9 +4,11 @@ La conversación en terreno abrió una reevaluación de **RFID y radar**. Según
 
 | Opción | Qué se quiere comprobar | Evidencia que falta |
 | --- | --- | --- |
-| RFID por zona | Si una lectura en la zona de llegada permite confirmarla de forma inequívoca. Cuando el carro pase por otras etiquetas, determinar qué indicación debe conservar o mostrar Sala de Control. | Identificación de las zonas en la lámina, posiciones de lectura, criterio de llegada, alimentación e interfaz. Pruebas frente a paso, llegada, ausencia de lectura y lectura ambigua. |
+| RFID por zona | Si una lectura en la zona de llegada permite confirmarla de forma inequívoca. Cuando el carro pase por otras etiquetas, determinar qué indicación debe conservar o mostrar Sala de Control. | Correspondencia entre equipo, referencia del plano y zona operativa. Acordar posiciones de lectura, criterio de llegada, alimentación e interfaz. Pruebas frente a paso, llegada, ausencia de lectura y lectura ambigua. |
 | Radar | Si se justifica medir distancia a lo largo del recorrido para el objetivo operativo y si una configuración concreta puede hacerlo desde un montaje viable. | Geometría real sensor–blanco, condiciones de instalación, prueba representativa y cotización del conjunto. |
 | Situación actual | Cuánto tiempo ocupa la verificación presencial y en cuál fase. | Acordar secuencia y marcas de tiempo con Operaciones. |
+
+El conteo preliminar del equipo aporta 16 posiciones interiores por tripper. Para dimensionar lectores y etiquetas hay que confirmar cuáles se usarán para descargar y si ES2 incluye uno o ambos equipos. [Plano y conteo](05-Evidencia-visual.md#plano-mostrado-en-la-primera-reunión)
 
 La instalación inalámbrica mencionada durante la visita se estudia como posible medio de transmisión. Su estado y uso para D4 están pendientes. El principio de detección de zona y el medio de envío quedan por definir en conjunto. [Integración a DeltaV](08-Arquitectura-DeltaV.md)
 

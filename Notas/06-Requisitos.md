@@ -38,7 +38,7 @@ Se conservan los identificadores R01–R07. Esta propuesta organiza las cuatro t
 
 | ID | Magnitud o condición esperada | Método | Condiciones y recurso |
 | --- | --- | --- | --- |
-| R01 | Alcance de las zonas a confirmar, tolerancia y tratamiento del tránsito por acordar. | Contrastar la indicación con una referencia física al llegar y, si Operaciones lo requiere, durante el recorrido. | Lámina Z1–Z35, extremos vigentes y criterio de Operaciones. F07 aporta una elevación con cota nominal. |
+| R01 | Alcance de las zonas a confirmar, tolerancia y tratamiento del tránsito por acordar. | Contrastar la indicación con una referencia física al llegar y, si Operaciones lo requiere, durante el recorrido. | Elevación F07, conteo declarado en F08 y correspondencia pendiente entre tripper, referencia del plano y código de zona operativo. |
 | R02 | El operador recibe posición o zona y una indicación interpretable de su calidad. Formato, latencia y tasa por acordar. | Prueba funcional desde el origen hasta pantalla y, cuando aplique, registro de evento o histórico. | Configuración de I/O autorizada o maqueta representativa. El ensayo de maqueta verifica lógica e intercambio representado. |
 | R03 | Trazabilidad completa de cada conexión, sin asignar hilos de reserva del festón. | Revisar esquema de energía y señal, bornes y listado de rutas. | Levantamiento E&I y DCS. Si existe unidad móvil, identificar fuente, protección y ruta autorizadas. |
 | R04 | Resultado dentro del criterio R01 y de la calidad R07 en el entorno acordado. | Definir escenario ambiental representativo y contrastar desempeño con referencia física. | Definir polvo, acumulación, humedad, temperatura, obstáculos y método de ensayo con E&I. |

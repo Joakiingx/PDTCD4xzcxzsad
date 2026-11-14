@@ -36,6 +36,15 @@ La revisión visual sustenta el levantamiento cualitativo de accesos y posibles 
 
 ## Plano mostrado en la primera reunión
 
-El equipo recuerda que la tutora mostró en un PPT el material de referencia para las zonas. En el repositorio existe una captura de la elevación longitudinal. La captura ampliada aportada durante esta revisión deja leer «71840 TRAVEL». Su equivalencia de **71,84 m** resulta de interpretar esa cota en milímetros. Los círculos numerados del 1 al 18 identifican ejes del dibujo. La vista compartida requiere una lámina adicional o más información para relacionar los límites y las referencias de descarga Z1–Z35.
+Joaquín confirmó que la elevación ya incorporada corresponde a la lámina que el equipo usa como referencia para las zonas. En el dibujo se ven referencias numeradas del **1 al 18** y la cota **«71840 TRAVEL»**. Si la cota está expresada en milímetros, indica **71,84 m de recorrido nominal dibujado** para el equipo mostrado. La identificación, las cotas de montaje y el recorrido efectivo se verifican por equipo. [Elevación versionada](../Evidencias/M7/Propuesta%20de%20soluci%C3%B3n%20M7/05%20Figuras/planos%20tripper.png)
 
-La presentación D03 del repositorio corresponde a la entrega de ES1. Tras revisar sus siete láminas y sus imágenes, sigue por localizar la lámina de zonas del PPT mostrado por la tutora. Para vincular ese respaldo en el índice, registrar nombre del PPT, lámina y versión si constan. Para cada foto o video, registrar fecha de visita, nombre de archivo y qué se aprecia. Si muestra un movimiento o descarga, anotar el tramo de tiempo. Usar la ruta de evidencias de faena que corresponda al permiso de difusión. [Fuentes F06 y F07](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano) · [Ubicación de respaldos](22-Configuracion-Obsidian-y-GitHub.md)
+Según el criterio que explicó Joaquín, el 1 y el 18 se cuentan como extremos y las referencias del 2 al 17 se consideran posiciones interiores recorribles. El equipo informa dos trippers en recintos de igual medida y aplica el mismo conteo a ambos.
+
+| Conteo | Por tripper | Ambos trippers |
+| --- | ---: | ---: |
+| Referencias, incluidos los extremos | 18 | 36 |
+| Posiciones interiores, excluidos los extremos | 16 (del 2 al 17) | 32 |
+
+La cota TRAVEL y las referencias numeradas son elementos distintos del dibujo. El conteo se registra con el criterio de F08 y se contrastará con las posiciones de descarga y los límites efectivos. Para vincular el plano con la planilla F03, falta asociar cada código Z con un tripper y una referencia física. Ese cruce define qué posiciones requerirían detección y cuántas etiquetas podría necesitar una configuración RFID.
+
+Para completar la identificación documental basta registrar el nombre del PPT, número de lámina y revisión, si constan. Para la observación de descarga, registrar el archivo y el momento donde aparece. [Fuentes F06–F08](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano) · [Ubicación de respaldos](22-Configuracion-Obsidian-y-GitHub.md)

@@ -8,7 +8,7 @@ La ficha del 3 de agosto de 2026 fue levantada por Daniela Guerra Sepúlveda, je
 - La ficha informa 10–15 min por movimiento y fija una meta de menos de 2 min. También menciona disponibilidad del operador y exposición durante el traslado. En esa etapa faltaba cuantificación de recuperación o costo.
 - Se busca identificación o monitoreo integrado a Sala de Control, con confirmación o eventual mando. Las exclusiones son cambios estructurales mayores, reemplazo del sistema de control y detenciones prolongadas.
 - Se informa un intento previo con sensor láser y desempeño insatisfactorio atribuido a la polución. La marca, el modelo, las condiciones de montaje y el desempeño medido no constan en la ficha.
-- La ficha menciona planos de distancias y zonas. Según Joaquín, la tutora mostró el material en un PPT en esa primera reunión. Existe una captura de la elevación longitudinal. Falta identificar en el PPT la lámina que permite ubicar las zonas de descarga. [Fuente F07](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano)
+- La ficha menciona planos de distancias y zonas. Según Joaquín, la tutora mostró el material en un PPT en esa primera reunión. Joaquín aclaró que la captura disponible es la lámina de referencia del equipo. Falta documentar su procedencia detallada y cruzar sus referencias con los códigos operativos. [Fuente F07](04-Evidencias-y-fuentes.md#antecedentes-de-la-visita-y-del-plano)
 
 ## F02 · Reunión técnica de octubre de 2026
 

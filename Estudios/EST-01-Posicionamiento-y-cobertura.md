@@ -30,7 +30,7 @@ La prueba de cobertura debe incluir extremos, obstáculos representativos y fron
 | Filtro | Evidencia para cerrarlo |
 | --- | --- |
 | Cobertura del recorrido | Plano acotado, distancias de montaje, zona cercana, posibles oclusiones, configuración exacta y prueba representativa. |
-| Zona correcta | Tabla de límites Z1–Z35, referencia independiente, error admisible y criterio para fronteras. |
+| Zona correcta | Tabla tripper–referencia del plano–código de zona, posición de descarga y criterio de aceptación acordado. |
 | Festón y alimentación | Esquema de energía para toda unidad móvil y confirmación del punto de conexión disponible. |
 | DeltaV | Señal y protocolo verificables, hardware instalado y forma de indicar calidad y antigüedad de datos. |
 | Intervención | Actividades previas y en parada, ruta de montaje, pruebas y duración de intervención. |
